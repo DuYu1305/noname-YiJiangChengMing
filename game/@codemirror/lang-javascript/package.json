@@ -1,0 +1,18 @@
+{
+  "name": "@codemirror/lang-javascript",
+  "version": "6.2.4",
+  "description": "JavaScript language support for the CodeMirror code editor",
+  "author": {
+    "name": "Marijn Haverbeke",
+    "email": "marijn@haverbeke.berlin",
+    "url": "http://marijnhaverbeke.nl"
+  },
+  "type": "module",
+  "main": "index.cjs",
+  "exports": {
+    "import": "./index.js"
+  },
+  "types": "index.d.ts",
+  "module": "index.js",
+  "license": "MIT"
+}

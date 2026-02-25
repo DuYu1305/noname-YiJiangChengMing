@@ -1,0 +1,17 @@
+{
+  "name": "@codemirror/view",
+  "version": "6.38.0",
+  "description": "DOM view component for the CodeMirror code editor",
+  "author": {
+    "name": "Marijn Haverbeke",
+    "email": "marijn@haverbeke.berlin",
+    "url": "http://marijnhaverbeke.nl"
+  },
+  "type": "module",
+  "exports": {
+    "import": "./index.js"
+  },
+  "types": "index.d.ts",
+  "module": "index.js",
+  "license": "MIT"
+}
