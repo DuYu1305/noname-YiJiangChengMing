@@ -1,0 +1,181 @@
+
+HY_ythj_nrksxteshu.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/nrksx/sjsx_00045
+  rotate: false
+  xy: 293, 1569
+  size: 300, 417
+  orig: 512, 512
+  offset: 107, 45
+  index: -1
+images/nrksx/sjsx_boss_00087
+  rotate: false
+  xy: 2, 1557
+  size: 289, 429
+  orig: 300, 512
+  offset: 11, 43
+  index: -1
+images/nrksx/sjsx_boss_00088
+  rotate: true
+  xy: 595, 1696
+  size: 290, 426
+  orig: 300, 512
+  offset: 10, 44
+  index: -1
+images/nrksx/sjsx_boss_00089
+  rotate: true
+  xy: 1023, 1694
+  size: 292, 424
+  orig: 300, 512
+  offset: 8, 45
+  index: -1
+images/nrksx/sjsx_boss_00090
+  rotate: true
+  xy: 1449, 1695
+  size: 291, 419
+  orig: 300, 512
+  offset: 7, 49
+  index: -1
+images/nrksx/sjsx_boss_00091
+  rotate: false
+  xy: 2, 1145
+  size: 289, 410
+  orig: 300, 512
+  offset: 7, 55
+  index: -1
+images/nrksx/sjsx_boss_00092
+  rotate: false
+  xy: 293, 1163
+  size: 287, 404
+  orig: 300, 512
+  offset: 8, 59
+  index: -1
+images/nrksx/sjsx_boss_00093
+  rotate: true
+  xy: 2, 2
+  size: 282, 406
+  orig: 300, 512
+  offset: 12, 59
+  index: -1
+images/nrksx/sjsx_boss_00094
+  rotate: false
+  xy: 1001, 768
+  size: 275, 411
+  orig: 300, 512
+  offset: 17, 59
+  index: -1
+images/nrksx/sjsx_boss_00095
+  rotate: true
+  xy: 582, 1171
+  size: 273, 415
+  orig: 300, 512
+  offset: 18, 59
+  index: -1
+images/nrksx/sjsx_boss_00096
+  rotate: true
+  xy: 1452, 1426
+  size: 267, 421
+  orig: 300, 512
+  offset: 20, 57
+  index: -1
+images/nrksx/sjsx_boss_00097
+  rotate: false
+  xy: 2, 716
+  size: 265, 427
+  orig: 300, 512
+  offset: 20, 54
+  index: -1
+images/nrksx/sjsx_boss_00098
+  rotate: false
+  xy: 2, 286
+  size: 259, 428
+  orig: 300, 512
+  offset: 25, 56
+  index: -1
+images/nrksx/sjsx_boss_00099
+  rotate: true
+  xy: 1023, 1436
+  size: 256, 427
+  orig: 300, 512
+  offset: 25, 60
+  index: -1
+images/nrksx/sjsx_boss_00100
+  rotate: true
+  xy: 999, 1181
+  size: 253, 427
+  orig: 300, 512
+  offset: 24, 62
+  index: -1
+images/nrksx/sjsx_boss_00101
+  rotate: true
+  xy: 595, 1446
+  size: 248, 426
+  orig: 300, 512
+  offset: 24, 65
+  index: -1
+images/nrksx/sjsx_boss_00102
+  rotate: true
+  xy: 1428, 1178
+  size: 246, 424
+  orig: 300, 512
+  offset: 25, 69
+  index: -1
+images/nrksx/sjsx_boss_00103
+  rotate: false
+  xy: 269, 719
+  size: 246, 424
+  orig: 300, 512
+  offset: 25, 70
+  index: -1
+images/nrksx/sjsx_boss_00104
+  rotate: false
+  xy: 754, 746
+  size: 245, 423
+  orig: 300, 512
+  offset: 27, 70
+  index: -1
+images/nrksx/sjsx_boss_00105
+  rotate: true
+  xy: 1278, 932
+  size: 244, 415
+  orig: 300, 512
+  offset: 28, 77
+  index: -1
+images/nrksx/sjsx_boss_00106
+  rotate: true
+  xy: 1278, 689
+  size: 241, 417
+  orig: 300, 512
+  offset: 31, 77
+  index: -1
+images/nrksx/sjsx_boss_00107
+  rotate: false
+  xy: 501, 299
+  size: 238, 418
+  orig: 300, 512
+  offset: 34, 77
+  index: -1
+images/nrksx/sjsx_boss_00108
+  rotate: false
+  xy: 741, 318
+  size: 237, 418
+  orig: 300, 512
+  offset: 34, 77
+  index: -1
+images/nrksx/sjsx_boss_00109
+  rotate: false
+  xy: 263, 294
+  size: 236, 420
+  orig: 300, 512
+  offset: 35, 77
+  index: -1
+images/nrksx/sjsx_boss_00110
+  rotate: false
+  xy: 517, 738
+  size: 235, 423
+  orig: 300, 512
+  offset: 36, 77
+  index: -1

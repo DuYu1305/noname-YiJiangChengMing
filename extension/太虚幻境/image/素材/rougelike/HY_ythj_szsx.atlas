@@ -1,0 +1,188 @@
+
+HY_ythj_szsx.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/szsx/szsx_00011
+  rotate: false
+  xy: 280, 426
+  size: 60, 36
+  orig: 128, 128
+  offset: 27, 48
+  index: -1
+images/szsx/szsx_00012
+  rotate: true
+  xy: 2, 2
+  size: 62, 40
+  orig: 128, 128
+  offset: 27, 45
+  index: -1
+images/szsx/szsx_00013
+  rotate: true
+  xy: 54, 215
+  size: 64, 41
+  orig: 128, 128
+  offset: 27, 44
+  index: -1
+images/szsx/szsx_00014
+  rotate: true
+  xy: 2, 66
+  size: 71, 42
+  orig: 128, 128
+  offset: 27, 43
+  index: -1
+images/szsx/szsx_00015
+  rotate: false
+  xy: 351, 466
+  size: 70, 43
+  orig: 128, 128
+  offset: 28, 42
+  index: -1
+images/szsx/szsx_00016
+  rotate: false
+  xy: 423, 465
+  size: 69, 44
+  orig: 128, 128
+  offset: 29, 42
+  index: -1
+images/szsx/szsx_00017
+  rotate: false
+  xy: 280, 464
+  size: 69, 45
+  orig: 128, 128
+  offset: 29, 41
+  index: -1
+images/szsx/szsx_00018
+  rotate: true
+  xy: 2, 139
+  size: 69, 49
+  orig: 128, 128
+  offset: 29, 38
+  index: -1
+images/szsx/szsx_00019
+  rotate: true
+  xy: 2, 210
+  size: 69, 50
+  orig: 128, 128
+  offset: 29, 37
+  index: -1
+images/szsx/szsx_00020
+  rotate: false
+  xy: 73, 455
+  size: 69, 54
+  orig: 128, 128
+  offset: 29, 36
+  index: -1
+images/szsx/szsx_00021
+  rotate: false
+  xy: 2, 454
+  size: 69, 55
+  orig: 128, 128
+  offset: 29, 36
+  index: -1
+images/szsx/szsx_00022
+  rotate: false
+  xy: 2, 396
+  size: 68, 56
+  orig: 128, 128
+  offset: 30, 36
+  index: -1
+images/szsx/szsx_00023
+  rotate: false
+  xy: 2, 338
+  size: 68, 56
+  orig: 128, 128
+  offset: 30, 36
+  index: -1
+images/szsx/szsx_00024
+  rotate: false
+  xy: 2, 281
+  size: 68, 55
+  orig: 128, 128
+  offset: 30, 38
+  index: -1
+images/szsx/szsx_00025
+  rotate: false
+  xy: 144, 455
+  size: 67, 54
+  orig: 128, 128
+  offset: 30, 40
+  index: -1
+images/szsx/szsx_00026
+  rotate: false
+  xy: 213, 455
+  size: 65, 54
+  orig: 128, 128
+  offset: 31, 40
+  index: -1
+images/szsx/szsx_00027
+  rotate: false
+  xy: 46, 21
+  size: 50, 56
+  orig: 128, 128
+  offset: 44, 38
+  index: -1
+images/szsx/szsx_00028
+  rotate: false
+  xy: 122, 398
+  size: 50, 55
+  orig: 128, 128
+  offset: 44, 38
+  index: -1
+images/szsx/szsx_00029
+  rotate: false
+  xy: 72, 339
+  size: 48, 55
+  orig: 128, 128
+  offset: 45, 39
+  index: -1
+images/szsx/szsx_00030
+  rotate: false
+  xy: 46, 79
+  size: 47, 58
+  orig: 128, 128
+  offset: 46, 39
+  index: -1
+images/szsx/szsx_00031
+  rotate: true
+  xy: 351, 415
+  size: 49, 58
+  orig: 128, 128
+  offset: 47, 40
+  index: -1
+images/szsx/szsx_00032
+  rotate: true
+  xy: 411, 414
+  size: 49, 57
+  orig: 128, 128
+  offset: 48, 42
+  index: -1
+images/szsx/szsx_00033
+  rotate: false
+  xy: 72, 396
+  size: 48, 56
+  orig: 128, 128
+  offset: 50, 44
+  index: -1
+images/szsx/szsx_00034
+  rotate: false
+  xy: 174, 399
+  size: 46, 54
+  orig: 128, 128
+  offset: 52, 46
+  index: -1
+images/szsx/szsx_00035
+  rotate: false
+  xy: 122, 347
+  size: 45, 49
+  orig: 128, 128
+  offset: 54, 52
+  index: -1
+images/szsx/szsx_00036
+  rotate: true
+  xy: 470, 420
+  size: 43, 38
+  orig: 128, 128
+  offset: 56, 63
+  index: -1

@@ -1,0 +1,314 @@
+
+HY_ythj_buffshuaxin.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/buffsx/buff_glow_00009
+  rotate: false
+  xy: 2, 408
+  size: 78, 78
+  orig: 100, 100
+  offset: 11, 11
+  index: -1
+images/buffsx/buff_guangci_00009
+  rotate: false
+  xy: 73, 327
+  size: 75, 75
+  orig: 80, 80
+  offset: 2, 2
+  index: -1
+images/buffsx/buff_guangquan_00009
+  rotate: false
+  xy: 514, 781
+  size: 52, 52
+  orig: 80, 80
+  offset: 14, 14
+  index: -1
+images/buffsx/buff_lizi_00010
+  rotate: true
+  xy: 723, 779
+  size: 54, 55
+  orig: 128, 128
+  offset: 39, 34
+  index: -1
+images/buffsx/buff_lizi_00011
+  rotate: false
+  xy: 898, 765
+  size: 55, 56
+  orig: 128, 128
+  offset: 38, 34
+  index: -1
+images/buffsx/buff_lizi_00012
+  rotate: false
+  xy: 723, 835
+  size: 55, 57
+  orig: 128, 128
+  offset: 38, 35
+  index: -1
+images/buffsx/buff_lizi_00013
+  rotate: false
+  xy: 465, 836
+  size: 56, 58
+  orig: 128, 128
+  offset: 38, 35
+  index: -1
+images/buffsx/buff_lizi_00014
+  rotate: false
+  xy: 2, 2
+  size: 57, 60
+  orig: 128, 128
+  offset: 37, 35
+  index: -1
+images/buffsx/buff_lizi_00015
+  rotate: false
+  xy: 334, 830
+  size: 57, 63
+  orig: 128, 128
+  offset: 37, 34
+  index: -1
+images/buffsx/buff_lizi_00016
+  rotate: true
+  xy: 393, 774
+  size: 59, 64
+  orig: 128, 128
+  offset: 36, 34
+  index: -1
+images/buffsx/buff_lizi_00017
+  rotate: true
+  xy: 653, 773
+  size: 59, 66
+  orig: 128, 128
+  offset: 36, 34
+  index: -1
+images/buffsx/buff_lizi_00018
+  rotate: true
+  xy: 653, 834
+  size: 58, 68
+  orig: 128, 128
+  offset: 37, 34
+  index: -1
+images/buffsx/buff_lizi_00019
+  rotate: true
+  xy: 393, 835
+  size: 59, 70
+  orig: 128, 128
+  offset: 37, 34
+  index: -1
+images/buffsx/buff_lizi_00020
+  rotate: true
+  xy: 783, 878
+  size: 59, 71
+  orig: 128, 128
+  offset: 37, 35
+  index: -1
+images/buffsx/buff_lizi_00021
+  rotate: true
+  xy: 856, 823
+  size: 59, 72
+  orig: 128, 128
+  offset: 37, 36
+  index: -1
+images/buffsx/buff_lizi_00022
+  rotate: true
+  xy: 260, 834
+  size: 59, 72
+  orig: 128, 128
+  offset: 38, 37
+  index: -1
+images/buffsx/buff_lizi_00023
+  rotate: true
+  xy: 523, 835
+  size: 58, 71
+  orig: 128, 128
+  offset: 38, 39
+  index: -1
+images/buffsx/buff_lizi_00024
+  rotate: true
+  xy: 780, 823
+  size: 53, 68
+  orig: 128, 128
+  offset: 39, 43
+  index: -1
+images/buffsx/buff_lizi_00025
+  rotate: false
+  xy: 596, 827
+  size: 55, 66
+  orig: 128, 128
+  offset: 39, 46
+  index: -1
+images/buffsx/buff_lizi_00026
+  rotate: false
+  xy: 780, 767
+  size: 57, 54
+  orig: 128, 128
+  offset: 39, 59
+  index: -1
+images/buffsx/buff_lizi_00027
+  rotate: false
+  xy: 839, 766
+  size: 57, 55
+  orig: 128, 128
+  offset: 40, 59
+  index: -1
+images/buffsx/buff_lizi_00028
+  rotate: false
+  xy: 61, 6
+  size: 54, 56
+  orig: 128, 128
+  offset: 44, 59
+  index: -1
+images/buffsx/buff_lizi_00029
+  rotate: false
+  xy: 459, 779
+  size: 53, 54
+  orig: 128, 128
+  offset: 44, 61
+  index: -1
+images/buffsx/buff_lizi_00030
+  rotate: true
+  xy: 568, 785
+  size: 40, 52
+  orig: 128, 128
+  offset: 56, 64
+  index: -1
+images/buffsx/buff_lizi_00031
+  rotate: false
+  xy: 930, 832
+  size: 36, 50
+  orig: 128, 128
+  offset: 59, 66
+  index: -1
+images/buffsx/buff_qiliu_00009
+  rotate: false
+  xy: 2, 236
+  size: 66, 85
+  orig: 100, 100
+  offset: 8, 8
+  index: -1
+images/buffsx/buff_qiliu_00011
+  rotate: false
+  xy: 2, 149
+  size: 66, 85
+  orig: 100, 100
+  offset: 10, 7
+  index: -1
+images/buffsx/buff_qiliu_00013
+  rotate: false
+  xy: 82, 404
+  size: 67, 82
+  orig: 100, 100
+  offset: 11, 7
+  index: -1
+images/buffsx/buff_qiliu_00015
+  rotate: true
+  xy: 856, 884
+  size: 68, 77
+  orig: 100, 100
+  offset: 12, 7
+  index: -1
+images/buffsx/buff_qiliu_00017
+  rotate: true
+  xy: 942, 951
+  size: 71, 79
+  orig: 100, 100
+  offset: 12, 8
+  index: -1
+images/buffsx/buff_qiliu_00019
+  rotate: false
+  xy: 783, 939
+  size: 71, 83
+  orig: 100, 100
+  offset: 13, 8
+  index: -1
+images/buffsx/buff_qiliu_00021
+  rotate: false
+  xy: 2, 323
+  size: 69, 83
+  orig: 100, 100
+  offset: 13, 11
+  index: -1
+images/buffsx/buff_qiliu_00023
+  rotate: true
+  xy: 856, 954
+  size: 68, 84
+  orig: 100, 100
+  offset: 14, 13
+  index: -1
+images/buffsx/buff_qiliu_00025
+  rotate: false
+  xy: 2, 64
+  size: 66, 83
+  orig: 100, 100
+  offset: 16, 15
+  index: -1
+images/buffsx/buff_qiliu_00027
+  rotate: true
+  xy: 935, 886
+  size: 63, 81
+  orig: 100, 100
+  offset: 18, 17
+  index: -1
+images/buffsx/buff_xuanwo_00000
+  rotate: false
+  xy: 2, 890
+  size: 129, 132
+  orig: 160, 160
+  offset: 13, 14
+  index: -1
+images/buffsx/buff_xuanwo_00001
+  rotate: false
+  xy: 2, 488
+  size: 124, 131
+  orig: 160, 160
+  offset: 15, 15
+  index: -1
+images/buffsx/buff_xuanwo_00002
+  rotate: false
+  xy: 133, 891
+  size: 125, 131
+  orig: 160, 160
+  offset: 19, 16
+  index: -1
+images/buffsx/buff_xuanwo_00003
+  rotate: false
+  xy: 2, 755
+  size: 126, 133
+  orig: 160, 160
+  offset: 19, 14
+  index: -1
+images/buffsx/buff_xuanwo_00004
+  rotate: false
+  xy: 260, 895
+  size: 129, 127
+  orig: 160, 160
+  offset: 15, 21
+  index: -1
+images/buffsx/buff_xuanwo_00005
+  rotate: false
+  xy: 523, 895
+  size: 128, 127
+  orig: 160, 160
+  offset: 13, 21
+  index: -1
+images/buffsx/buff_xuanwo_00006
+  rotate: false
+  xy: 2, 621
+  size: 124, 132
+  orig: 160, 160
+  offset: 12, 16
+  index: -1
+images/buffsx/buff_xuanwo_00007
+  rotate: true
+  xy: 391, 896
+  size: 126, 130
+  orig: 160, 160
+  offset: 12, 15
+  index: -1
+images/buffsx/buff_xuanwo_00008
+  rotate: false
+  xy: 653, 894
+  size: 128, 128
+  orig: 160, 160
+  offset: 10, 14
+  index: -1

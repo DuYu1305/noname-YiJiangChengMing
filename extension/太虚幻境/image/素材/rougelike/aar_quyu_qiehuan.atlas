@@ -1,0 +1,132 @@
+
+aar_quyu_qiehuan.png
+size: 1256,1256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_00
+  rotate: false
+  xy: 2, 170
+  size: 598, 541
+  orig: 600, 541
+  offset: 2, 0
+  index: -1
+01_01
+  rotate: false
+  xy: 722, 713
+  size: 472, 541
+  orig: 600, 541
+  offset: 127, 0
+  index: -1
+02_00
+  rotate: true
+  xy: 881, 52
+  size: 147, 135
+  orig: 280, 200
+  offset: 83, 39
+  index: -1
+02_01
+  rotate: false
+  xy: 389, 57
+  size: 198, 111
+  orig: 280, 200
+  offset: 61, 55
+  index: -1
+02_02
+  rotate: true
+  xy: 992, 444
+  size: 267, 197
+  orig: 280, 200
+  offset: 11, 0
+  index: -1
+02_03
+  rotate: true
+  xy: 875, 201
+  size: 152, 147
+  orig: 280, 200
+  offset: 52, 35
+  index: -1
+bai1
+  rotate: false
+  xy: 2, 713
+  size: 718, 541
+  orig: 718, 541
+  offset: 0, 0
+  index: -1
+ys1
+  rotate: true
+  xy: 1196, 900
+  size: 354, 57
+  orig: 356, 59
+  offset: 1, 1
+  index: -1
+ys2
+  rotate: false
+  xy: 602, 485
+  size: 388, 226
+  orig: 390, 228
+  offset: 1, 1
+  index: -1
+ys3
+  rotate: true
+  xy: 1191, 445
+  size: 266, 63
+  orig: 268, 65
+  offset: 1, 1
+  index: -1
+yx1
+  rotate: true
+  xy: 1121, 289
+  size: 153, 99
+  orig: 155, 101
+  offset: 1, 1
+  index: -1
+yx2
+  rotate: false
+  xy: 602, 167
+  size: 271, 186
+  orig: 273, 188
+  offset: 1, 1
+  index: -1
+yx3
+  rotate: true
+  xy: 1196, 764
+  size: 134, 48
+  orig: 136, 50
+  offset: 1, 1
+  index: -1
+zs1
+  rotate: true
+  xy: 1024, 150
+  size: 292, 95
+  orig: 294, 97
+  offset: 1, 1
+  index: -1
+zs2
+  rotate: false
+  xy: 2, 18
+  size: 385, 150
+  orig: 387, 152
+  offset: 1, 1
+  index: -1
+zs3
+  rotate: false
+  xy: 589, 33
+  size: 290, 132
+  orig: 292, 134
+  offset: 1, 1
+  index: -1
+zx1
+  rotate: false
+  xy: 602, 355
+  size: 373, 128
+  orig: 375, 130
+  offset: 1, 1
+  index: -1
+zx2
+  rotate: true
+  xy: 1121, 178
+  size: 109, 66
+  orig: 111, 68
+  offset: 1, 1
+  index: -1
