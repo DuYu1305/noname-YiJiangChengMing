@@ -1,0 +1,309 @@
+{
+"skeleton": {
+	"hash": "BG0NR5lnMHs",
+	"spine": "4.0.56",
+	"x": -35,
+	"y": -18.5,
+	"width": 19,
+	"height": 21,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "shang", "parent": "root", "y": 13.44 },
+	{ "name": "suo", "parent": "root", "x": -25.5, "y": -8 },
+	{ "name": "suo2", "parent": "root" },
+	{ "name": "tie", "parent": "root", "x": 14, "y": -9 },
+	{ "name": "tie2", "parent": "root", "x": 14, "y": -9 },
+	{ "name": "tishi", "parent": "root", "rotation": 180, "x": -60.23, "y": -8 }
+],
+"slots": [
+	{ "name": "png/tiesuo02", "bone": "tie" },
+	{ "name": "png/zw_suo/zw_suo_00000", "bone": "shang" },
+	{ "name": "png/zw_tiesuo/zw_tiesuo_00002", "bone": "tie2" },
+	{ "name": "png/zw_tiesuo/zw_tiesuo_00008", "bone": "tishi" },
+	{ "name": "png/tiesuo03", "bone": "suo", "attachment": "png/tiesuo03" },
+	{ "name": "png/zw_tiesuo/zw_tiesuo_00000", "bone": "suo2" },
+	{ "name": "png/zw_tiesuo/zw_tiesuo_00001", "bone": "suo2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"png/tiesuo02": {
+				"png/tiesuo02": { "width": 146, "height": 9 }
+			},
+			"png/tiesuo03": {
+				"png/tiesuo03": { "width": 19, "height": 21 }
+			},
+			"png/zw_suo/zw_suo_00000": {
+				"png/zw_suo/zw_suo_00012": { "width": 436, "height": 512 },
+				"png/zw_suo/zw_suo_00014": { "width": 436, "height": 512 },
+				"png/zw_suo/zw_suo_00015": { "width": 436, "height": 512 },
+				"png/zw_suo/zw_suo_00017": { "width": 436, "height": 512 },
+				"png/zw_suo/zw_suo_00018": { "width": 436, "height": 512 },
+				"png/zw_suo/zw_suo_00019": { "width": 436, "height": 512 },
+				"png/zw_suo/zw_suo_00020": { "width": 436, "height": 512 },
+				"png/zw_suo/zw_suo_00021": { "width": 436, "height": 512 },
+				"png/zw_suo/zw_suo_00022": { "width": 436, "height": 512 },
+				"png/zw_suo/zw_suo_00023": { "width": 436, "height": 512 },
+				"png/zw_suo/zw_suo_00024": { "width": 436, "height": 512 },
+				"png/zw_suo/zw_suo_00025": { "width": 436, "height": 512 }
+			},
+			"png/zw_tiesuo/zw_tiesuo_00000": {
+				"png/zw_tiesuo/zw_tiesuo_00000": { "width": 30, "height": 29 }
+			},
+			"png/zw_tiesuo/zw_tiesuo_00001": {
+				"png/zw_tiesuo/zw_tiesuo_00001": { "width": 10, "height": 9 }
+			},
+			"png/zw_tiesuo/zw_tiesuo_00002": {
+				"png/zw_tiesuo/zw_tiesuo_00002": { "width": 200, "height": 29 },
+				"png/zw_tiesuo/zw_tiesuo_00003": { "width": 200, "height": 29 },
+				"png/zw_tiesuo/zw_tiesuo_00004": { "width": 200, "height": 29 },
+				"png/zw_tiesuo/zw_tiesuo_00005": { "width": 200, "height": 29 },
+				"png/zw_tiesuo/zw_tiesuo_00006": { "width": 200, "height": 29 },
+				"png/zw_tiesuo/zw_tiesuo_00007": { "width": 200, "height": 29 }
+			},
+			"png/zw_tiesuo/zw_tiesuo_00008": {
+				"png/zw_tiesuo/zw_tiesuo_00008": { "x": -61.19, "y": -0.35, "width": 200, "height": 29 },
+				"png/zw_tiesuo/zw_tiesuo_00009": { "x": -61.19, "y": -0.35, "width": 200, "height": 29 },
+				"png/zw_tiesuo/zw_tiesuo_00010": { "x": -61.19, "y": -0.35, "width": 200, "height": 29 },
+				"png/zw_tiesuo/zw_tiesuo_00011": { "x": -61.19, "y": -0.35, "width": 200, "height": 29 },
+				"png/zw_tiesuo/zw_tiesuo_00012": { "x": -61.19, "y": -0.35, "width": 200, "height": 29 }
+			}
+		}
+	}
+],
+"animations": {
+	"play": {
+		"slots": {
+			"png/tiesuo02": {
+				"attachment": [
+					{ "time": 0.6333, "name": "png/tiesuo02" }
+				]
+			},
+			"png/tiesuo03": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.6, "name": "png/tiesuo03" }
+				]
+			},
+			"png/zw_suo/zw_suo_00000": {
+				"attachment": [
+					{ "name": "png/zw_suo/zw_suo_00012" },
+					{ "time": 0.0333, "name": "png/zw_suo/zw_suo_00014" },
+					{ "time": 0.1, "name": "png/zw_suo/zw_suo_00015" },
+					{ "time": 0.1333, "name": "png/zw_suo/zw_suo_00017" },
+					{ "time": 0.2, "name": "png/zw_suo/zw_suo_00018" },
+					{ "time": 0.2333, "name": "png/zw_suo/zw_suo_00019" },
+					{ "time": 0.2667, "name": "png/zw_suo/zw_suo_00020" },
+					{ "time": 0.3333, "name": "png/zw_suo/zw_suo_00021" },
+					{ "time": 0.3667, "name": "png/zw_suo/zw_suo_00022" },
+					{ "time": 0.4333, "name": "png/zw_suo/zw_suo_00023" },
+					{ "time": 0.4667, "name": "png/zw_suo/zw_suo_00024" },
+					{ "time": 0.5, "name": "png/zw_suo/zw_suo_00025" },
+					{ "time": 0.5667, "name": null }
+				]
+			},
+			"png/zw_tiesuo/zw_tiesuo_00000": {
+				"rgba": [
+					{ "time": 0.5667, "color": "ffffff56" },
+					{ "time": 0.6, "color": "ffffffaa" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.5667, "name": "png/zw_tiesuo/zw_tiesuo_00000" },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"png/zw_tiesuo/zw_tiesuo_00001": {
+				"rgba": [
+					{ "time": 0.5667, "color": "ffffff00" },
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.5667, "name": "png/zw_tiesuo/zw_tiesuo_00001" },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"png/zw_tiesuo/zw_tiesuo_00002": {
+				"rgba": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3667, "name": "png/zw_tiesuo/zw_tiesuo_00002" },
+					{ "time": 0.4333, "name": "png/zw_tiesuo/zw_tiesuo_00003" },
+					{ "time": 0.4667, "name": "png/zw_tiesuo/zw_tiesuo_00004" },
+					{ "time": 0.5, "name": "png/zw_tiesuo/zw_tiesuo_00005" },
+					{ "time": 0.5667, "name": "png/zw_tiesuo/zw_tiesuo_00006" },
+					{ "time": 0.6333, "name": "png/zw_tiesuo/zw_tiesuo_00007" },
+					{ "time": 0.7333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"suo2": {
+				"translate": [
+					{ "time": 0.5667, "x": -26.13, "y": -7.21 }
+				],
+				"scale": [
+					{ "time": 0.5667, "x": 5, "y": 5 },
+					{ "time": 0.6333, "x": 2, "y": 2 }
+				]
+			}
+		}
+	},
+	"play2": {
+		"slots": {
+			"png/tiesuo02": {
+				"attachment": [
+					{ "name": "png/tiesuo02" }
+				]
+			},
+			"png/zw_tiesuo/zw_tiesuo_00001": {
+				"attachment": [
+					{ "time": 0.1667, "name": null }
+				]
+			}
+		}
+	},
+	"play3": {
+		"slots": {
+			"png/tiesuo02": {
+				"attachment": [
+					{ "name": "png/tiesuo02" }
+				]
+			},
+			"png/zw_tiesuo/zw_tiesuo_00000": {
+				"rgba": [
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0333, "name": "png/zw_tiesuo/zw_tiesuo_00000" }
+				]
+			},
+			"png/zw_tiesuo/zw_tiesuo_00001": {
+				"rgba": [
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0333, "name": "png/zw_tiesuo/zw_tiesuo_00001" }
+				]
+			},
+			"png/zw_tiesuo/zw_tiesuo_00002": {
+				"rgba": [
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "png/zw_tiesuo/zw_tiesuo_00002" },
+					{ "time": 0.0333, "name": "png/zw_tiesuo/zw_tiesuo_00003" },
+					{ "time": 0.0667, "name": "png/zw_tiesuo/zw_tiesuo_00004" },
+					{ "time": 0.1, "name": "png/zw_tiesuo/zw_tiesuo_00005" },
+					{ "time": 0.1333, "name": "png/zw_tiesuo/zw_tiesuo_00006" },
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"png/zw_tiesuo/zw_tiesuo_00008": {
+				"attachment": [
+					{ "time": 0.1333, "name": "png/zw_tiesuo/zw_tiesuo_00008" },
+					{ "time": 0.2333, "name": "png/zw_tiesuo/zw_tiesuo_00009" },
+					{ "time": 0.3, "name": "png/zw_tiesuo/zw_tiesuo_00010" },
+					{ "time": 0.3667, "name": "png/zw_tiesuo/zw_tiesuo_00011" },
+					{ "time": 0.4333, "name": "png/zw_tiesuo/zw_tiesuo_00012" },
+					{ "time": 0.5, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"tie2": {
+				"rotate": [
+					{ "value": 180 }
+				],
+				"scale": [
+					{ "y": -1 }
+				]
+			},
+			"suo2": {
+				"translate": [
+					{ "time": 0.0333, "x": -26.18, "y": -6.68 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 2.2, "y": 2.2 }
+				]
+			},
+			"tishi": {
+				"translate": [
+					{ "time": 0.1333, "y": 1.11, "curve": "stepped" },
+					{ "time": 0.2333, "y": 1.11 },
+					{ "time": 0.3, "x": 11.7, "y": 1.11 },
+					{ "time": 0.3667, "x": 17.27, "y": 1.11 },
+					{ "time": 0.4333, "x": 18.94, "y": 1.11 },
+					{ "time": 0.5, "x": 23.95, "y": 1.11 }
+				],
+				"scale": [
+					{
+						"time": 0.1333,
+						"x": 0.025,
+						"y": 1.59,
+						"curve": [ 0.133, 0.596, 0.208, 1.172, 0.133, 1.507, 0.208, 1.423 ]
+					},
+					{ "time": 0.2333, "x": 1.172, "y": 1.423 }
+				]
+			}
+		}
+	},
+	"play4": {
+		"slots": {
+			"png/tiesuo02": {
+				"attachment": [
+					{ "name": "png/tiesuo02" },
+					{ "time": 0.0333, "name": null }
+				]
+			},
+			"png/tiesuo03": {
+				"attachment": [
+					{ "time": 0.0333, "name": null }
+				]
+			},
+			"png/zw_suo/zw_suo_00000": {
+				"rgba": [
+					{ "time": 0.7, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "png/zw_suo/zw_suo_00025" },
+					{ "time": 0.2667, "name": "png/zw_suo/zw_suo_00024" },
+					{ "time": 0.3333, "name": "png/zw_suo/zw_suo_00023" },
+					{ "time": 0.4, "name": "png/zw_suo/zw_suo_00022" },
+					{ "time": 0.4333, "name": "png/zw_suo/zw_suo_00021" },
+					{ "time": 0.5, "name": "png/zw_suo/zw_suo_00020" },
+					{ "time": 0.5333, "name": "png/zw_suo/zw_suo_00019" },
+					{ "time": 0.6, "name": "png/zw_suo/zw_suo_00018" },
+					{ "time": 0.6333, "name": "png/zw_suo/zw_suo_00017" },
+					{ "time": 0.7, "name": "png/zw_suo/zw_suo_00015" },
+					{ "time": 0.7333, "name": "png/zw_suo/zw_suo_00014" },
+					{ "time": 0.8, "name": "png/zw_suo/zw_suo_00012" }
+				]
+			},
+			"png/zw_tiesuo/zw_tiesuo_00002": {
+				"attachment": [
+					{ "time": 0.0333, "name": "png/zw_tiesuo/zw_tiesuo_00007" },
+					{ "time": 0.0667, "name": "png/zw_tiesuo/zw_tiesuo_00006" },
+					{ "time": 0.1333, "name": "png/zw_tiesuo/zw_tiesuo_00005" },
+					{ "time": 0.1667, "name": "png/zw_tiesuo/zw_tiesuo_00004" },
+					{ "time": 0.2333, "name": "png/zw_tiesuo/zw_tiesuo_00003" },
+					{ "time": 0.2667, "name": "png/zw_tiesuo/zw_tiesuo_00002" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		}
+	}
+}
+}

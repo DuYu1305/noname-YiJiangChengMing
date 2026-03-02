@@ -1,0 +1,351 @@
+{
+"skeleton": { "hash": "4D4jhZZuUsk", "spine": "4.0.56", "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "kuang", "parent": "root" },
+	{ "name": "leihuo", "parent": "root", "x": 14 },
+	{ "name": "suo", "parent": "root", "x": -25.5, "y": -8 },
+	{ "name": "suo2", "parent": "root" }
+],
+"slots": [
+	{ "name": "png/zw_huo_lei/zw_huo_lei_00000_1", "bone": "kuang" },
+	{ "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00000", "bone": "leihuo" },
+	{ "name": "png/tiesuo03", "bone": "suo" },
+	{ "name": "png/zw_tiesuo/zw_tiesuo_00000", "bone": "suo2" },
+	{ "name": "png/zw_tiesuo/zw_tiesuo_00001", "bone": "suo2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"png/tiesuo03": {
+				"png/tiesuo03": { "width": 19, "height": 21 }
+			},
+			"png/zw_huo_lei/zw_huo_lei_00000_1": {
+				"png/zw_huo_lei/zw_huo_lei_00000_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00001_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00002_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00003_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00004_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00005_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00006_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00007_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00008_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00009_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00010_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00011_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00012_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00013_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00014_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00015_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00016_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00017_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00018_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_huo_lei_00019_1": { "width": 230, "height": 280 },
+				"png/zw_huo_lei/zw_tiesuobingdamian_00000": { "width": 422, "height": 512 },
+				"png/zw_huo_lei/zw_tiesuobingdamian_00002": { "width": 422, "height": 512 },
+				"png/zw_huo_lei/zw_tiesuobingdamian_00004": { "width": 422, "height": 512 },
+				"png/zw_huo_lei/zw_tiesuobingdamian_00006": { "width": 422, "height": 512 },
+				"png/zw_huo_lei/zw_tiesuobingdamian_00007": { "width": 422, "height": 512 },
+				"png/zw_huo_lei/zw_tiesuobingdamian_00008": { "width": 422, "height": 512 },
+				"png/zw_huo_lei/zw_tiesuobingdamian_00009": { "width": 422, "height": 512 },
+				"png/zw_huo_lei/zw_tiesuobingdamian_00010": { "width": 422, "height": 512 },
+				"png/zw_huo_lei/zw_tiesuobingdamian_00011": { "width": 422, "height": 512 },
+				"png/zw_huo_lei/zw_tiesuobingdamian_00012": { "width": 422, "height": 512 },
+				"png/zw_huo_lei/zw_tiesuobingdamian_00013": { "width": 422, "height": 512 }
+			},
+			"png/zw_tiesuo/zw_tiesuo_00000": {
+				"png/zw_tiesuo/zw_tiesuo_00000": { "width": 30, "height": 29 },
+				"png/zw_tiesuo/zw_tiesuo_000001": { "width": 30, "height": 29 }
+			},
+			"png/zw_tiesuo/zw_tiesuo_00001": {
+				"png/zw_tiesuo/zw_tiesuo_00001": { "width": 10, "height": 9 }
+			},
+			"png/zw_tiesuohuolei/zw_tiesuohuolei_00000": {
+				"png/zw_tiesuobing/zw_tiesuobing_00000": { "width": 280, "height": 87 },
+				"png/zw_tiesuobing/zw_tiesuobing_00001": { "width": 280, "height": 87 },
+				"png/zw_tiesuobing/zw_tiesuobing_00002": { "width": 280, "height": 87 },
+				"png/zw_tiesuobing/zw_tiesuobing_00003": { "width": 280, "height": 87 },
+				"png/zw_tiesuobing/zw_tiesuobing_00004": { "width": 280, "height": 87 },
+				"png/zw_tiesuobing/zw_tiesuobing_00005": { "width": 280, "height": 87 },
+				"png/zw_tiesuobing/zw_tiesuobing_00006": { "width": 280, "height": 87 },
+				"png/zw_tiesuobing/zw_tiesuobing_00007": { "width": 280, "height": 87 },
+				"png/zw_tiesuobing/zw_tiesuobing_00008": { "width": 280, "height": 87 },
+				"png/zw_tiesuobing/zw_tiesuobing_00009": { "width": 280, "height": 87 },
+				"png/zw_tiesuobing/zw_tiesuobing_00010": { "width": 280, "height": 87 },
+				"png/zw_tiesuobing/zw_tiesuobing_00011": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00000": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00001": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00002": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00003": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00004": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00005": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00006": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00007": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00008": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00009": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00019": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00020": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00021": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00022": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00023": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00024": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00025": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00026": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00027": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00028": { "width": 280, "height": 87 },
+				"png/zw_tiesuohuolei/zw_tiesuohuolei_00029": { "width": 280, "height": 87 }
+			}
+		}
+	}
+],
+"animations": {
+	"play": {
+		"slots": {
+			"png/tiesuo03": {
+				"attachment": [
+					{ "name": "png/tiesuo03" },
+					{ "time": 0.1333, "name": null }
+				]
+			},
+			"png/zw_huo_lei/zw_huo_lei_00000_1": {
+				"attachment": [
+					{ "time": 0.0667, "name": "png/zw_huo_lei/zw_huo_lei_00000_1" },
+					{ "time": 0.1333, "name": "png/zw_huo_lei/zw_huo_lei_00001_1" },
+					{ "time": 0.2, "name": "png/zw_huo_lei/zw_huo_lei_00002_1" },
+					{ "time": 0.2667, "name": "png/zw_huo_lei/zw_huo_lei_00003_1" },
+					{ "time": 0.3333, "name": "png/zw_huo_lei/zw_huo_lei_00004_1" },
+					{ "time": 0.4, "name": "png/zw_huo_lei/zw_huo_lei_00005_1" },
+					{ "time": 0.4667, "name": "png/zw_huo_lei/zw_huo_lei_00006_1" },
+					{ "time": 0.5333, "name": "png/zw_huo_lei/zw_huo_lei_00007_1" },
+					{ "time": 0.6, "name": "png/zw_huo_lei/zw_huo_lei_00008_1" },
+					{ "time": 0.6667, "name": "png/zw_huo_lei/zw_huo_lei_00009_1" },
+					{ "time": 0.7333, "name": null }
+				]
+			},
+			"png/zw_tiesuo/zw_tiesuo_00000": {
+				"rgba": [
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "png/zw_tiesuo/zw_tiesuo_00000" }
+				]
+			},
+			"png/zw_tiesuo/zw_tiesuo_00001": {
+				"rgba": [
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "png/zw_tiesuo/zw_tiesuo_00001" }
+				]
+			},
+			"png/zw_tiesuohuolei/zw_tiesuohuolei_00000": {
+				"attachment": [
+					{ "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00000" },
+					{ "time": 0.0667, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00001" },
+					{ "time": 0.1333, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00002" },
+					{ "time": 0.2, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00003" },
+					{ "time": 0.2667, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00004" },
+					{ "time": 0.3333, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00005" },
+					{ "time": 0.4, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00006" },
+					{ "time": 0.4667, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00007" },
+					{ "time": 0.5333, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00008" },
+					{ "time": 0.6, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00009" },
+					{ "time": 0.6667, "name": null },
+					{ "time": 0.8333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"suo2": {
+				"translate": [
+					{ "time": 0.0667, "x": -26.18, "y": -6.68 }
+				],
+				"scale": [
+					{ "time": 0.0667, "x": 2.2, "y": 2.2 }
+				]
+			},
+			"leihuo": {
+				"translate": [
+					{ "y": 0.5 }
+				]
+			},
+			"kuang": {
+				"translate": [
+					{ "x": 5, "y": 10 }
+				]
+			}
+		}
+	},
+	"play2": {
+		"slots": {
+			"png/tiesuo03": {
+				"attachment": [
+					{ "name": "png/tiesuo03" },
+					{ "time": 0.1333, "name": null }
+				]
+			},
+			"png/zw_huo_lei/zw_huo_lei_00000_1": {
+				"attachment": [
+					{ "time": 0.0667, "name": "png/zw_huo_lei/zw_huo_lei_00011_1" },
+					{ "time": 0.1333, "name": "png/zw_huo_lei/zw_huo_lei_00012_1" },
+					{ "time": 0.2, "name": "png/zw_huo_lei/zw_huo_lei_00013_1" },
+					{ "time": 0.2667, "name": "png/zw_huo_lei/zw_huo_lei_00014_1" },
+					{ "time": 0.3333, "name": "png/zw_huo_lei/zw_huo_lei_00015_1" },
+					{ "time": 0.4, "name": "png/zw_huo_lei/zw_huo_lei_00016_1" },
+					{ "time": 0.4667, "name": "png/zw_huo_lei/zw_huo_lei_00017_1" },
+					{ "time": 0.5333, "name": "png/zw_huo_lei/zw_huo_lei_00018_1" },
+					{ "time": 0.6, "name": "png/zw_huo_lei/zw_huo_lei_00019_1" },
+					{ "time": 0.6667, "name": null }
+				]
+			},
+			"png/zw_tiesuo/zw_tiesuo_00000": {
+				"rgba": [
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "png/zw_tiesuo/zw_tiesuo_000001" }
+				]
+			},
+			"png/zw_tiesuo/zw_tiesuo_00001": {
+				"rgba": [
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "png/zw_tiesuo/zw_tiesuo_00001" }
+				]
+			},
+			"png/zw_tiesuohuolei/zw_tiesuohuolei_00000": {
+				"attachment": [
+					{ "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00019" },
+					{ "time": 0.0667, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00020" },
+					{ "time": 0.1333, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00021" },
+					{ "time": 0.2, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00022" },
+					{ "time": 0.2667, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00023" },
+					{ "time": 0.3333, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00024" },
+					{ "time": 0.4, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00025" },
+					{ "time": 0.4667, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00026" },
+					{ "time": 0.5333, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00027" },
+					{ "time": 0.6, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00028" },
+					{ "time": 0.6667, "name": "png/zw_tiesuohuolei/zw_tiesuohuolei_00029" },
+					{ "time": 0.7333, "name": null },
+					{ "time": 0.8333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"suo2": {
+				"translate": [
+					{ "time": 0.0667, "x": -26.18, "y": -6.68 }
+				],
+				"scale": [
+					{ "time": 0.0667, "x": 2.2, "y": 2.2 }
+				]
+			},
+			"leihuo": {
+				"translate": [
+					{ "y": 0.5 }
+				]
+			},
+			"kuang": {
+				"translate": [
+					{ "x": 5, "y": 10 }
+				]
+			}
+		}
+	},
+	"play3": {
+		"slots": {
+			"png/tiesuo03": {
+				"attachment": [
+					{ "name": "png/tiesuo03" },
+					{ "time": 0.0333, "name": null }
+				]
+			},
+			"png/zw_huo_lei/zw_huo_lei_00000_1": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffff20" },
+					{ "time": 0.2333, "color": "ffffffd2", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffffd2" },
+					{ "time": 0.3, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": "png/zw_huo_lei/zw_tiesuobingdamian_00000" },
+					{ "time": 0.1667, "name": "png/zw_huo_lei/zw_tiesuobingdamian_00002" },
+					{ "time": 0.2333, "name": "png/zw_huo_lei/zw_tiesuobingdamian_00004" },
+					{ "time": 0.2667, "name": "png/zw_huo_lei/zw_tiesuobingdamian_00006" },
+					{ "time": 0.3, "name": "png/zw_huo_lei/zw_tiesuobingdamian_00007" },
+					{ "time": 0.3667, "name": "png/zw_huo_lei/zw_tiesuobingdamian_00008" },
+					{ "time": 0.4333, "name": "png/zw_huo_lei/zw_tiesuobingdamian_00009" },
+					{ "time": 0.5, "name": "png/zw_huo_lei/zw_tiesuobingdamian_00010" },
+					{ "time": 0.5667, "name": "png/zw_huo_lei/zw_tiesuobingdamian_00011" },
+					{ "time": 0.6333, "name": "png/zw_huo_lei/zw_tiesuobingdamian_00012" },
+					{ "time": 0.7, "name": "png/zw_huo_lei/zw_tiesuobingdamian_00013" },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"png/zw_tiesuo/zw_tiesuo_00000": {
+				"rgba": [
+					{ "time": 0.0333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "png/zw_tiesuo/zw_tiesuo_000001" }
+				]
+			},
+			"png/zw_tiesuo/zw_tiesuo_00001": {
+				"rgba": [
+					{ "time": 0.0333, "color": "ffffffff" },
+					{ "time": 0.1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "png/zw_tiesuo/zw_tiesuo_00001" }
+				]
+			},
+			"png/zw_tiesuohuolei/zw_tiesuohuolei_00000": {
+				"attachment": [
+					{ "name": "png/zw_tiesuobing/zw_tiesuobing_00000" },
+					{ "time": 0.0667, "name": "png/zw_tiesuobing/zw_tiesuobing_00001" },
+					{ "time": 0.1, "name": "png/zw_tiesuobing/zw_tiesuobing_00002" },
+					{ "time": 0.1333, "name": "png/zw_tiesuobing/zw_tiesuobing_00003" },
+					{ "time": 0.1667, "name": "png/zw_tiesuobing/zw_tiesuobing_00004" },
+					{ "time": 0.2, "name": "png/zw_tiesuobing/zw_tiesuobing_00005" },
+					{ "time": 0.2333, "name": "png/zw_tiesuobing/zw_tiesuobing_00006" },
+					{ "time": 0.2667, "name": "png/zw_tiesuobing/zw_tiesuobing_00007" },
+					{ "time": 0.3, "name": "png/zw_tiesuobing/zw_tiesuobing_00008" },
+					{ "time": 0.3667, "name": "png/zw_tiesuobing/zw_tiesuobing_00009" },
+					{ "time": 0.4333, "name": "png/zw_tiesuobing/zw_tiesuobing_00010" },
+					{ "time": 0.5, "name": "png/zw_tiesuobing/zw_tiesuobing_00011" },
+					{ "time": 0.5667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"suo2": {
+				"translate": [
+					{ "x": -26.18, "y": -6.68 }
+				],
+				"scale": [
+					{ "x": 2.2, "y": 2.2 }
+				]
+			},
+			"leihuo": {
+				"translate": [
+					{ "y": 0.5 }
+				]
+			},
+			"kuang": {
+				"scale": [
+					{ "time": 0.7 },
+					{ "time": 0.8333, "x": 1.1, "y": 1.1 }
+				]
+			}
+		}
+	}
+}
+}

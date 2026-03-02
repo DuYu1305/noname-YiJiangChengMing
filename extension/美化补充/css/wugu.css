@@ -1,0 +1,193 @@
+
+.wuguSelectedSmallCharacter {
+	position: absolute;
+    height: 5.2em;
+    width: 5.2em;
+    scale: 0.5;
+    bottom: -30px;
+    left: -25px;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position-y: 20%;
+    background-position-x: 50%;
+    border: 5px solid;
+    border-color: rgba(119, 114, 67, 1);
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0 0 0 1px, rgba(119, 114, 67, 0.8) 0 0 10px, rgba(119, 114, 67, 0.8) 0 0 10px, rgba(119, 114, 67, 0.8) 0 0 15px !important; */
+}
+.wuguSelectedSmallCharacterName {
+	position: inherit;
+    display: flex;
+    align-items: flex-start;
+    font-family: shousha;
+    font-size: 16px;
+    color: #eddac3;
+    width: 100px;
+    left: 110px;
+    bottom: -5px;
+    scale: 1.6;
+    z-index: 2;
+}
+.wuguSelected {
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.4;
+	z-index: 1;
+}
+
+.wuguCurrentSmallCharacter {
+	position: absolute;
+    height: 5.2em;
+    width: 5.2em;
+    scale: 0.5;
+    bottom: -25px;
+    left: 250px;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position-y: 20%;
+    background-position-x: 50%;
+    border: 5px solid;
+    border-color: rgba(227, 222, 133, 1);
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0 0 0 1px, rgba(227, 222, 133, 0.8) 0 0 10px, rgba(227, 222, 133, 0.8) 0 0 10px, rgba(227, 222, 133, 0.8) 0 0 15px !important; */
+}
+
+.wuguWuxieBox {
+    right: 120px;
+    top: 10px;
+    z-index: 2;
+}
+.wuguWuxieText {
+    width: 100px;
+    height: auto;
+}
+.wuguWuxieSmallCharacter {
+	position: absolute;
+    height: 5.2em;
+    width: 5.2em;
+    scale: 0.5;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position-y: 20%;
+    background-position-x: 50%;
+    border: 5px solid;
+    border-color: rgba(89, 47, 33, 1);
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0 0 0 1px, rgba(89, 47, 33, 0.8) 0 0 10px, rgba(89, 47, 33, 0.8) 0 0 10px, rgba(89, 47, 33, 0.8) 0 0 15px !important; */
+}
+.wuguWuxieChahao {
+	position: absolute;
+    height: 5.2em;
+    width: 5.2em;
+    scale: 0.75;
+    top: 25px;
+    left: 25px;
+    z-index: 2;
+    background-image: url('../image/wugu/chahao.png');
+    background-repeat: no-repeat;
+}
+
+#wugu.dialog {
+	transition: all 0.2s linear;
+    display: flex;
+    width: 102% !important;
+    height: 280px !important;
+    border-width: 60px 18px 12px 18px;
+    border-style: solid;
+    border-color: transparent;
+    border-image-source: url('../image/wugu/dialog.png');
+    border-image-slice: 61 18 12 18 fill;
+    border-image-repeat: stretch;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20% !important;
+    left: -2% !important;
+    background: none !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+/* 压制十周年UI对 .dialog.scroll1/.scroll2 的loading皮肤覆盖 */
+#arena.decadeUI[data-loading-style] > #wugu.dialog.scroll1,
+#arena.decadeUI[data-loading-style] > #wugu.dialog.scroll2,
+#arena.decadeUI[data-loading-style] > #wugu.dialog.addNewRow {
+    width: 102% !important;
+    height: 280px !important;
+    left: -2% !important;
+    top: 20% !important;
+    background: none !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+#wugu.dialog>.wuguTitle {
+    left: calc(50% - 45px);
+    right: calc(50% - 45px);
+    /* left: 510px; */
+    top: -60px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    overflow: visible !important;
+    line-height: 50px;
+    font-size: 25px;
+    background-image: linear-gradient(180deg,#f0d775 30%,#ab8c31 57%,#b0a04d 67%);
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    -webkit-text-stroke: 0px rgba(38,37,34,0.5);
+    text-shadow: none;
+    filter: drop-shadow(0 0 2px #000) drop-shadow(0 0 2px #000) drop-shadow(0 0 2px #000);
+}
+#wugu.dialog>.wuguTitlexg {
+    cursor: pointer;
+    top: -55px;
+    left: 55.1%;
+    transform: rotate(0deg);
+    transition: all 0.2s linear;
+    width:39px;
+    height:31px;
+    background-image: url('../image/wugu/arrow.png');
+    background-size: 100% 100%;
+    z-index: 2;
+}
+#wugu.dialog.open {
+    height: 0px; 
+}
+
+#wugu.dialog>.content-container {
+	height: 100%;
+    top: 10px;
+}
+
+#wugu.dialog>.content-container>.content>.buttons {
+	zoom: 0.8 !important;
+	bottom: -5px;
+}
+
+#wugu.dialog>.content-container>.content>.buttons>div {
+	margin: 4px;
+}
+
+.card.fullskin.button[sourcecard="wugu"]>.card-mask {
+	opacity: 0 !important;
+}
+
+.wugu-footer {
+    font-family: shousha;
+    font-size: 18px;
+    color: #c9c9ab;
+    text-shadow: 1px 0 5px black, 1px 1px 2px black, -1px 0px 0 black, 0px -1px 0 black;
+    position: relative;
+    letter-spacing: 4px;
+    top: 110px;
+    z-index:10;
+}

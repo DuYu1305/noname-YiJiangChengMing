@@ -1,0 +1,20 @@
+
+XXjiuwo.png
+size: 395,395
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiuwo
+  rotate: false
+  xy: 2, 2
+  size: 105, 64
+  orig: 106, 65
+  offset: 0, 0
+  index: -1
+moji_00
+  rotate: false
+  xy: 2, 68
+  size: 358, 325
+  orig: 358, 325
+  offset: 0, 0
+  index: -1

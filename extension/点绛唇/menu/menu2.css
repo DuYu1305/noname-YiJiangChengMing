@@ -1,0 +1,169 @@
+.menu-container>.menu.main{/*框整体*/
+	width: 65%;
+	margin-left:7%;
+	height: 80%;
+	margin-top:2%;
+	transition: all 0.3s;
+	transform-origin:2px -35px;
+	background-image:url('image/background/background2.png');
+	background-size: 100% 100%;
+	border:1px solid #FFFFFF;
+	font-color:#FF9900;
+}
+.menu.main>.menu-tab>div{/*标题栏文字显示*/
+	display:inline-block;
+	height:35px;
+	left: 35px;
+	line-height:30px;
+	padding-top:-10px;
+	width: 60px;
+	color: #FFFACD;
+	margin-left: 5px;
+	margin-right: 5px;
+	transition:color 0.5s;
+	background-image:url('image/select/selected2.png');
+	background-size: 100% 100%;
+	filter:brightness(170%);
+}
+.menu.main>.menu-tab>div:hover{/*顶部标题栏选择效果*/
+	background-image:url('image/select/selected2.png');
+	filter:brightness(170%);
+}
+.menu.main>.menu-tab>div:not(.active):not(*:hover),
+.menu.main>.menu-tab>.disabled{/*顶部标题栏未被选择的部分*/
+	color:#FFFACD;
+	background-image:url('image/select/selected2.png');
+	filter:brightness(110%);
+}
+.menu.main>.menu-content>div>.left.pane>div{/*左侧标题文字*/
+	width:calc(100% - 25px);
+	top:25px;
+	margin-top: -5px;
+	margin-left:10px;
+	transition:all 0.3s;
+    height: 15px;
+    font-size: 15px;
+    font-family:'shousha';
+	color: #FFFACD;
+	text-align: center;
+	padding-top:25px;
+    line-height:0px;
+	white-space: nowrap;
+	background-image:url('image/select/selected2.png')!important;
+	filter:brightness(170%);
+	background-size: 100% 100%;
+	box-shadow: none;
+}
+.menu.main>.menu-content>div>.left.pane>div:hover{/*左侧标题栏点击效果*/
+	background-image:url('image/select/selected2.png')!important;
+	filter:brightness(170%);
+}
+.menu.main>.menu-content>div>.left.pane>div:not(.active):not(*:hover),
+.menu.main>.menu-content>div>.left.pane>.disabled{
+	color:#FFFACD;
+	background-image:url('image/select/selected2.png')!important;
+	filter:brightness(110%);
+}
+.menu.main>.menu-content>div>.left.pane>div {
+  overflow: hidden; /* 隐藏超出的内容 */
+  position: relative; /* 设置相对定位 */
+}
+
+.menu.main>.menu-content>div>.left.pane>div.no-scroll {
+  -webkit-overflow-scrolling: disabled; /* 在iOS设备上禁止滑动 */
+  scroll-behavior: block; /* 防止滚动 */
+}
+.menu.main .menu-content div.menubutton.round {/*启和作按钮*/
+    left: 45%;
+    top: 45%;
+    font-size: 35px;
+    transition: color 0.3s;
+    position: absolute;
+    background:#ADD8E6;
+    background-repeat: no-repeat;
+    text-align: center;
+    border: 1px solid #FFFACD;
+}
+
+.menubutton.round{/*界面按钮样式，包括打开菜单的圆球、重来、记录、托管等*/
+   	width:45px;
+	height:45px;
+	border-radius:100%;
+	font-size:15px;
+	line-height:40px;
+}
+.menu.main>.menu-tab{/*菜单顶部标题栏*/
+	height:37px;
+	left: -70px;
+	top: 16px;
+	text-align:center;
+	width:calc(100% - 30px);
+	padding-left:15px;
+	padding-right:15px;
+	position:relative;
+	text-align:center;    
+	border-width: 0 0 0px;/*顶部标题栏下方横条*/
+	border-style:solid;
+}
+.menu.main>.menu-content>div>.left.pane>.lefttext{/*全部开启和恢复默认*/
+    font-size: 15px;
+	margin-left:8px;
+}
+.menu.main>.menu-tab-bar{/*标题栏进度条*/
+	display:none;
+}
+.menu.main>.menu-content>div>.right.pane{/*右侧内容栏*/
+    left: 22%;
+    width: 70%;
+    height: 90%;
+    top: 3%;
+    color:#FFFACD;
+}
+.menu.main>.menu-content>div>.right.pane {
+    overflow-x: hidden;/* 禁止左右滑动 */
+}
+
+.menu.main>.menu-content>div>.left.pane{/*菜单栏左侧标题*/
+	width:17%;	
+    left:2%;
+    height:92%;
+    overflow: scroll;
+}
+.menu.main>.menu-content{/*菜单具体内容*/
+	height:calc(100% - 38px);
+	position:relative;
+	width:100%;
+	text-shadow: #333333 0 0 3px;
+	font-size: 15px;
+}
+.popup-container>.menu{/*可选内容*/
+	position:absolute;
+	overflow:scroll;
+	left:300px !important;
+    max-height: auto;
+    bottom:10px;
+	transition-property: opacity;
+	background-color: #FFFACD;
+    border: 2px solid #ADD8E6;
+}
+.config.config.toggle div {/*开关-关*/
+  --w: 45px;
+  --h: calc(var(--w) * 60/158);
+  width: var(--w);
+  height: var(--h);
+  background-color: rgba(0,0,0,0);
+  background-image: url('image/button/kg_off2.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 0px;
+  box-shadow: none;
+}
+.config.config.toggle.on div {/*开关-开*/
+  background-image: url('image/button/kg_on2.png');
+  box-shadow: none;
+  background-color: rgba(0,0,0,0); /* 这里我们可以合并一个类 */
+}
+.config.config.toggle>div>div{
+      visibility:hidden;  
+}

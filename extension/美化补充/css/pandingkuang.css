@@ -1,0 +1,215 @@
+
+@keyframes open-dialog {
+	from {
+		opacity: 0.1;
+		transform: scale(0.8);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+#judgeBox.judgeBox {
+    background-image: url('../image/pandingkuang/scdialog.png');
+    background-size: 100% 100%;
+    width: 110%;
+    height: 250px;
+    left: -5%;
+    right:-5%;
+    top: 10%;
+    zoom: 0.98;
+    /* pointer-events: none;*/
+    z-index: 6;
+    animation: 0.5s ease 0s 1 normal none running open-dialog;
+}
+.judgeIntroduce_card {
+    top: 50px;
+    left: 60%;
+    width: 200px;
+    text-align:left;
+    height: 190px;
+    font-size: 20px;
+    font-family: shousha;
+    color: #c9c9ab;
+    text-shadow: 1px 0 5px black, 1px 1px 2px black, -1px 0px 0 black, 0px -1px 0 black;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    /* 取消掉滚动条*/
+}
+.judgeIntroduce_card[data-type='card'] {
+    right:25%;
+}
+.judgeIntroduce_card[data-type='skill'] {
+    right:25%;
+}
+.judgeIntroduce_card>span[data-suit-type='red'] {
+    color:red;
+    text-shadow: -1px 0 rgba(255, 255, 255, 1), 0 1px rgba(255, 255, 255, 1), 1px 0 rgba(255, 255, 255, 1), 0 -1px rgba(255, 255, 255, 1);
+}
+.judgeIntroduce_card>span[data-suit-type='black'] {
+    color:black;
+    text-shadow: -1px 0 rgba(255, 255, 255, 1), 0 1px rgba(255, 255, 255, 1), 1px 0 rgba(255, 255, 255, 1), 0 -1px rgba(255, 255, 255, 1);
+}
+.judgeResultIntroduce {
+    background-image: url('../image/pandingkuang/cebian.png');
+    --w: 42px;
+    --h: calc(var(--w) * 161/51);
+    width: var(--w);
+    height: var(--h);
+    background-size: 100% 100%;
+    font-family: shousha;
+    color: #c9c9ab;
+    text-shadow: 1px 0 5px black, 1px 1px 2px black, -1px 0px 0 black, 0px -1px 0 black;
+    top: 24%;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    writing-mode: tb-rl;
+    line-height: 50px;
+}
+.judgeResultIntroduce[data-type='skill'] {
+    left:43%;
+}
+.judgeResultIntroduce[data-type='card'] {
+    left:46%;
+}
+.judgeCardArea {
+    top: 55px;
+    left:auto;
+    width: 108px;
+    height: 140px;
+    background-size: 100% 100%;
+}
+.judgeCardArea[data-type='card'] {
+    right: 41%;
+}
+.judgeCardArea[data-type='skill'] {
+    right: 44%;
+}
+.judgeCardArea>div {
+    top: -10px;
+    right: 0px;
+    left:0px;
+    position: absolute;
+    z-index: 1;
+}
+.judgeCardArea > div:first-child {
+    z-index: 2;
+}
+.judgeCard {
+    position: absolute;
+}
+.judgeTitle {
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    font-size: 40px;
+    font-family: 'HYZLSJ';
+    background: linear-gradient(#C8BEB4 1%, #FCF8CC 12%, #F3F0BE, #FEF5A8, #E1D275, #C9B173, #D6CB6F, #A99355, #AC9557, #A38A51, #A38A51, #B29983, #B19786, #B19786, #B19786, #9B8583), linear-gradient(to right, #FCF8CC, #AC9557);
+    filter: drop-shadow(2px 0 0.5px #2F1809) drop-shadow(-2px 0 1.5px #2F1809) drop-shadow(0 2px 1px #2F1809) drop-shadow(0 -2px 1.5px #2F1809) blur(0.55px) saturate(1.25) contrast(1.25) grayscale(0.08) sepia(0.1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 0;
+    width: 100%;
+    height: 36px;
+    overflow: visible !important;
+    line-height: 30px;
+    letter-spacing: 3px !important;
+    text-shadow: none;
+    text-align: center;
+}
+#judgeBox.judgeBox>.judgeTitlexg {
+    cursor: pointer;
+    top: 9px;
+    left: 54.1%;
+    transform: rotate(0deg);
+    transition: all 0.2s linear;
+    width:39px;
+    height:31px;
+    background-image: url('../image/pandingkuang/arrow.png');
+    background-size: 100% 100%;
+    z-index: 2;
+}
+#judgeBox.judgeBox.open {
+    height: 100px;
+    background-image: url('../image/pandingkuang/dialog.png');
+    background-size: 100% 100%;
+}
+.judgeDelayCard {
+    top: 55px;
+    left: 34%;
+    width: 100px;
+    height: 140px;
+    background-size: 100% 100%;
+}
+.judgeDelayCard>div:not(.smallCharacter):not(.suit-num) {
+    top: -10px;
+    right: 5px;
+}
+.judgeDelayCard>.suit-num {
+    font-size: 15px;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+    top: 10px;
+    left: -1px;
+    width: 25px;
+    height: auto;
+    line-height: 15px;
+    text-shadow: 0 0 3px #e8dddd, 0 0 3px #f3e6e6;
+    letter-spacing: -1px;
+    transform-origin: 0 0;
+    z-index: 1;
+    -webkit-text-size-adjust: none;
+}
+.judgeDelayCard[data-suit='heart']>.suit-num,
+.judgeDelayCard[data-suit='diamond']>.suit-num {
+    color: red;
+}
+.judgeDelayCard>.suit-num>.suit {
+    font-size: 10px;
+}
+.judgeSmallCharacter {
+    position: absolute;
+    /*bottom: -20px;*/
+    z-index: 2;
+    /*left:10px;*/
+    height: 2.2em;
+    width: 2.2em;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position-y: 15%;
+    background-position-x: 50%;
+    border: 2px solid #ad5949;
+}
+.judgeSmallCharacter[data-type='card'] {
+    bottom: -20px;
+    left: 10px;
+    z-index: 2;
+}
+.judgeSmallCharacter[data-type='skill'] {
+    top: 50px;
+    left: 37%;
+}
+.judgeSmallCharacterName {
+    position: inherit;
+    color: #ffffff;
+    font-family: shousha;
+    font-size: 14px;
+    text-shadow: 1px 0 5px black, 1px 1px 2px black, -1px 0px 0 black, 0px -1px 0 black;
+    width: 100px;
+    left: 40px;
+    bottom: 0px;
+    z-index: 2;
+}
+.judgeZhuanBj {
+    background-image: url('../image/pandingkuang/zhuan.png');
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+    top: 7px !important;
+    right: 0px !important;
+    z-index: 1;
+}

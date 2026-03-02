@@ -1,0 +1,421 @@
+.mvpBg{/*背景图*/
+    width:100%;
+    height:100%;
+    left:0px;
+    top:0px;
+    z-index:8;
+    background-image:url('./image/mvpBg.png');
+    background-size:100% 100%;
+    text-shadow:none;
+}
+.mvpBg>.closeText{/*点击关闭*/
+    bottom:20px;
+    left:50%;
+    transform:translateX(-50%);
+    background-image:url('./image/close.png');
+    background-size:100% 100%;
+    width:500px;
+    height:65px;
+}
+.mvpBg>.mvpPlayerBg{/*武将图*/
+    top:47%;
+	left:50%;
+	height:400px;
+	width:300px;
+	transform:translate(-50%, -50%);
+	transition:none;
+	border: 1.5px solid #e3d88b;
+}
+.mvpBg>.mvpPlayerBg>.skinChange{/*切换*/
+    height:45px;
+    width:45px;
+    background-size:100% 100%;
+    background-image:url('./image/skin.png');
+    bottom:2px;
+    right:5px;
+}
+.mvpBg>.mvpPlayerBg>.skinLevel{/*皮肤等级*/
+    height:0px;
+    width:0px;
+    background-size:100% 100%;
+    top:2px;
+    right:5px;
+}
+.mvpBg>.mvpPlayerBg>.name{/*武将名*/
+    font-size:0px;
+    bottom:40px;
+    left:50%;
+    transform:translateX(-50%);
+    color:#e3b88b;
+    font-family:'yuanli';
+    width:100%;
+    text-align: center;
+    text-shadow: none;
+}
+@keyframes scaleDown {/*全场最佳动画*/
+    0% {
+        transform: scale(3);
+    }
+    55%{
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1.3);
+    }
+}
+.mvpBg>.mvpPlayerBg>.bestBg{/*全场最佳底图*/
+    right:-220px;
+    top:0%;
+    height:150px;
+    width:155px;
+    background-image:url('./image/isMvp.png');
+    background-size:100% 100%;
+    animation: scaleDown 1.5s ease-in-out forwards;
+    transform: scale(3);
+}
+.mvpBg>.mvpPlayerBg>.playBg{/*玩家底图*/
+    right:-300px;
+    width:0px;
+    height:100px;
+    background-image:url('./image/playBg.png');
+    background-size:100% 100%;
+    top:160px;
+}
+.mvpBg>.mvpPlayerBg>.playBg>.playHead{/*玩家头像*/
+    left:calc(15% + 30px);
+    height:60px;
+    width:60px;
+    top:50%;
+    background-size:100% 100%;
+    transform:translateY(-50%);
+    border: 1px solid #e3b88b;
+}
+.mvpBg>.mvpPlayerBg>.playBg>.playName{/*玩家名*/
+    font-size:18px;
+    width:100%;
+    color:#e3b88b;
+    font-family:'yuanli';
+    left:calc(15% + 100px);
+    top:25px;
+}
+.mvpBg>.mvpPlayerBg>.playBg>.playGuanjie{/*玩家官阶*/
+    left:calc(15% + 100px);
+    width:110px;
+    height:26.5px;
+    bottom:20px;
+    background-size:100% 100%;
+}
+
+
+/*结算页面*/
+.mvpBg>.top{/*顶部对局详情*/
+    top:1%;
+    width:491px;
+    height:70px;
+    left:50%;
+    transform:translateX(-50%);
+    background-image:url('./image/top.png');
+    background-size:100% 100%;
+}
+.mvpBg>.bottom{/*底部对局详情*/
+    bottom: 20px;
+    right:20px;
+    height:31px;
+    width:117px;
+    background-image:url('./image/bottom.png');
+    background-size:100% 100%;
+}
+.mvpBg>.closeButton {/*返回按钮*/
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url('./image/button.png');
+    background-size: 100% 100%;
+    width: 140px;
+    height: 45px;
+    font-size: 22px;
+    font-family: 'yuanli';
+    text-align: center;
+    line-height: 45px;
+    text-shadow: none;
+    color:#805c34;
+}
+.mvpBg>.topBg{/*顶部模式*/
+    top:calc(5% + 60px);
+    left:51.5%;
+    transform:translateX(-50%);
+    height:45px;
+    width:75%;
+    background-image:url('./image/topBg.png');
+    background-size:100% 100%;
+    color:rgb(232,218,192);
+    font-size:24px;
+    line-height: 45px;
+    text-shadow:none;
+    padding-left:80px;
+    font-family:'yuanli';
+}
+.mvpBg>.game-info {
+     /* 定位在 topBg 的右侧，和右图位置完全一致 */
+     position: absolute;
+     top: calc(5% + 60px);
+     right: calc(12.5% + 20px); /* 与 topBg 右边缘对齐 */
+     height: 45px;
+     line-height: 45px;
+     display: flex;
+     gap: 30px; /* 轮数和时间的间距 */
+     color: rgb(232,218,192);
+     font-size: 20px;
+     font-family: 'yuanli';
+}
+.mvpBg>.winnersBg{/*胜方底图*/
+    left:6%;
+    height:58%;
+    top:calc(5% + 120px);
+    width:48%;
+    overflow-y:auto;
+    overflow-x:hidden;
+    display: block;
+    flex-direction: column;
+}
+.mvpBg>.losersBg{/*败方底图*/
+    right:6%;
+    height:58%;
+    top:calc(5% + 120px);
+    width:48%;
+    overflow-y:auto;
+    overflow-x:hidden;
+    display: block;
+    flex-direction: column;
+}
+.mvpBg>.dataBg{/*数据信息底图*/
+    left:2%;
+    height:58%;
+    top:calc(5% + 120px);
+    width:96%;
+    overflow-y:auto;
+    overflow-x:hidden;
+    display: block;
+    flex-direction: column;
+    background: initial;
+}
+/*公用数据（结算面板的）*/
+.mvpCharBg{/*每个玩家*/
+    background-image:url('./image/playerBg.png');
+    background-size:100% 100%;
+    position:relative;
+	display: flex;
+	height:70px;
+	margin-top:10px;
+	width:80%;
+	left:10%;
+}
+.mvpCharBg>.dataData {/*数据容器*/
+    position: absolute;
+    top:0%;
+    left: 25%;
+    height: 100%;
+    width:65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mvpCharBg>.mvpTouxiang2 ~ .dataData {
+    left:30%;
+    width:60%;
+}
+.mvpCharBg>.dataData>.dataText {/*数据文字*/
+    color: #e3b88b;
+    font-size: 18px;
+    font-family: 'yuanli';
+    white-space: nowrap;
+    margin: 0 5px;
+    position:relative;
+	display: flex;
+}
+.mvpCharBg>.bestPlay{/*全场最佳*/
+    background-image:url('./image/bestPlay.png');
+    background-size:100% 100%;
+    right:10px;
+    height:28px;
+    width:90px;
+    top:-7px;
+}
+/* 击杀数弹窗 */
+.kill-popup {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: rgb(232,218,192);
+    font-size: 16px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    z-index: 100;
+    pointer-events: auto;
+    font-family: 'yuanli';
+    white-space: nowrap;
+}
+
+/* 确保徽章可点击 */
+.mvpCharBg>.killBadge {
+    cursor: pointer;
+    pointer-events: auto;
+}
+.mvpCharBg>.killBadge{/*击杀*/
+    background-size:100% 100%;
+    height:20px;
+    width:20px;
+    left:40%;
+    top:46px;
+    background-image:url('./image/23.png');
+}
+.mvpCharBg>.helpBadge{/*助攻*/
+    background-size:100% 100%;
+    height:20px;
+    width:20px;
+    left:40%;
+    top:46px;
+    background-image:url('./image/14.png');
+}
+.mvpCharBg>.damageBadge{/*伤害*/
+    background-size:100% 100%;
+    height:20px;
+    width:20px;
+    left:45%;
+    top:46px;
+    background-image:url('./image/19.png');
+}
+.mvpCharBg>.gainBadge{/*摸牌*/
+    background-size:100% 100%;
+    height:20px;
+    width:20px;
+    left:50%;
+    top:46px;
+    background-image:url('./image/12.png');
+}
+.mvpCharBg>.recoverBadge{/*回复*/
+    background-size:100% 100%;
+    height:20px;
+    width:20px;
+    left:55%;
+    top:46px;
+    background-image:url('./image/10.png');
+}
+.mvpCharBg>.haoyou{/*好友*/
+    background-size:100% 100%;
+    height:30px;
+    width:30px;
+    left:70%;
+    top:30%;
+    background-image:url('./image/29.png');
+}
+.mvpCharBg>.xianhua{/*鲜花*/
+    background-size:100% 100%;
+    height:30px;
+    width:30px;
+    left:80%;
+    top:30%;
+    background-image:url('./image/20.png');
+}
+.mvpCharBg>.jubao{/*举报*/
+    background-size:100% 100%;
+    height:30px;
+    width:30px;
+    left:90%;
+    top:30%;
+    background-image:url('./image/30.png');
+}
+
+.mvpCharBg>.win{/*胜利图标*/
+    background-image:url('./image/win.png');
+    background-size:100% 100%;
+    left:-10px;
+    top:-20px;
+    /*width:45px;*/
+    /*height:55px;*/
+    width:30px;
+    height:38px;
+}
+.mvpCharBg>.identityBg{/*身份图标*/
+    top:50%;
+    transform: translateY(-50%);
+    left:3%;
+    height:36px;
+    width:31px;
+    background-size: 100% 100%;
+}
+.mvpCharBg>.mvpTouxiang{/*玩家头像*/
+    left:calc(5% + 35px);
+    height: 50px;
+    width: 50px;
+    border: 1px solid #e3b88b;
+    top:50%;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    background-size: auto 300% !important;
+    background-position: 50% 12% !important;
+    background-origin: border-box;
+    background-clip: border-box;
+}
+.mvpCharBg>.mvpTouxiang2 {/*双将2头像*/
+    left: calc(5% + 90px);
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid #e3b88b;
+    position: absolute;
+    z-index: 1;
+}
+.mvpCharBg>.guanjie{/*官阶图标*/
+    top:13px;
+    height:29px;
+    width:30px;
+    background-size: 100% 100%;
+    left:calc(5% + 90px);
+}
+.mvpCharBg>.mvpTouxiang2 ~ .guanjie{
+    left:calc(5% + 140px);
+}
+.mvpCharBg>.playName{/*玩家名*/
+    font-size:19px;
+    width:100%;
+    color:rgb(232,218,192);
+    font-family:'yuanli';
+    left:calc(5% + 120.5px);
+    top:16.5px;
+}
+.mvpCharBg>.mvpTouxiang2 ~ .playName{
+    left:calc(5% + 170.5px);
+}
+.mvpCharBg>.name{/*武将名*/
+    font-size:16px;
+    width:100%;
+    color:rgb(181,161,133);
+    font-family:'yuanli';
+    left:calc(5% + 96px);
+    top:46px;
+}
+.mvpCharBg>.mvpTouxiang2 ~ .name {
+    left: calc(5% + 146px);
+}
+.mvpCharBg>.handCardsBg{/*查看手牌底图*/
+    width:5%;
+    height:100%;
+    right:5%;
+    top:-10px;
+    z-index:2;
+}
+.mvpCharBg>.mvpTouxiang2 ~.handCardsBg{
+    right:calc(2% + 10px);
+}
+.mvpCharBg>.handCardsBg>.handCard{/*查看手牌按钮*/
+    height:25px;
+    width:25px;
+    left:50%;
+    top:50%;
+    transform:translate(-50% -50%);
+    background-image:url('./image/see.png');
+    background-size:100% 100%;
+}
+
+

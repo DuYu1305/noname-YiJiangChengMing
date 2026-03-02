@@ -1,0 +1,272 @@
+
+binsi.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+binsi_lie1_02
+  rotate: false
+  xy: 2, 3516
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie1_03
+  rotate: false
+  xy: 2, 3014
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie1_04
+  rotate: false
+  xy: 504, 3516
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie1_05
+  rotate: false
+  xy: 2, 2512
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie1_06
+  rotate: false
+  xy: 504, 3014
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie1_07
+  rotate: false
+  xy: 1006, 3516
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie1_08
+  rotate: false
+  xy: 2, 2010
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie1_09
+  rotate: false
+  xy: 504, 2512
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie1_10
+  rotate: false
+  xy: 1006, 3014
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie1_11
+  rotate: false
+  xy: 1508, 3516
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie1_12
+  rotate: false
+  xy: 2, 1508
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie1_13
+  rotate: false
+  xy: 504, 2010
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie1_14
+  rotate: false
+  xy: 1006, 2512
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie1_15
+  rotate: false
+  xy: 1508, 3014
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie1_16
+  rotate: false
+  xy: 2010, 3516
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie1_17
+  rotate: false
+  xy: 2, 1006
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie1_18
+  rotate: false
+  xy: 504, 1508
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie1_19
+  rotate: false
+  xy: 1006, 2010
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie2_00
+  rotate: false
+  xy: 1508, 2512
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie2_01
+  rotate: false
+  xy: 2010, 3014
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie2_02
+  rotate: false
+  xy: 2512, 3516
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie2_03
+  rotate: false
+  xy: 2, 504
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie2_04
+  rotate: false
+  xy: 504, 1006
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie2_05
+  rotate: false
+  xy: 1006, 1508
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie2_06
+  rotate: false
+  xy: 1508, 2010
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie2_07
+  rotate: false
+  xy: 2010, 2512
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie2_08
+  rotate: false
+  xy: 2512, 3014
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie2_09
+  rotate: false
+  xy: 3014, 3516
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie3_00
+  rotate: false
+  xy: 2, 2
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie3_01
+  rotate: false
+  xy: 504, 504
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie3_02
+  rotate: false
+  xy: 1006, 1006
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie3_03
+  rotate: false
+  xy: 1508, 1508
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie3_04
+  rotate: false
+  xy: 2010, 2010
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie3_05
+  rotate: false
+  xy: 2512, 2512
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie3_06
+  rotate: false
+  xy: 3014, 3014
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie3_07
+  rotate: false
+  xy: 3516, 3516
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie3_08
+  rotate: false
+  xy: 504, 2
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+binsi_lie3_09
+  rotate: false
+  xy: 1006, 504
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
