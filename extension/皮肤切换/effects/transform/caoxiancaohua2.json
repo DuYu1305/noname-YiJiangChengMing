@@ -1,0 +1,185 @@
+{
+"skeleton": { "hash": "/SdsKzM0B14", "spine": "4.0.56", "images": "", "audio": "F:/三国杀-OL/2025/34-曹宪曹华/曹宪曹华1/曹宪曹华1" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "bone", "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "di", "bone": "bone" },
+	{ "name": "ding", "bone": "bone2", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"di": {
+				"images/eff/zchong/zchong_00": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_01": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_02": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_03": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_04": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_05": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_06": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_07": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_08": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_09": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_10": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_11": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_12": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_13": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_14": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_15": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_16": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_17": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_18": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_19": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_20": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_21": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_22": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_23": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_24": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_25": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_26": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_27": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_28": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_29": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_30": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_31": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_32": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_33": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_34": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_35": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_36": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_37": { "width": 500, "height": 500 },
+				"images/eff/zchong/zchong_38": { "width": 500, "height": 500 }
+			},
+			"ding": {
+				"images/eff/zcwenli2/zcwenli2_04": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_05": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_06": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_07": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_08": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_09": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_10": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_11": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_12": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_13": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_14": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_15": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_16": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_17": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_18": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_19": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_20": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_21": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_22": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_23": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_24": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_25": { "width": 250, "height": 250 },
+				"images/eff/zcwenli2/zcwenli2_26": { "width": 250, "height": 250 }
+			}
+		}
+	}
+],
+"events": {
+	"Ahide": {},
+	"Bshow": {}
+},
+"animations": {
+	"ZhuanChang": {
+		"slots": {
+			"di": {
+				"rgba": [
+					{ "time": 2.4667, "color": "ffffffff" },
+					{ "time": 2.6, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "images/eff/zchong/zchong_00" },
+					{ "time": 0.0667, "name": "images/eff/zchong/zchong_01" },
+					{ "time": 0.1333, "name": "images/eff/zchong/zchong_02" },
+					{ "time": 0.2, "name": "images/eff/zchong/zchong_03" },
+					{ "time": 0.2667, "name": "images/eff/zchong/zchong_04" },
+					{ "time": 0.3333, "name": "images/eff/zchong/zchong_05" },
+					{ "time": 0.4, "name": "images/eff/zchong/zchong_06" },
+					{ "time": 0.4667, "name": "images/eff/zchong/zchong_07" },
+					{ "time": 0.5333, "name": "images/eff/zchong/zchong_08" },
+					{ "time": 0.6, "name": "images/eff/zchong/zchong_09" },
+					{ "time": 0.6667, "name": "images/eff/zchong/zchong_10" },
+					{ "time": 0.7333, "name": "images/eff/zchong/zchong_11" },
+					{ "time": 0.8, "name": "images/eff/zchong/zchong_12" },
+					{ "time": 0.8667, "name": "images/eff/zchong/zchong_13" },
+					{ "time": 0.9333, "name": "images/eff/zchong/zchong_14" },
+					{ "time": 1, "name": "images/eff/zchong/zchong_15" },
+					{ "time": 1.0667, "name": "images/eff/zchong/zchong_16" },
+					{ "time": 1.1333, "name": "images/eff/zchong/zchong_17" },
+					{ "time": 1.2, "name": "images/eff/zchong/zchong_18" },
+					{ "time": 1.2667, "name": "images/eff/zchong/zchong_19" },
+					{ "time": 1.3333, "name": "images/eff/zchong/zchong_20" },
+					{ "time": 1.4, "name": "images/eff/zchong/zchong_21" },
+					{ "time": 1.4667, "name": "images/eff/zchong/zchong_22" },
+					{ "time": 1.5333, "name": "images/eff/zchong/zchong_23" },
+					{ "time": 1.6, "name": "images/eff/zchong/zchong_24" },
+					{ "time": 1.6667, "name": "images/eff/zchong/zchong_25" },
+					{ "time": 1.7333, "name": "images/eff/zchong/zchong_26" },
+					{ "time": 1.8, "name": "images/eff/zchong/zchong_27" },
+					{ "time": 1.8667, "name": "images/eff/zchong/zchong_28" },
+					{ "time": 1.9333, "name": "images/eff/zchong/zchong_29" },
+					{ "time": 2, "name": "images/eff/zchong/zchong_30" },
+					{ "time": 2.0667, "name": "images/eff/zchong/zchong_31" },
+					{ "time": 2.1333, "name": "images/eff/zchong/zchong_32" },
+					{ "time": 2.2, "name": "images/eff/zchong/zchong_33" },
+					{ "time": 2.2667, "name": "images/eff/zchong/zchong_34" },
+					{ "time": 2.3333, "name": "images/eff/zchong/zchong_35" },
+					{ "time": 2.4, "name": "images/eff/zchong/zchong_36" },
+					{ "time": 2.4667, "name": "images/eff/zchong/zchong_37" },
+					{ "time": 2.5333, "name": "images/eff/zchong/zchong_38" },
+					{ "time": 2.6, "name": null }
+				]
+			},
+			"ding": {
+				"attachment": [
+					{ "time": 0.2667, "name": "images/eff/zcwenli2/zcwenli2_04" },
+					{ "time": 0.3333, "name": "images/eff/zcwenli2/zcwenli2_05" },
+					{ "time": 0.4, "name": "images/eff/zcwenli2/zcwenli2_06" },
+					{ "time": 0.4667, "name": "images/eff/zcwenli2/zcwenli2_07" },
+					{ "time": 0.5333, "name": "images/eff/zcwenli2/zcwenli2_08" },
+					{ "time": 0.6, "name": "images/eff/zcwenli2/zcwenli2_09" },
+					{ "time": 0.6667, "name": "images/eff/zcwenli2/zcwenli2_10" },
+					{ "time": 0.7333, "name": "images/eff/zcwenli2/zcwenli2_11" },
+					{ "time": 0.8, "name": "images/eff/zcwenli2/zcwenli2_12" },
+					{ "time": 0.8667, "name": "images/eff/zcwenli2/zcwenli2_13" },
+					{ "time": 0.9333, "name": "images/eff/zcwenli2/zcwenli2_14" },
+					{ "time": 1, "name": "images/eff/zcwenli2/zcwenli2_15" },
+					{ "time": 1.0667, "name": "images/eff/zcwenli2/zcwenli2_16" },
+					{ "time": 1.1333, "name": "images/eff/zcwenli2/zcwenli2_17" },
+					{ "time": 1.2, "name": "images/eff/zcwenli2/zcwenli2_18" },
+					{ "time": 1.2667, "name": "images/eff/zcwenli2/zcwenli2_19" },
+					{ "time": 1.3333, "name": "images/eff/zcwenli2/zcwenli2_20" },
+					{ "time": 1.4, "name": "images/eff/zcwenli2/zcwenli2_21" },
+					{ "time": 1.4667, "name": "images/eff/zcwenli2/zcwenli2_22" },
+					{ "time": 1.5333, "name": "images/eff/zcwenli2/zcwenli2_23" },
+					{ "time": 1.6, "name": "images/eff/zcwenli2/zcwenli2_24" },
+					{ "time": 1.6667, "name": "images/eff/zcwenli2/zcwenli2_25" },
+					{ "time": 1.7333, "name": "images/eff/zcwenli2/zcwenli2_26" },
+					{ "time": 1.8, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{ "x": -1.38, "y": -8.57 }
+				],
+				"scale": [
+					{ "x": 0.904, "y": 0.904 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1.1667, "name": "Ahide" },
+			{ "time": 1.1667, "name": "Bshow" }
+		]
+	}
+}
+}

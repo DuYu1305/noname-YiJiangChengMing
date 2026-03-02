@@ -1,0 +1,96 @@
+{
+"skeleton": {
+	"hash": "NIebYLNvZvQ",
+	"spine": "4.0.56",
+	"x": -267.25,
+	"y": -261.66,
+	"width": 535.2,
+	"height": 523.8,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "vx_zhuanchang", "parent": "root", "x": 0.35, "y": 0.24, "scaleX": 0.6, "scaleY": 0.6 }
+],
+"slots": [
+	{ "name": "vx/zhuanchang/vx_zc_01", "bone": "vx_zhuanchang", "attachment": "vx/zhuanchang/vx_zc_01" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"vx/zhuanchang/vx_zc_01": {
+				"vx/zhuanchang/vx_zc_01": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_02": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_03": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_04": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_05": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_06": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_07": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_08": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_09": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_10": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_11": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_12": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_13": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_14": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_15": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_16": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_17": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_18": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_19": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_20": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_21": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_22": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_23": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_24": { "width": 892, "height": 873 },
+				"vx/zhuanchang/vx_zc_25": { "width": 892, "height": 873 }
+			}
+		}
+	}
+],
+"events": {
+	"Ahide": {},
+	"Bshow": {}
+},
+"animations": {
+	"ZhuanChang": {
+		"slots": {
+			"vx/zhuanchang/vx_zc_01": {
+				"attachment": [
+					{ "time": 0.0667, "name": "vx/zhuanchang/vx_zc_02" },
+					{ "time": 0.1333, "name": "vx/zhuanchang/vx_zc_03" },
+					{ "time": 0.2, "name": "vx/zhuanchang/vx_zc_04" },
+					{ "time": 0.2667, "name": "vx/zhuanchang/vx_zc_05" },
+					{ "time": 0.3333, "name": "vx/zhuanchang/vx_zc_06" },
+					{ "time": 0.4, "name": "vx/zhuanchang/vx_zc_07" },
+					{ "time": 0.4667, "name": "vx/zhuanchang/vx_zc_08" },
+					{ "time": 0.5333, "name": "vx/zhuanchang/vx_zc_09" },
+					{ "time": 0.6, "name": "vx/zhuanchang/vx_zc_10" },
+					{ "time": 0.6667, "name": "vx/zhuanchang/vx_zc_11" },
+					{ "time": 0.7333, "name": "vx/zhuanchang/vx_zc_12" },
+					{ "time": 0.8, "name": "vx/zhuanchang/vx_zc_13" },
+					{ "time": 0.8667, "name": "vx/zhuanchang/vx_zc_14" },
+					{ "time": 0.9333, "name": "vx/zhuanchang/vx_zc_15" },
+					{ "time": 1, "name": "vx/zhuanchang/vx_zc_16" },
+					{ "time": 1.0667, "name": "vx/zhuanchang/vx_zc_17" },
+					{ "time": 1.1333, "name": "vx/zhuanchang/vx_zc_18" },
+					{ "time": 1.2, "name": "vx/zhuanchang/vx_zc_19" },
+					{ "time": 1.2667, "name": "vx/zhuanchang/vx_zc_20" },
+					{ "time": 1.3333, "name": "vx/zhuanchang/vx_zc_21" },
+					{ "time": 1.4, "name": "vx/zhuanchang/vx_zc_22" },
+					{ "time": 1.4667, "name": "vx/zhuanchang/vx_zc_23" },
+					{ "time": 1.5333, "name": "vx/zhuanchang/vx_zc_24" },
+					{ "time": 1.6, "name": "vx/zhuanchang/vx_zc_25" },
+					{ "time": 1.6667, "name": null }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.1333, "name": "Ahide" },
+			{ "time": 0.1333, "name": "Bshow" }
+		]
+	}
+}
+}

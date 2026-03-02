@@ -1,0 +1,480 @@
+ZhiCaoCao01_BianShen.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	scale: 0.7
+BG_bs
+	bounds: 1275, 2, 506, 597
+	offsets: 0, 316, 506, 1125
+	rotate: 90
+BG_sd1
+	bounds: 1014, 1569, 96, 144
+	rotate: 90
+BG_sd2
+	bounds: 1949, 1866, 56, 89
+	rotate: 90
+CC_1
+	bounds: 1052, 1883, 49, 148
+	offsets: 0, 5, 49, 153
+	rotate: 90
+CC_10
+	bounds: 420, 1982, 22, 15
+CC_11
+	bounds: 267, 1984, 23, 13
+	offsets: 0, 1, 23, 15
+CC_12
+	bounds: 155, 1985, 22, 12
+	offsets: 0, 1, 22, 14
+CC_13
+	bounds: 444, 1982, 20, 15
+	offsets: 0, 1, 20, 16
+CC_14
+	bounds: 146, 1951, 32, 51
+	offsets: 0, 0, 33, 55
+	rotate: 90
+CC_15
+	bounds: 447, 1894, 48, 99
+	rotate: 90
+CC_16
+	bounds: 1732, 1710, 81, 122
+	offsets: 0, 1, 81, 123
+	rotate: 90
+CC_17
+	bounds: 548, 1893, 102, 48
+CC_18
+	bounds: 16, 1989, 33, 8
+CC_19
+	bounds: 466, 1982, 17, 15
+	offsets: 0, 0, 18, 15
+CC_2
+	bounds: 485, 1982, 15, 35
+	rotate: 90
+CC_20
+	bounds: 1126, 1978, 19, 22
+	rotate: 90
+CC_21
+	bounds: 885, 1981, 20, 16
+CC_22
+	bounds: 955, 1980, 17, 19
+	offsets: 0, 0, 18, 19
+	rotate: 90
+CC_23
+	bounds: 1178, 1976, 21, 24
+	offsets: 0, 1, 22, 25
+	rotate: 90
+CC_25
+	bounds: 2, 1990, 7, 12
+	offsets: 0, 0, 8, 12
+	rotate: 90
+CC_26
+	bounds: 238, 1897, 57, 47
+CC_27
+	bounds: 292, 1984, 13, 19
+	rotate: 90
+CC_28
+	bounds: 179, 1985, 12, 28
+	rotate: 90
+CC_29
+	bounds: 2, 1855, 56, 69
+	offsets: 5, 0, 61, 69
+	rotate: 90
+CC_3
+	bounds: 1171, 1934, 40, 109
+	offsets: 0, 0, 43, 110
+	rotate: 90
+CC_30
+	bounds: 51, 1988, 10, 9
+CC_31
+	bounds: 113, 1986, 11, 22
+	rotate: 90
+CC_32
+	bounds: 63, 1988, 9, 24
+	rotate: 90
+CC_33
+	bounds: 864, 1888, 50, 98
+	offsets: 0, 0, 54, 99
+	rotate: 90
+CC_34
+	bounds: 1596, 1930, 105, 40
+	offsets: 0, 1, 105, 41
+CC_35
+	bounds: 1671, 1801, 74, 161
+	offsets: 0, 0, 76, 161
+	rotate: 90
+CC_36
+	bounds: 740, 1828, 171, 58
+	offsets: 0, 0, 171, 60
+CC_38
+	bounds: 1409, 1972, 25, 95
+	rotate: 90
+CC_39
+	bounds: 1027, 1979, 18, 71
+	rotate: 90
+CC_40
+	bounds: 1755, 1970, 27, 86
+	rotate: 90
+CC_41
+	bounds: 907, 1981, 18, 16
+CC_42
+	bounds: 137, 1986, 11, 16
+	rotate: 90
+CC_43
+	bounds: 522, 1982, 17, 15
+CC_44a
+	bounds: 1799, 924, 183, 144
+CC_45
+	bounds: 1986, 1924, 44, 48
+	rotate: 90
+CC_46
+	bounds: 976, 1980, 49, 17
+	offsets: 0, 1, 52, 18
+CC_47
+	bounds: 2, 1957, 85, 29
+CC_48
+	bounds: 267, 1946, 36, 81
+	rotate: 90
+CC_49
+	bounds: 1638, 1464, 147, 169
+	rotate: 90
+CC_4a
+	bounds: 1452, 1729, 77, 132
+	rotate: 90
+CC_5
+	bounds: 508, 1758, 183, 74
+CC_50
+	bounds: 1202, 1882, 49, 132
+	rotate: 90
+CC_51
+	bounds: 165, 1904, 71, 45
+CC_52
+	bounds: 558, 1943, 37, 42
+	offsets: 1, 0, 38, 42
+	rotate: 90
+CC_53
+	bounds: 165, 1839, 282, 53
+	offsets: 0, 8, 282, 65
+CC_54
+	bounds: 313, 1984, 29, 13
+CC_55
+	bounds: 1396, 1814, 66, 130
+	offsets: 1, 0, 67, 130
+	rotate: 90
+CC_56
+	bounds: 449, 1834, 57, 173
+	offsets: 0, 0, 57, 175
+	rotate: 90
+CC_57
+	bounds: 350, 1945, 35, 145
+	offsets: 0, 2, 35, 147
+	rotate: 90
+CC_58
+	bounds: 874, 1940, 95, 38
+	offsets: 0, 0, 95, 39
+CC_59
+	bounds: 1336, 1882, 49, 226
+	rotate: 90
+CC_6
+	bounds: 1856, 1649, 93, 143
+	offsets: 6, 5, 99, 148
+	rotate: 90
+CC_60
+	bounds: 964, 1886, 86, 50
+	offsets: 0, 0, 88, 50
+CC_61
+	bounds: 1506, 1972, 71, 25
+CC_62
+	bounds: 1100, 1979, 24, 18
+CC_63
+	bounds: 652, 1893, 48, 96
+	offsets: 0, 3, 48, 99
+	rotate: 90
+CC_65
+	bounds: 1520, 1357, 105, 247
+	rotate: 90
+CC_66
+	bounds: 1703, 1929, 39, 281
+	offsets: 0, 0, 42, 281
+	rotate: 90
+CC_67
+	bounds: 1349, 1537, 90, 287
+	offsets: 0, 4, 97, 291
+	rotate: 90
+CC_68
+	bounds: 602, 1943, 169, 37
+CC_69
+	bounds: 1513, 927, 284, 141
+	offsets: 2, 0, 286, 141
+CC_7
+	bounds: 75, 1906, 43, 88
+	rotate: 90
+CC_70
+	bounds: 1204, 1976, 129, 21
+CC_73
+	bounds: 1150, 1816, 127, 64
+CC_77
+	bounds: 1564, 1877, 116, 51
+	offsets: 0, 3, 116, 54
+CC_78
+	bounds: 497, 1944, 59, 36
+CC_79
+	bounds: 2, 683, 274, 201
+	offsets: 0, 10, 274, 211
+CC_8
+	bounds: 1933, 1744, 85, 120
+	offsets: 9, 0, 94, 120
+CC_80
+	bounds: 1282, 1933, 37, 312
+	rotate: 90
+CC_9
+	bounds: 378, 1983, 14, 16
+	offsets: 1, 1, 15, 19
+	rotate: 90
+CC_tx
+	bounds: 1306, 510, 361, 228
+L_1
+	bounds: 286, 863, 176, 169
+L_10
+	bounds: 1586, 1719, 144, 80
+L_11
+	bounds: 396, 1983, 22, 14
+L_12
+	bounds: 1150, 1977, 26, 20
+L_13
+	bounds: 199, 1951, 32, 66
+	offsets: 0, 0, 33, 66
+	rotate: 90
+L_14
+	bounds: 541, 1982, 17, 15
+	offsets: 0, 0, 18, 15
+L_15
+	bounds: 927, 1981, 26, 16
+L_16
+	bounds: 773, 1943, 37, 99
+	rotate: 90
+L_17
+	bounds: 1707, 1971, 46, 26
+	offsets: 3, 3, 54, 29
+L_18
+	bounds: 1279, 1816, 115, 64
+	offsets: 7, 3, 122, 67
+L_19
+	bounds: 1809, 1420, 207, 123
+	offsets: 0, 0, 207, 127
+L_2
+	bounds: 971, 1938, 119, 39
+L_20
+	bounds: 1160, 1560, 187, 97
+	offsets: 0, 3, 202, 100
+L_21
+	bounds: 1682, 1877, 183, 50
+	offsets: 0, 0, 183, 54
+L_22
+	bounds: 89, 1987, 10, 22
+	offsets: 0, 0, 11, 22
+	rotate: 90
+L_23
+	bounds: 344, 1984, 15, 13
+L_24
+	bounds: 361, 1984, 13, 15
+	rotate: 90
+L_25
+	bounds: 209, 1985, 12, 18
+	rotate: 90
+L_26
+	bounds: 2, 1913, 42, 71
+	offsets: 1, 1, 43, 72
+	rotate: 90
+L_27
+	bounds: 1843, 1970, 137, 27
+L_28
+	bounds: 1820, 1545, 102, 186
+	offsets: 0, 0, 130, 247
+	rotate: 90
+L_3
+	bounds: 297, 1897, 46, 148
+	rotate: 90
+L_4
+	bounds: 1982, 1970, 39, 27
+L_5
+	bounds: 89, 1954, 55, 30
+L_6
+	bounds: 1335, 1973, 72, 24
+	offsets: 2, 1, 75, 26
+L_7
+	bounds: 229, 1985, 12, 36
+	rotate: 90
+L_8
+	bounds: 560, 1982, 15, 49
+	rotate: 90
+L_9
+	bounds: 1579, 1972, 25, 126
+	rotate: 90
+QJ_hx1
+	bounds: 784, 567, 298, 200
+QJ_sd1
+	bounds: 1647, 740, 258, 182
+QJ_y1
+	bounds: 413, 142, 421, 860
+	rotate: 90
+QJ_yw1
+	bounds: 1084, 565, 202, 220
+	rotate: 90
+TX_1
+	bounds: 703, 964, 128, 297
+	rotate: 90
+TX_2
+	bounds: 1002, 944, 135, 289
+	rotate: 90
+TX_3
+	bounds: 718, 783, 198, 179
+TX_4
+	bounds: 464, 793, 252, 169
+TX_d
+	bounds: 2, 886, 282, 146
+TX_y
+	bounds: 2, 331, 409, 268
+XB1_1
+	bounds: 1014, 1667, 165, 81
+XB2_1
+	bounds: 1528, 1808, 67, 141
+	rotate: 90
+XB2_2
+	bounds: 73, 1846, 58, 90
+	rotate: 90
+XB2_3
+	bounds: 1293, 941, 138, 218
+	rotate: 90
+XB2_4
+	bounds: 750, 1893, 48, 112
+	rotate: 90
+XB2_5
+	bounds: 1199, 1738, 74, 251
+	rotate: 90
+XB3_1
+	bounds: 624, 1834, 57, 114
+	rotate: 90
+XB3_2
+	bounds: 1092, 1935, 40, 77
+	rotate: 90
+XB3_3
+	bounds: 1651, 1613, 95, 167
+	rotate: 90
+XB3_4
+	bounds: 1834, 1793, 97, 78
+XB3_5
+	bounds: 1867, 1873, 54, 80
+	rotate: 90
+ZJ_qz1
+	bounds: 1181, 1659, 258, 77
+ZJ_qz2
+	bounds: 1441, 1629, 208, 88
+	offsets: 0, 1, 208, 89
+ZJ_qz3
+	bounds: 611, 1982, 272, 15
+ZJ_qz4
+	bounds: 913, 1824, 57, 235
+	offsets: 0, 0, 59, 235
+	rotate: 90
+ZJ_qz5
+	bounds: 1769, 1308, 264, 110
+	offsets: 0, 3, 264, 113
+ZJ_yw1
+	bounds: 1424, 744, 181, 221
+	rotate: 90
+ZJ_yw2
+	bounds: 508, 968, 193, 124
+line01
+	bounds: 278, 601, 504, 180
+	offsets: 0, 311, 504, 1092
+line02
+	bounds: 918, 769, 504, 170
+	offsets: 0, 651, 504, 1092
+vfx/A_00000
+	bounds: 2, 1424, 504, 72
+	offsets: 0, 49, 504, 179
+vfx/A_00001
+	bounds: 508, 1546, 504, 68
+	offsets: 0, 51, 504, 179
+vfx/A_00002
+	bounds: 508, 1616, 504, 66
+	offsets: 0, 52, 504, 179
+vfx/A_00003
+	bounds: 2, 1636, 504, 65
+	offsets: 0, 52, 504, 179
+vfx/A_00004
+	bounds: 693, 1750, 504, 64
+	offsets: 0, 53, 504, 179
+vfx/A_00005
+	bounds: 2, 1769, 504, 63
+	offsets: 0, 53, 504, 179
+vfx/A_00006
+	bounds: 2, 1703, 504, 64
+	offsets: 0, 52, 504, 179
+vfx/A_00007
+	bounds: 508, 1684, 504, 64
+	offsets: 0, 52, 504, 179
+vfx/A_00008
+	bounds: 2, 1568, 504, 66
+	offsets: 0, 50, 504, 179
+vfx/A_00009
+	bounds: 2, 1498, 504, 68
+	offsets: 0, 48, 504, 179
+vfx/A_00010
+	bounds: 1014, 1315, 504, 73
+	offsets: 0, 47, 504, 179
+vfx/A_00011
+	bounds: 2, 1118, 504, 79
+	offsets: 0, 45, 504, 179
+vfx/A_00012
+	bounds: 2, 1034, 504, 82
+	offsets: 0, 45, 504, 179
+vfx/A_00013
+	bounds: 1520, 1070, 504, 80
+	offsets: 0, 45, 504, 179
+vfx/A_00014
+	bounds: 1014, 1162, 504, 76
+	offsets: 0, 46, 504, 179
+vfx/A_00015
+	bounds: 508, 1094, 504, 79
+	offsets: 0, 46, 504, 179
+vfx/A_00016
+	bounds: 1014, 1081, 504, 79
+	offsets: 0, 46, 504, 179
+vfx/A_00017
+	bounds: 1520, 1152, 504, 78
+	offsets: 0, 47, 504, 179
+vfx/A_00018
+	bounds: 2, 1275, 504, 73
+	offsets: 0, 49, 504, 179
+vfx/A_00019
+	bounds: 508, 1400, 504, 72
+	offsets: 0, 48, 504, 179
+vfx/A_00020
+	bounds: 1014, 1390, 504, 72
+	offsets: 0, 48, 504, 179
+vfx/A_00021
+	bounds: 2, 1350, 504, 72
+	offsets: 0, 48, 504, 179
+vfx/A_00022
+	bounds: 508, 1251, 504, 73
+	offsets: 0, 47, 504, 179
+vfx/A_00023
+	bounds: 1520, 1232, 504, 74
+	offsets: 0, 46, 504, 179
+vfx/A_00024
+	bounds: 508, 1326, 504, 72
+	offsets: 0, 48, 504, 179
+vfx/A_00025
+	bounds: 508, 1474, 504, 70
+	offsets: 0, 50, 504, 179
+vfx/A_00026
+	bounds: 1014, 1464, 504, 71
+	offsets: 0, 50, 504, 179
+vfx/A_00027
+	bounds: 1014, 1240, 504, 73
+	offsets: 0, 49, 504, 179
+vfx/A_00028
+	bounds: 2, 1199, 504, 74
+	offsets: 0, 48, 504, 179
+vfx/A_00029
+	bounds: 508, 1175, 504, 74
+	offsets: 0, 48, 504, 179
