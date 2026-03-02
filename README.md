@@ -15,5 +15,5 @@
 
 无名杀原版链接：[libnoname/noname](https://github.com/libnoname/noname)
 
-详细修改见：[修改介绍](./修改介绍.md)
+详细修改见：[修改介绍.md](./修改介绍.md)
 
