@@ -1,0 +1,1277 @@
+import { lib, get, game } from "../../../noname.js";
+import { ref, onMounted, useTemplateRef, watch, computed } from "../lib/vue.esm-browser.js";
+import { daysUntilEndOfMonth, getUserName, getBGAnInfo, playDtSound, showDrawer, initPBAnimation, debouncePlay, debounce, isMobile, EXTENSION_NAME, moveAn, scaleAn, addBtnFilter, audioPath, spinePath, imgPath, initPreCharter } from "../utils/index.js";
+import gameModeManager, { GameModeType } from "../utils/GameModeManager.js";
+import { BackpackManager } from "../utils/BackpackManager.js";
+import { useXiuxianPage } from "../hooks/xiuxianPage.js";
+import { useDoudizhuPage } from "../hooks/doudizhuPage.js";
+import { useMaoxianPage } from "../hooks/maoxianPage.js";
+import { useZizouPage } from "../hooks/zizouPage.js";
+import { usePaiwei22Page } from "../hooks/paiwei22Page.js";
+import { usePaiwei8Page } from "../hooks/paiwei8.js";
+import { useZhaomuPage } from "../hooks/zhaomuPage.js";
+import { getWjBorderColor, getWjId, hasDrawnHero } from "../utils/zhaomu.js";
+import { zhaomuMap } from "../config/zhaomuJc.js";
+import { useZhaomuYulan } from "../hooks/useZhaomuYulan.js";
+/**
+ * @type {import("vue").Component}
+ */
+export default {
+	template: `
+		<div id="yjcm-app" ref="pixiCon">
+			<div v-if="loading" :class="['loading','center',random()==1?'loading-bg4':'']">
+				<img class="loading-age" :src="imgPath+'login/loadingAge.png'" alt="" srcset="" />
+				<img class="loading-gif" :src="imgPath+'/login/loading.gif'" alt="" srcset="" />
+			</div>
+			<div class="zhaomu-wjList" v-if="zhaomuWjList.length>0">
+				<div v-for="(item,index) in zhaomuWjList" :class="['yjcm-wj-item',zhaomuWjList.length==1?'yjcm-wj-item-onlyone':'',getWjBorderColor(item.level),index>4?'yjleftan':'yjrightan']" :key="item.id"
+				:data-color="getWjBorderColor(item.level)"
+				@click="lib._yjcm_wj_preview(item.id)"
+				:style="{backgroundImage: 'url(image/character/'+item.id+'.jpg)',animationDelay: index>4?index%5*0.1+'s':(4-index)*0.1+'s'}">
+					<div class="camp-wrap" :data-camp="lib._cust_character[item.id].group">
+            <div class="camp-back">
+              <img class="dengjiel-img" :src="imgPath+'zhaomu/new_border_camp.png'"/>
+              <img class="group-img" :src="imgPath+'zhaomu/name_'+lib._cust_character[item.id].group+'.png'"/>
+              <span>{{item.name}}</span>
+            </div>
+          </div>
+          <img class="level-img" :src="imgPath+'zhaomu/'+item.level.replace(/[ab]/g,'')+'.png'"/>
+		  <div class="wjjiangfu-con" v-if="item.jiangfuInfo.count>0">
+		  	<span class="wjjiangfu-text">将符x{{item.jiangfuInfo.count}}</span>
+		  	<span class="wjjiangfu-beishu" v-if="item.jiangfuInfo.beishu>1">暴击{{item.jiangfuInfo.beishu}}倍</span>
+		  </div>
+          <div class="yj-border-hp-con" v-if="lib._cust_character[item.id].hp<=5"
+            :style="{height:'calc(12% * '+lib._cust_character[item.id].hp+' + 8%)'}">
+            <img v-for="item in lib._cust_character[item.id].hp" class="yj-border_hp" :src="imgPath+'zhaomu/glass1.png'"/>
+          </div>
+          <div class="yj-border-hp-con" 
+          v-else>
+            <span>{{lib._cust_character[item.id].hp}}</span>
+            <span>/</span>
+            <span>{{lib._cust_character[item.id].hp}}</span>
+            <img  class="yj-border_hp" :src="imgPath+'zhaomu/glass1.png'" style="margin-top:1.5px"/>
+          </div>
+				</div>
+			</div>
+
+			 <div class="yjzm-jc" v-show="showZhaomuJc">
+				<div class="yjcm-jc-con">
+					<div class="yjcm-jc-con-title">
+					  <span> &nbsp;</span>
+					  <span>招募预览</span>
+					  <img class="yjcm-jc-close" @click="showZhaomuJc=false" :src="imgPath+'CreateCharacterSkill/bpClose.png'"/>
+					</div>
+					<div class="yjcm-jc-con-search">
+						<span @click="showGailv=true">概率公示</span>
+						<input v-model="showwjsearchName" @keyup.enter="searchWj"/>
+					  	<img class="yjcm-jc-search-img" @click="searchWj" :src="imgPath+'zhaomu/newStyleBaseUISearchNormal.png'"/>
+					</div>
+					<div class="yjcm-jc-con-main yjcm-jc-con-wj-main">
+						<div v-for="(item,key) in dataList" :key="item.id"
+						class="yjcm-jc-con-item"
+						 >
+							<div class="yjcm-jc-con-item-avtor"
+							@click="lib._yjcm_wj_preview(item.id)"
+							:style="{backgroundImage: 'url(image/character/'+item.id+'.jpg)'}"
+							>
+								<img v-if="hasDrawnHero(item.id)" class="yjcm-jc-own-img" :src="imgPath+'zhaomu/newStyleItemHaveFlag.png'"/>
+					  			<span v-else>&nbsp;</span>
+								<img class="yjcm-jc-j-img" :src="imgPath+'zhaomu/starrecruit_general.png'"/>
+							</div>
+							<div class="yjcm-jc-con-item-name">
+								{{item.name}}
+							</div>
+						</div>
+					</div>
+				</div>
+				
+      		</div>
+
+			 <div class="yjzm-jc yjcm-gailv" v-show="showGailv">
+				<div class="yjcm-jc-con">
+					<div class="yjcm-jc-con-title">
+					  <span> &nbsp;</span>
+					  <span>概率公示</span>
+					  <img class="yjcm-jc-close" @click="showGailv=false" :src="imgPath+'CreateCharacterSkill/bpClose.png'"/>
+					</div>
+					<div class="yjcm-jc-con-main">
+						<img class="yjcm-jc-close" style="width:100%" :src="imgPath+'zhaomu/gailv.png'"/>
+					</div>
+				</div>
+				
+      		</div>
+		</div>
+	`,
+	props: {
+		click: Function,
+		node: HTMLElement,
+	},
+
+	setup(props) {
+		let padding = false;
+		//是否展示概率  搜索文字 是否展示招募将池  数据列表  搜索函数
+		let { showGailv, showwjsearchName, showZhaomuJc,  dataList, searchWj } = useZhaomuYulan();
+
+		let zhaomuWjList = ref([]);
+		let userName = getUserName();
+		let currentCon = ref("uihome");
+		// let currentCon = ref("uixiuxian");
+		// let currentCon = ref("uidoudizhu");
+		// let currentCon = ref("uipaiwei");
+		//处理大厅骨骼
+		let { peSrc, bjSrc, ...pbPosInfo } = getBGAnInfo();
+		// let theme = "谋姜维"
+		if (userName) {
+			//username超过六位截取前六位后面变成省略号
+			if (userName.length <= 6) {
+				for (let i = userName.length; i < 8; i++) {
+					userName = userName + " ";
+				}
+			}
+		}
+		let propsModeClic = mode => {
+			//防止重复点击
+			if (padding) {
+				return;
+			}
+			padding = true;
+			PIXI.sound.play("Enter");
+			let t = setTimeout(() => {
+				window.removeEventListener("resize", debounceResize);
+				clearTimeout(t);
+				t = null;
+				PIXI.sound.removeAll();
+				props.click(mode, props.node);
+				padding = false;
+			}, 700);
+		};
+		const designW = 1300;
+		const designH = isMobile ? 580 : 765;
+		let modeScrpt = {
+			paiwei: "",
+			jingdian: "",
+			maoxian: "",
+			xiuxian: "",
+			taixu: "",
+			doudizhu: "",
+			zizouqi: "",
+
+			paiwei_over: "",
+			jingdian_over: "",
+			maoxian_over: "",
+			xiuxian_over: "",
+			taixu_over: "",
+			doudizhu_over: "",
+			zizouqi_over: "",
+		};
+		let uihome = "";
+		let uixiuxian = "";
+		let uipaiwei = "";
+		let uidoudizhu = "";
+		let uizhaomu = "";
+		let uimaoxian = "";
+		let uijunba = "";
+		let uizizou = "";
+		//最外层容器
+
+		let pixiApp = ref(""),
+			ratios = ref(""),
+			ratiow = ref(""),
+			ratioh = ref(""),
+			xloader = ref(""),
+			hideAn = null,
+			jiangdengUi = "",
+			vipUi = "",
+			paiweiDaojis = "",
+			layoutBtn = "",
+			activeBtn = "",
+			spineBg,
+			spinePeople,
+			baseUi,
+			touxiangSprite,
+			bottomUi,
+			chatUi;
+		let packageInfo = {
+			tongyuan: {
+				name: "tongyuan",
+				sprite: null,
+				text: null,
+			},
+			bangyuan: {
+				name: "bangyuan",
+				sprite: null,
+				text: null,
+			},
+			yinliang: {
+				name: "yinliang",
+				sprite: null,
+				text: null,
+			},
+		};
+		let btnTheme = lib.config[`extension_${EXTENSION_NAME}_dtBtnTheme`] || "default";
+		let dtBtnTheme = btnTheme;
+		if (btnTheme == "auto") {
+			//判断今天是不是周六
+			let date = new Date();
+			let day = date.getDay();
+			if (day == 6) {
+				dtBtnTheme = "zhouliu";
+			} else {
+				dtBtnTheme = "default";
+			}
+		}
+
+		let modeImgName = [
+			{
+				name: "maoxian",
+				img: "mode_maoxian_btn_normal",
+			},
+			{
+				name: "xiuxian",
+				img: "mode_xiuxian_btn_normal",
+			},
+			{
+				name: "zizouqi",
+				img: "mode_zizouqi_btn_normal",
+			},
+			{
+				name: "jingdian",
+				img: "mode_jingdian_btn_normal",
+			},
+			{
+				name: "paiwei",
+				img: "mode_paiwei_btn_normal",
+			},
+			{
+				name: "doudizhu",
+				img: "yjcm_ddz",
+			},
+			{
+				name: "taixu",
+				img: "taixuhuanjing",
+			},
+		];
+		
+		let loading = ref(true);
+		console.log("全部模式", lib.config.all.mode);
+		
+		let pixiCon = useTemplateRef("pixiCon");
+		let random = () => {
+			return Math.floor(Math.random() * 2) + 1;
+		};
+		function computedRatio() {
+			ratiow.value = window.innerWidth / designW;
+			ratioh.value = window.innerHeight / designH;
+			ratios.value = Math.min(ratiow.value, ratioh.value);
+		}
+		let debounceResize = debounce(() => {
+			resizeHandle();
+		}, 1000);
+		//删除所有ui资源 重建
+		function resizeHandle() {
+			computedRatio();
+			if (currentCon.value == "uipaiwei" || currentCon.value == "uijunba") {
+				PIXI.sound.stopAll();
+			}
+			pixiApp.value.resize(window.innerWidth, window.innerHeight);
+			// updateStack.forEach(fn => fn());
+			// 彻底清理所有子元素和相关资源，防止残影
+			clearAllChild();
+			uihome = null;
+			uixiuxian = null;
+			uipaiwei = null;
+			uidoudizhu = null;
+			uizhaomu = null;
+			uimaoxian = null;
+			uizizou = null;
+			uijunba = null;
+			loading.value = true;
+			zhaomuWjList.value = [];
+			initAsstes(true);
+		}
+		const initPixiApp = () => {
+			const dpr = Math.max(window.devicePixelRatio * (window.documentZoom || 1), 1);
+			pixiApp.value = new PIXI.Application({
+				// autoDensity: true,
+				resizeTo: document.body,
+				backgroundAlpha: 0,
+				resolution: dpr,
+				autoDensity: true,
+			});
+			// const designW = isMobile ? 1103 : 1300;
+
+			// ratiow.value = pixiApp.value.screen.width / designW;
+			// ratioh.value = pixiApp.value.screen.height / designH;
+			// ratios.value = Math.min(ratiow.value, ratioh.value);
+			computedRatio();
+			pixiApp.value.view.id = "yjcm";
+			pixiCon.value.appendChild(pixiApp.value.view);
+			Object.assign(pixiApp.value.view.style, {
+				position: "fixed",
+				left: "0px",
+				zIndex: "0",
+				top: "0px",
+			});
+			window.addEventListener("resize", debounceResize);
+		};
+
+		function initBtn(sprite, name) {
+			if (name) {
+				sprite.name = name;
+			}
+			sprite.cursor = "pointer";
+			let scale = 0.8;
+			sprite.scale.set(Math.max(ratios.value * scale, scale));
+		}
+		function clearAllChild() {
+			while (pixiApp.value.stage.children.length > 0) {
+				let child = pixiApp.value.stage.children[0];
+				//请楚所有的spine动画的事件监听和状态
+				if (child.isSpine) {
+					if (child.state) {
+						child.state.clearListeners();
+						child.state.clearTracks();
+					}
+					child.interactive = false;
+					child.off("pointerdown");
+					child.off("mouseover");
+					child.off("mouseout");
+				}
+				pixiApp.value.stage.removeChild(child);
+			}
+		}
+		function oppeen(name) {
+			if (!name || typeof name !== "string") {
+				name = "uihome";
+			}
+			debouncePlay("Label");
+			// if(name!="uihome"&&uihome){
+			// 	hideAn()
+			// }
+			// setTimeout(() => {
+			switch (name) {
+				case "uihome":
+					clearAllChild();
+					currentCon.value = "uihome";
+					addPageToStage();
+					break;
+				case "xiuxian":
+					clearAllChild();
+					currentCon.value = "uixiuxian";
+					addPageToStage();
+					break;
+				case "maoxian":
+					clearAllChild();
+					currentCon.value = "uimaoxian";
+					addPageToStage();
+					break;
+				case "zizouqi":
+					clearAllChild();
+					currentCon.value = "uizizou";
+					addPageToStage();
+					break;
+				case "doudizhu":
+					clearAllChild();
+					currentCon.value = "uidoudizhu";
+					addPageToStage();
+					break;
+				case "zhaomu":
+					clearAllChild();
+					currentCon.value = "uizhaomu";
+					addPageToStage();
+					break;
+				case "paiwei":
+					if (PIXI.sound.exists("outgame")) {
+						PIXI.sound.stop("outgame");
+					}
+					clearAllChild();
+					currentCon.value = "uipaiwei";
+					addPageToStage();
+					break;
+				case "jingdian":
+					if (PIXI.sound.exists("outgame")) {
+						PIXI.sound.stop("outgame");
+					}
+					clearAllChild();
+					currentCon.value = "uijunba";
+					addPageToStage();
+					break;
+				//炉石
+				// case "zizouqi":
+				//   // game.saveConfig("battle_number", 8, "stone");
+				//   gameModeManager.clearCurrentMode();
+				//   propsModeClic("stone");
+				//   break;
+				//其他模式 直接打开
+				default:
+					gameModeManager.clearCurrentMode();
+					propsModeClic(name);
+					break;
+			}
+			// }, 100);
+		}
+		async function initPages() {
+			//加载主界面ui
+			initLayout();
+			//加载活动页面ui
+			uixiuxian = useXiuxianPage(pixiApp, xloader, ratiow, ratioh, ratios, oppeen, propsModeClic).huodongCon;
+
+			uimaoxian = useMaoxianPage(pixiApp, xloader, ratiow, ratioh, ratios, oppeen, propsModeClic).maoxianCon;
+			//剩下的模式做了异步加载 解开注释做同步加载~ 首次不加载
+			// uidoudizhu = await useDoudizhuPage(pixiApp, xloader, ratiow, ratioh, ratios, oppeen, propsModeClic).doudizhuCon;
+			// ui排位22
+			// uipaiwei = await usePaiwei22Page(pixiApp, xloader, ratiow, ratioh, ratios, oppeen, propsModeClic).paiwei22Con;
+			// 排位军八
+			// uijunba = await usePaiwei8Page(pixiApp, xloader, ratiow, ratioh, ratios, oppeen, propsModeClic).paiwei8Con;
+			addPageToStage();
+		}
+		//加载或者重加载 还是在当前页面
+		const addPageToStage = async () => {
+			switch (currentCon.value) {
+				case "uihome":
+					if (!uihome) {
+						initLayout();
+					}
+					pixiApp.value.stage.addChild(uihome);
+					break;
+				case "uixiuxian":
+					if (!uixiuxian) {
+						uixiuxian = useXiuxianPage(pixiApp, xloader, ratiow, ratioh, ratios, oppeen, propsModeClic).huodongCon;
+					}
+					pixiApp.value.stage.addChild(uixiuxian);
+					break;
+				case "uimaoxian":
+					if (!uimaoxian) {
+						uimaoxian = useMaoxianPage(pixiApp, xloader, ratiow, ratioh, ratios, oppeen, propsModeClic).maoxianCon;
+					}
+					pixiApp.value.stage.addChild(uimaoxian);
+					break;
+				case "uizizou":
+					if (!uizizou) {
+						loading.value = true;
+						let uizizouHooks = await useZizouPage(pixiApp, xloader, ratiow, ratioh, ratios, oppeen, propsModeClic);
+						uizizou = uizizouHooks.zizouCon;
+						loading.value = false;
+					}
+					pixiApp.value.stage.addChild(uizizou);
+					break;
+				//异步加载斗地主
+				case "uidoudizhu":
+					if (!uidoudizhu) {
+						loading.value = true;
+						let doudizhuHooks = await useDoudizhuPage(pixiApp, xloader, ratiow, ratioh, ratios, oppeen, propsModeClic);
+						uidoudizhu = doudizhuHooks.doudizhuCon;
+						loading.value = false;
+					}
+					pixiApp.value.stage.addChild(uidoudizhu);
+					break;
+
+				case "uizhaomu":
+					if (!uizhaomu) {
+						loading.value = true;
+						let zhaomuHooks = await useZhaomuPage(pixiApp, xloader, ratiow, ratioh, ratios, oppeen, zhaomuWjList, showZhaomuJc);
+						uizhaomu = zhaomuHooks.zhaomuCon;
+						loading.value = false;
+					}
+					pixiApp.value.stage.addChild(uizhaomu);
+					break;
+				case "uipaiwei":
+					if (!uipaiwei) {
+						loading.value = true;
+						let paiwei22Hooks = await usePaiwei22Page(pixiApp, xloader, ratiow, ratioh, ratios, oppeen, propsModeClic);
+						uipaiwei = paiwei22Hooks.paiwei22Con;
+						loading.value = false;
+					}
+					pixiApp.value.stage.addChild(uipaiwei);
+					break;
+				case "uijunba":
+					if (!uijunba) {
+						loading.value = true;
+						let paiwei8Hooks = await usePaiwei8Page(pixiApp, xloader, ratiow, ratioh, ratios, oppeen, propsModeClic);
+						uijunba = paiwei8Hooks.paiwei8Con;
+						loading.value = false;
+					}
+					pixiApp.value.stage.addChild(uijunba);
+					break;
+				default:
+					break;
+			}
+		};
+		//主页面布局
+		const initLayout = () => {
+			uihome = new PIXI.Container();
+			uihome.width = pixiApp.value.screen.width;
+			uihome.height = pixiApp.value.screen.height;
+
+			initPBAnimation(pixiApp, ratios, spinePeople, spineBg, pbPosInfo);
+			uihome.addChild(spineBg);
+			uihome.addChild(spinePeople);
+			//主界面ui上面的为了做出抽屉效果,占据屏幕宽度和10%屏幕高度
+			const uihometop = new PIXI.Container();
+			uihometop.width = pixiApp.value.screen.width;
+			uihometop.height = pixiApp.value.screen.height * 0.2;
+
+			//主界面ui左边的,占据0.8高，0.2宽向下0.1高
+			const uihomeleft = new PIXI.Container();
+			uihomeleft.width = pixiApp.value.screen.width * 0.2;
+			uihomeleft.height = pixiApp.value.screen.height * 0.9;
+			uihomeleft.y = pixiApp.value.screen.height * 0.0705;
+
+			//主界面右边的
+			const uihomeright = new PIXI.Container();
+			uihomeright.width = pixiApp.value.screen.width * 0.1;
+			uihomeright.height = pixiApp.value.screen.height * 0.9;
+			uihomeright.x = pixiApp.value.screen.width * 0.96;
+			uihomeright.y = pixiApp.value.screen.height * 0.0705;
+			// jinxiu.x = 46 * ratiow.value;
+			// jinxiu.y = pixiApp.value.screen.height * 0.1 +  35 * ratioh.value;
+			// initBtn(jinxiu, "jinxiu");
+			// jinxiu.state.setAnimation(0, "play", true);
+			// uihomeright.addChild(jinxiu);
+
+			//主界面下边的
+			const uihomeunder = new PIXI.Container();
+			uihomeunder.width = pixiApp.value.screen.width;
+			uihomeunder.height = pixiApp.value.screen.height * 0.1;
+			// uihomeunder.y = 0.91 * pixiApp.value.screen.height;
+			//中间直接分别加入
+			const uihomecenter = new PIXI.Container();
+			uihomecenter.width = pixiApp.value.screen.width;
+			uihomecenter.height = pixiApp.value.screen.height;
+			let centerMode = modeImgName.filter(item => item.name != "doudizhu" && item.name != "taixu");
+			function initCenterUi() {
+				let modeCon = new PIXI.Container();
+				modeCon.width = pixiApp.value.screen.width;
+				modeCon.y = pixiApp.value.screen.height * 0.78;
+				centerMode.forEach((item, index) => {
+					item.sprite.anchor.set(0.5);
+					item.sprite.scale.set(Math.max(0.8 * ratios.value, 0.8));
+					item.sprite.interactive = true;
+					item.sprite.on("mouseover", () => {
+						// 检查音频资源是否存在，避免访问已分离的ArrayBuffer
+						debouncePlay();
+						item.sprite.texture = item.over;
+					});
+					item.sprite.cursor = "pointer";
+					item.sprite.on("mouseout", () => {
+						try {
+							item.sprite.texture = item.normal;
+						} catch (error) {}
+					});
+					item.sprite.on("pointerdown", () => {
+						addBtnFilter(item.sprite);
+						scaleAn(item.sprite);
+						oppeen(item.name);
+					});
+					let x = 0;
+					switch (item.name) {
+						case "paiwei":
+							x = pixiApp.value.screen.width * 0.5;
+							let daojishiNum = new PIXI.Text(daysUntilEndOfMonth(), {
+								fontSize: 20,
+								fill: "red",
+							});
+							daojishiNum.anchor.set(0.5);
+							paiweiDaojis.anchor.set(0.5);
+							daojishiNum.y = item.sprite.height / 2 - paiweiDaojis.height / 2 + 4;
+							daojishiNum.x = paiweiDaojis.width * 0.17;
+							paiweiDaojis.y = daojishiNum.y;
+							item.sprite.addChild(paiweiDaojis, daojishiNum);
+							break;
+						case "zizouqi":
+							x = pixiApp.value.screen.width * 0.5 - item.sprite.width * 0.75;
+							break;
+						case "maoxian":
+							x = pixiApp.value.screen.width * 0.5 - item.sprite.width * 2 * 0.75;
+							item.sprite.y = -3;
+							break;
+						case "jingdian":
+							x = pixiApp.value.screen.width * 0.5 + item.sprite.width * 0.75;
+							break;
+						case "xiuxian":
+							x = pixiApp.value.screen.width * 0.5 + item.sprite.width * 2 * 0.75;
+							item.sprite.y = -3;
+							break;
+
+						default:
+							break;
+					}
+					item.sprite.x = x;
+
+					modeCon.addChild(item.sprite);
+				});
+				let paiweiMode = modeImgName.find(item => item.name == "paiwei");
+				let doudizhu = modeImgName.find(item => item.name == "doudizhu");
+				doudizhu.sprite.y = pixiApp.value.screen.height * 0.78 - paiweiMode.sprite.height / 2 - doudizhu.sprite.height;
+				doudizhu.sprite.x = pixiApp.value.screen.width * 0.15;
+				doudizhu.sprite.scale.set(0.8);
+				doudizhu.sprite.cursor = "pointer";
+				doudizhu.sprite.interactive = true;
+				doudizhu.sprite.on("mouseover", () => {
+					debouncePlay();
+				});
+				doudizhu.sprite.on("pointerdown", () => {
+					addBtnFilter(doudizhu.sprite);
+					scaleAn(doudizhu.sprite);
+					oppeen("doudizhu");
+				});
+
+				// let taixu = modeImgName.find(item => item.name == "taixu");
+				// taixu.sprite.scale.set(Math.max(0.16 * ratios.value, 0.16));
+
+				// taixu.sprite.y = Math.max(ratios.value * 0.8, 0.8) * 80 + 15 + pixiApp.value.screen.height * 0.0705;
+				// taixu.sprite.x = pixiApp.value.screen.width * 0.92 - taixu.sprite.width;
+				// taixu.sprite.interactive = true;
+				// taixu.sprite.cursor = "pointer";
+				// taixu.sprite.on("mouseover", () => {
+				// 	debouncePlay();
+				// });
+				// taixu.sprite.on("pointerdown", () => {
+				// 	addBtnFilter(taixu.sprite);
+				// 	scaleAn(taixu.sprite);
+				// 	oppeen("taixu");
+				// });
+				// doudizhuSprite.sprite.scale.set(0.7);
+				// taixuSprite.sprite.scale.set(0.7);
+				// uihomecenter.addChild(modeCon, doudizhu.sprite, taixu.sprite);
+				uihomecenter.addChild(modeCon, doudizhu.sprite);
+			}
+			initCenterUi();
+
+			const leftBtnArr = [
+				{
+					name: "huiguiSprite",
+					img: "modeActivityBtn_left_btn18_normal.png",
+				},
+				{
+					name: "yjqdSprite",
+					img: "modeActivityBtn_left_btn88_normal.png",
+				},
+				{
+					name: "xinshouSprite",
+					img: "modeActivityBtn_left_btn83_normal.png",
+				},
+				{
+					name: "quanmingSprite",
+					img: "modeActivityBtn_left_btn81_normal.png",
+				},
+				{
+					name: "yjcmSprite",
+					img: "modeActivityBtn_left_btn87_normal.png",
+				},
+			];
+			const rightBtnArr = [
+				{
+					name: "huodongSprite",
+					img: "modeActivityBtn_top_btn2_normal.png",
+				},
+				{
+					name: "qifuSprite",
+					img: "modeActivityBtn_forever_btn5_normal.png",
+					word: "modeActivityBtn_forever_btn5_words.png",
+				},
+				{
+					name: "jinxiuSprite",
+					img: "modeActivityBtn_forever_btn54_normal.png",
+					word: "modeActivityBtn_forever_btn54_words.png",
+				},
+				{
+					name: "jinxiuSprite",
+					img: "modeActivityBtn_forever_btn66_normal.png",
+					word: "modeActivityBtn_forever_btn66_words.png",
+				},
+				{
+					name: "zhenbaoSprite",
+					img: "modeActivityBtn_forever_btn82_normal.png",
+				},
+			];
+
+			function initBtEvent(btn, btnGroup, imgName, newImgName, playAudio, onClick) {
+				btn.interactive = true;
+				btn.on("mouseover", () => {
+					// if (playAudio) {
+					// 		// 检查音频资源是否存在，避免访问已分离的ArrayBuffer
+					// 		debouncePlay();
+					// }
+					if (newImgName) {
+						btn.texture = btnGroup[newImgName];
+					} else {
+						btn.texture = btnGroup[imgName.replace("normal", "over")];
+					}
+				});
+				btn.on("mouseout", () => {
+					btn.texture = btnGroup[imgName];
+				});
+				btn.on("pointerdown", () => {
+					debouncePlay("Label");
+					addBtnFilter(btn);
+					if (onClick) {
+						onClick();
+					}
+				});
+			}
+			function initBtGroup(list, posType, btnGroup) {
+				if (!btnGroup) {
+					btnGroup = activeBtn;
+				}
+				let con = "";
+				switch (posType) {
+					case "left":
+						con = uihomeleft;
+						break;
+					case "right":
+						con = uihomeright;
+						break;
+					case "center":
+						con = uihomecenter;
+						break;
+					case "top":
+						con = uihometop;
+						break;
+					case "under":
+						con = uihomeunder;
+						break;
+					default:
+						break;
+				}
+				list.forEach((item, index) => {
+					//移动端放不下了 少放几个
+					if (isMobile && index > 2 && (posType == "left" || posType == "right")) {
+						// if ( index > 2 && (posType == "left" || posType == "right")) {
+						return;
+					}
+					let btn = new PIXI.Sprite(btnGroup[item.img]);
+					initBtn(btn, item.name);
+					if (item.x) {
+						btn.x = item.x;
+					} else {
+						btn.x = pixiApp.value.screen.width * 0.01;
+						if (posType == "right") {
+							btn.x = pixiApp.value.screen.width * 0.05;
+						}
+					}
+					if (item.y) {
+						btn.y = item.y;
+					} else {
+						// btn.y = 80 * ratioh.value * (index + 1);
+						btn.y = btn.height * (index + 1) + 15;
+					}
+					//
+					if (item.name == "wujiang") {
+						initBtEvent(btn, btnGroup, item.img, null, null, () => {
+							if (game.openBpDialog) game.openBpDialog(true);
+						});
+					} else if (item.name == "zhaomu") {
+						initBtEvent(btn, btnGroup, item.img, null, null, () => {
+							//招募
+							oppeen("zhaomu");
+						});
+					} else {
+						initBtEvent(btn, btnGroup, item.img);
+					}
+					con.addChild(btn);
+					if (item.word) {
+						let word = new PIXI.Sprite(btnGroup[item.word]);
+						initBtn(word);
+						word.y = btn.y;
+						word.x = btn.x;
+
+						if (posType == "right") {
+							// word.x = pixiApp.value.screen.width  - word.width - 10;
+						}
+						con.addChild(word);
+					}
+					//底部的
+					if (item.sibling) {
+						if (index == list.length - 1) {
+							btn.anchor.set(0.5);
+							return;
+						}
+						let sibling = new PIXI.Sprite(btnGroup[item.sibling]);
+						sibling.anchor.set(0.5);
+						sibling.x = btn.x + pixiApp.value.screen.width / 9 / 2;
+						sibling.y = btn.y;
+						con.addChild(sibling);
+
+						//设置锚点
+						btn.anchor.set(0.5);
+					}
+				});
+			}
+			initBtGroup(leftBtnArr, "left");
+			initBtGroup(rightBtnArr, "right");
+
+			initBtGroup(
+				[
+					{
+						name: "renwuSprite",
+						img: "newMode_task_normal.png",
+						y: pixiApp.value.screen.height * 0.8 - Math.max(60 * ratioh.value, 60),
+					},
+				],
+				"left",
+				layoutBtn
+			);
+
+			function initTopUi() {
+				// 充值： yjMode_charge_btn_normal.png
+				//头像背景：yjMode_headBg.png
+				//等级背景：yjMode_headLvBg.png
+				//信件：yjMode_mail_btn_normal.png
+				//资源修复：yjMode_resource_btn_normal.png
+				//头像等级名称：yjMode_top_bg.png
+
+				//段位：OfficialRankIcon10.png
+				//会员等级：VipIcon7.png
+
+				//将灯全满lampPro_6.png
+				//将灯：lampItem1_73.png  - 79
+
+				// 	刷新：newStyleBaseUIRefreshBtnNormal.png   newStyleBaseUIRefreshBtnOver.png
+				// 加号：moreTaskConditionAddBtn_normal.png
+				// 背景：yjcmBaseCurrencyBg.png
+
+				const headLeftCon = new PIXI.Container();
+				const headBg = new PIXI.Sprite(layoutBtn["yjMode_top_bg.png"]);
+				headLeftCon.addChild(headBg);
+				initBtn(headBg);
+				headLeftCon.x = 0;
+				headLeftCon.y = 0;
+				const touxiangCon = new PIXI.Container();
+				const leaveBg = new PIXI.Sprite(layoutBtn["yjMode_headLvBg.png"]);
+				const leaveText = new PIXI.Text("Lv.200", {
+					fontSize: 12,
+					fill: 0xffffff,
+				});
+				leaveBg.scale.set(Math.max(ratios.value * 0.7, 0.7));
+				touxiangCon.addChild(touxiangSprite);
+				touxiangCon.addChild(leaveBg);
+				touxiangCon.addChild(leaveText);
+				touxiangCon.x = 20;
+				touxiangCon.y = 10;
+				uihometop.addChild(headLeftCon, touxiangCon);
+				leaveBg.x = touxiangSprite.width - leaveBg.width;
+				leaveBg.y = touxiangSprite.height - leaveBg.height;
+				leaveText.x = touxiangSprite.width - leaveText.width;
+				leaveText.y = leaveBg.y - 1;
+
+				//加载名称
+				const nameText = new PIXI.Text(getUserName() || "倘若", {
+					fontSize: Math.max(16 * ratios.value, 16),
+					fill: 0xffffff,
+				});
+				nameText.x = touxiangSprite.width * 1.7;
+				nameText.y = 15 * ratioh.value;
+				headLeftCon.addChild(nameText);
+				//加载段位精灵
+				const rankSprite = new PIXI.Sprite(vipUi["OfficialRankIcon10.png"]);
+				rankSprite.scale.set(Math.max(ratios.value * 0.4, 0.4));
+				rankSprite.x = nameText.x + nameText.width + 20 * ratiow.value;
+				rankSprite.y = 5;
+				headLeftCon.addChild(rankSprite);
+				//加载vip精灵
+				const vipSprite = new PIXI.Sprite(vipUi["VipIcon7.png"]);
+				vipSprite.scale.set(Math.max(ratios.value * 0.5, 0.5));
+				vipSprite.x = rankSprite.x + rankSprite.width + 20 * ratiow.value;
+				vipSprite.y = 10;
+				headLeftCon.addChild(vipSprite);
+                
+				//加载资源修复精灵
+				const resourceSprite = new PIXI.Sprite(layoutBtn["yjMode_resource_btn_normal.png"]);
+				initBtEvent(resourceSprite, layoutBtn, "yjMode_resource_btn_normal.png", null, false, () => {
+					setTimeout(() => {
+						window.location.reload();
+					}, 500);
+				});
+				resourceSprite.scale.set(Math.max(ratios.value * 0.9, 0.9));
+				resourceSprite.x = headBg.width + 5;
+				resourceSprite.y = 15;
+
+				//将灯
+				let jiangdengCon = new PIXI.Container();
+				for (var start = 73; start < 79; start++) {
+					let lampSprite = new PIXI.Sprite(jiangdengUi["lampItem1_" + start + ".png"]);
+					let jiangdengBg = new PIXI.Sprite(jiangdengUi["lampPro_6.png"]);
+					jiangdengBg.scale.set(ratios.value * (isMobile ? 0.7 : 0.5));
+					lampSprite.scale.set(ratios.value * (isMobile ? 0.7 : 0.5));
+					lampSprite.x = (start - 73) * (lampSprite.width + 2);
+					jiangdengBg.x = lampSprite.x;
+					jiangdengCon.addChild(lampSprite);
+					jiangdengCon.addChild(jiangdengBg);
+				}
+				jiangdengCon.x = touxiangSprite.width + 35;
+				jiangdengCon.y = headBg.height + 10;
+				uihometop.addChild(resourceSprite, jiangdengCon);
+
+				//创建头部右侧容器
+				const headRightCon = new PIXI.Container();
+				//加载充值精灵
+				const chargeSprite = new PIXI.Sprite(layoutBtn["yjMode_charge_btn_normal.png"]);
+				chargeSprite.scale.set(Math.max(ratios.value * 0.8, 0.8));
+				chargeSprite.x = pixiApp.value.screen.width - chargeSprite.width - 10;
+				chargeSprite.y = 15;
+				//加载信件精灵
+				const mailSprite = new PIXI.Sprite(layoutBtn["yjMode_mail_btn_normal.png"]);
+				mailSprite.scale.set(Math.max(ratios.value * 0.8, 0.8));
+				mailSprite.x = chargeSprite.x - mailSprite.width - 10;
+				mailSprite.y = 15;
+				initBtEvent(chargeSprite, layoutBtn, "yjMode_charge_btn_normal.png");
+				initBtEvent(mailSprite, layoutBtn, "yjMode_mail_btn_normal.png");
+				let moneyArr = [];
+				//创建通元绑元银元容器
+				Object.keys(packageInfo).forEach(key => {
+					moneyArr.push({
+						sprite: packageInfo[key].sprite,
+						name: key,
+					});
+				});
+
+				moneyArr.forEach((moenyitem, index) => {
+					let item = moenyitem.sprite;
+					item.scale.set(Math.max(ratios.value * 0.6, 0.6));
+					let moneyCon = new PIXI.Container();
+					let mrightSprite = null;
+					if (moenyitem.name == "tongyuan") {
+						//创建刷新精灵
+						mrightSprite = new PIXI.Sprite(baseUi["newStyleBaseUIRefreshBtnNormal.png"]);
+						initBtEvent(mrightSprite, baseUi, "newStyleBaseUIRefreshBtnNormal.png", "newStyleBaseUIRefreshBtnOver.png", null, () => {
+							BackpackManager.changeItemNum(moenyitem.name, 100);
+							moneyText.text = BackpackManager.getItemNum(moenyitem.name);
+							// BackpackManager.refreshBackpack();
+						});
+					} else {
+						//创建加号精灵
+						mrightSprite = new PIXI.Sprite(baseUi["moreTaskConditionAddBtn_normal.png"]);
+						initBtEvent(mrightSprite, baseUi, "moreTaskConditionAddBtn_normal.png", null, null, () => {
+							BackpackManager.changeItemNum(moenyitem.name, 100);
+							moneyText.text = BackpackManager.getItemNum(moenyitem.name);
+							// BackpackManager.refreshBackpack();
+						});
+					}
+					let moneyBg = new PIXI.Sprite(baseUi["yjcmBaseCurrencyBg.png"]);
+					moneyBg.scale.set(Math.max(ratios.value * 0.7, 0.7));
+					mrightSprite.scale.set(Math.max(ratios.value * 0.7, 0.7));
+					mrightSprite.x = moneyBg.width - mrightSprite.width / 2;
+					mrightSprite.y = moneyBg.height / 2 - mrightSprite.height / 2;
+					moneyCon.addChild(moneyBg, mrightSprite);
+					var moneyText = new PIXI.Text(BackpackManager.getItemNum(moenyitem.name), {
+						fontSize: Math.max(15 * ratios.value, 15),
+						fill: 0xffffff,
+					});
+					packageInfo[moenyitem.name].text = moneyText;
+					moneyText.x = moneyBg.width / 2 - moneyText.width / 2;
+					moneyText.y = moneyBg.height / 2 - moneyText.height / 2;
+
+					moneyCon.x = mailSprite.x + 20 - (moneyBg.width + mrightSprite.width + item.width / 2) * (index + 1);
+					item.x = -item.width / 2;
+					item.y = moneyBg.height / 2 - item.height / 2;
+					moneyCon.y = 20;
+					moneyCon.addChild(moneyText, item);
+					headRightCon.addChild(moneyCon);
+				});
+				headRightCon.addChild(chargeSprite, mailSprite);
+				uihometop.addChild(headRightCon);
+			}
+			initTopUi();
+			function initBottomUi() {
+				//uihomeunder
+				//创建底部背景 newFunc_bg.png
+				const bottomBg = new PIXI.Sprite(bottomUi["newFunc_bg.png"]);
+				bottomBg.width = pixiApp.value.screen.width;
+				bottomBg.height = pixiApp.value.screen.height * 0.1;
+				uihomeunder.addChild(bottomBg);
+				//间隔线：newFunc_line.png
+				//消息chatUi：newChat_btn_yjcm_normal.png·
+				//官阶：newFunc_btnOfficial_normal.png
+				//武将：newFunc_btnGeneral_normal.png
+				//将灵：newFunc_btnSprite_normal.png
+				//皮肤：newFunc_btnSkin_normal.png
+				//招募：newFunc_btnRecruit_normal.png
+				//工会：newFunc_btnGuild_normal.png
+				//包裹：newFunc_btnPack_normal.png
+				//更多：newFunc_btnMore_normal.png
+				uihomeunder.y = pixiApp.value.screen.height - bottomBg.height;
+
+				let bottomArr = [
+					{
+						name: "guanjie",
+						img: "newFunc_btnOfficial_normal.png",
+						sibling: "newFunc_line.png",
+						y: bottomBg.height / 2,
+					},
+					{
+						name: "wujiang",
+						img: "newFunc_btnGeneral_normal.png",
+						sibling: "newFunc_line.png",
+						y: bottomBg.height / 2,
+					},
+					{
+						name: "jiangling",
+						img: "newFunc_btnSprite_normal.png",
+						sibling: "newFunc_line.png",
+						y: bottomBg.height / 2,
+					},
+					{
+						name: "pifu",
+						img: "newFunc_btnSkin_normal.png",
+						sibling: "newFunc_line.png",
+						y: bottomBg.height / 2,
+					},
+					{
+						name: "zhaomu",
+						img: "newFunc_btnRecruit_normal.png",
+						sibling: "newFunc_line.png",
+						y: bottomBg.height / 2,
+					},
+					{
+						name: "gonghui",
+						img: "newFunc_btnGuild_normal.png",
+						sibling: "newFunc_line.png",
+						y: bottomBg.height / 2,
+					},
+					{
+						name: "baoguo",
+						img: "newFunc_btnPack_normal.png",
+						sibling: "newFunc_line.png",
+						y: bottomBg.height / 2,
+					},
+					{
+						name: "gengduo",
+						img: "newFunc_btnMore_normal.png",
+						sibling: "newFunc_line.png",
+						y: bottomBg.height / 2,
+					},
+				];
+				bottomArr = bottomArr.map((item, index) => {
+					item.x = (index + 1) * (pixiApp.value.screen.width / 9) + 20 * ratiow.value;
+					return item;
+				});
+				//创建消息精灵
+				const chatSprite = new PIXI.Sprite(chatUi["newChat_btn_yjcm_normal.png"]);
+				chatSprite.anchor.set(0.5);
+				chatSprite.scale.set(ratios.value * 0.7);
+				chatSprite.x = 50 * ratiow.value;
+				chatSprite.y = bottomBg.height / 2;
+				initBtEvent(chatSprite, chatUi, "newChat_btn_yjcm_normal.png");
+				uihomeunder.addChild(chatSprite);
+				//创建底部按钮
+				initBtGroup(bottomArr, "under", bottomUi);
+			}
+			initBottomUi();
+			uihome.on("added", () => {
+				Object.keys(packageInfo).forEach(key => {
+					packageInfo[key].text.text = BackpackManager.getItemNum(key);
+				});
+				uihome.addChild(uihomecenter);
+				centerMode.forEach(item => {
+					moveAn(item.sprite, item.sprite.x, pixiApp.value.screen.width / 2);
+				});
+				showDrawer(uihometop, "top", pixiApp, ratiow);
+				showDrawer(uihomeunder, "under", pixiApp, ratiow);
+				showDrawer(uihomeleft, "left", pixiApp, ratiow);
+				showDrawer(uihomeright, "right", pixiApp, ratiow);
+			});
+			// hideAn = () => {
+			// 	hideDrawer(uihometop, "top");
+			// 	hideDrawer(uihomeunder, "under");
+			// 	hideDrawer(uihomeleft, "left");
+			// 	hideDrawer(uihomeright, "right");
+			// };
+			uihome.addChild(uihometop, uihomeleft, uihomeright, uihomeunder);
+			// pixiApp.value.stage.setChildIndex(uihome, 2);
+		};
+
+		function assetsLoaded() {
+			loading.value = false;
+			spinePeople = new PIXI.spine.Spine(xloader.value.resources.spinePeople.spineData);
+			spineBg = new PIXI.spine.Spine(xloader.value.resources.spineBg.spineData);
+			paiweiDaojis = new PIXI.Sprite(xloader.value.resources.paiweidaojis.texture);
+			Object.keys(modeScrpt).forEach(key => {
+				//初始化模式按钮图片
+				modeScrpt[key] = new PIXI.Sprite(xloader.value.resources[key].texture);
+				modeImgName.forEach(item => {
+					if (item.name == key) {
+						item.sprite = modeScrpt[key];
+						item.normal = xloader.value.resources[key].texture;
+						item.over = xloader.value.resources[key + "_over"].texture;
+					}
+				});
+			});
+
+			touxiangSprite = new PIXI.Sprite(xloader.value.resources.touxiang.texture);
+			touxiangSprite.width = Math.max(ratios.value * 30, 30);
+			touxiangSprite.height = Math.max(ratios.value * 30, 30);
+			touxiangSprite.scale.set(Math.max(ratios.value * 0.6, 0.6));
+			touxiangSprite.interactive = true;
+			touxiangSprite.on("pointerdown", () => {
+				if (!lib.config["extension_点绛唇_winner"]) game.winInit();
+				game.openWinDialog(true);
+			});
+
+			packageInfo.tongyuan.sprite = new PIXI.Sprite(xloader.value.resources.tongyuan.texture);
+			packageInfo.bangyuan.sprite = new PIXI.Sprite(xloader.value.resources.bangyuan.texture);
+			packageInfo.yinliang.sprite = new PIXI.Sprite(xloader.value.resources.yinliang.texture);
+
+			// jinxiu = new PIXI.spine.Spine(xloader.value.resources.jinxiu.spineData);
+			activeBtn = xloader.value.resources.activeBtn.textures;
+			vipUi = xloader.value.resources.vipUi.textures;
+			chatUi = xloader.value.resources.chatUi.textures;
+			bottomUi = xloader.value.resources.bottomUi.textures;
+			layoutBtn = xloader.value.resources.layoutBtn.textures;
+			jiangdengUi = xloader.value.resources.jiangdengUi.textures;
+			baseUi = xloader.value.resources.baseUi.textures;
+			initPages();
+		}
+		//主页面背景
+		const initAsstes = () => {
+			//公告在yjFunctionBtn里 待做...
+			xloader.value = new PIXI.Loader();
+
+			xloader.value.add("spinePeople", peSrc);
+			xloader.value.add("spineBg", bjSrc);
+			xloader.value.add("activeBtn", `${spinePath}yjModeActivityBtn.json`);
+			xloader.value.add("layoutBtn", `${spinePath}touxiang/yjMode.json`);
+			xloader.value.add("touxiang", `${imgPath}touxiang/917000.png`);
+			//通元
+			xloader.value.add("tongyuan", `${imgPath}/100001.png`);
+			//绑元
+			xloader.value.add("bangyuan", `${imgPath}/100002.png`);
+			//银两
+			xloader.value.add("yinliang", `${imgPath}/100003.png`);
+			xloader.value.add("baseUi", `${spinePath}baseUI/newStyleBaseUI.json`);
+			xloader.value.add("vipUi", `${spinePath}vip/vipFlag.json`);
+			xloader.value.add("jiangdengUi", `${spinePath}jiangdeng/generalExt.json`);
+			xloader.value.add("bottomUi", `${spinePath}bottom/yjFunctionBtn.json`);
+			xloader.value.add("chatUi", `${spinePath}chat/chat.json`);
+
+			xloader.value.add("xiuxianbg", `${imgPath}mode/nsLeisureChooseWinBg.jpg`);
+			xloader.value.add("maoxianbg", `${imgPath}mode/maoxian/adventureWindowBg.png`);
+			xloader.value.add("maoxianDdz", `${imgPath}mode/maoxian/mode_36.png`);
+			xloader.value.add("unlockCon", `${imgPath}mode/maoxian/adventureWindow.json`);
+			xloader.value.add("maoxianDdzxx", `${imgPath}mode/maoxian/mode_82.png`);
+			xloader.value.add("maoxianDdzbl", `${imgPath}mode/maoxian/mode_84.png`);
+			xloader.value.add("maoxianDdzzd", `${imgPath}mode/maoxian/mode_1000.png`);
+			xloader.value.add("maoxianDdztx", `${imgPath}mode/maoxian/mode_31.png`);
+			// xloader.value.add("maoxianDdztext", `${imgPath}mode/maoxian/mode_mt36.png`);
+			xloader.value.add("maoxianDdztextbottom", `${imgPath}mode/maoxian/mode_t36.png`);
+
+			//
+			xloader.value.add("shenfenxx", `${imgPath}mode/1.png`);
+			xloader.value.add("guozhanxx", `${imgPath}mode/2.png`);
+			xloader.value.add("huolexx", `${imgPath}mode/3.png`);
+			xloader.value.add("paiweidaojis", `${imgPath}mode/mode_paiwei_tip_bg_temp.png`);
+
+			// mode_paiwei_tip_bg_temp
+			//模式图片
+			modeImgName.forEach((item, index) => {
+				xloader.value.add(item.name, `${imgPath}mode/${dtBtnTheme}/${item.img}.png`);
+				if (item.name != "doudizhu" || item.name != "taixu") {
+					xloader.value.add(item.name + "_over", `${imgPath}mode/${dtBtnTheme}/${item.img.replace("normal", "over")}.png`);
+				}
+			});
+			// xloader.value.add("jinxiu", `${spinePath}dating_jinxiu2.skel`);
+			// @TODO ->
+			xloader.value.load(assetsLoaded);
+		};
+		const initBtnAudio = async () => {
+			let nameList = ["2", "4", "8", "9", "10", "11"];
+			//随机取一个
+			let soundName = nameList[Math.floor(Math.random() * nameList.length)];
+			const btnmList = [
+				{
+					name: "Label",
+					path: `${audioPath}effect/XianxianEnter.mp3`,
+				},
+				{
+					name: "Menu",
+					path: `${audioPath}effect/Menu.mp3`,
+				},
+				{
+					name: "PopUp",
+					path: `${audioPath}effect/MoveOverModeTypeView.mp3`,
+				},
+				{
+					name: "Enter",
+					path: `${audioPath}effect/Enter.mp3`,
+				},
+				//军八音乐
+				{
+					name: "outgame3",
+					path: `${audioPath}outbgm/outbgm_3.mp3`,
+				},
+				//排位22音乐
+				{
+					name: "outgame7",
+					path: `${audioPath}outbgm/outbgm_7.mp3`,
+				},
+				{
+					name: "outgame",
+					path: `${audioPath}outbgm/outbgm_${soundName}.mp3`,
+				},
+				// {
+				// 	name: "outgame2",
+				// 	path: `${audioPath}outbgm/outbgm_2.mp3`,
+				// },
+				// {
+				// 	name: "outgame4",
+				// 	path: `${audioPath}outbgm/outbgm_4.mp3`,
+				// },
+				// {
+				// 	name: "outgame8",
+				// 	path: `${audioPath}outbgm/outbgm_8.mp3`,
+				// },
+				// {
+				// 	name: "outgame9",
+				// 	path: `${audioPath}outbgm/outbgm_9.mp3`,
+				// },
+				// {
+				// 	name: "outgame10",
+				// 	path: `${audioPath}outbgm/outbgm_10.mp3`,
+				// },
+				// {
+				// 	name: "outgame11",
+				// 	path: `${audioPath}outbgm/outbgm_11.mp3`,
+				// },
+			];
+			let promiseArr = [];
+			btnmList.forEach(asset => {
+				promiseArr.push(PIXI.sound.add(asset.name, asset.path));
+			});
+			promiseArr.push(PIXI.sound.add("zhaomu", `${audioPath}zhaomu/general_recruit_sound.mp3`));
+			promiseArr.push(PIXI.sound.add("zhaomuEnd", `${audioPath}zhaomu/obtain_prop_sound.mp3`));
+			promiseArr.push(PIXI.sound.add("finishRed", `${audioPath}zhaomu/finish_red.mp3`));
+			//
+			await Promise.all(promiseArr);
+			await playDtSound();
+		};
+		onMounted(async () => {
+		    //加载时间
+		    await new Promise(resolve => setTimeout(resolve, 1500));
+			//加载音乐音效
+			await initBtnAudio();
+			// pixi主程序
+			initPixiApp();
+			//加载主页面
+			initAsstes();
+			//初始化武将数据
+			initPreCharter();
+			console.log("lib", lib._cust_character);
+		});
+
+		return {
+			showGailv,
+			searchWj,
+			hasDrawnHero,
+			showwjsearchName,
+			loading,
+			lib,
+			get,
+			showZhaomuJc,
+			random,
+			imgPath,
+			zhaomuWjList,
+			getWjBorderColor,
+			dataList,
+		};
+	},
+};

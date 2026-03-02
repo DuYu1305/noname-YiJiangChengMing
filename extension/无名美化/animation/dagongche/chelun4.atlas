@@ -1,0 +1,34 @@
+
+chelun4.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chelun4-1
+  rotate: false
+  xy: 178, 73
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+chelun4-2
+  rotate: false
+  xy: 90, 25
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+chelun4-3
+  rotate: true
+  xy: 2, 2
+  size: 20, 38
+  orig: 20, 38
+  offset: 0, 0
+  index: -1
+chelun4-4
+  rotate: false
+  xy: 2, 24
+  size: 86, 87
+  orig: 86, 87
+  offset: 0, 0
+  index: -1

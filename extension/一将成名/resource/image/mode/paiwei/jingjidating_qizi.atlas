@@ -1,0 +1,20 @@
+
+jingjidating_qizi.png
+size: 688,546
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dianfeng_1
+  rotate: true
+  xy: 2, 2
+  size: 542, 657
+  orig: 542, 657
+  offset: 0, 0
+  index: -1
+dianfeng_sd
+  rotate: false
+  xy: 661, 154
+  size: 25, 390
+  orig: 25, 390
+  offset: 0, 0
+  index: -1

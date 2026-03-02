@@ -1,0 +1,2269 @@
+{
+    "frames": {
+        "gameSwapSeatNormal.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 136,
+                "x": 565,
+                "y": 493
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 136
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "gameSwapSeatOver.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 136,
+                "x": 259,
+                "y": 641
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 136
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms1.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 849,
+                "y": 620
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms10.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 888,
+                "y": 627
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms11.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 927,
+                "y": 627
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms12.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 966,
+                "y": 627
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms13.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 600,
+                "y": 666
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms14.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 639,
+                "y": 666
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms15.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 678,
+                "y": 666
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms16.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 717,
+                "y": 666
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms17.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 756,
+                "y": 666
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms18.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 795,
+                "y": 666
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms19.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 834,
+                "y": 666
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms2.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 765,
+                "y": 621
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms20.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 873,
+                "y": 666
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms21.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 890,
+                "y": 588
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms22.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 931,
+                "y": 549
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms3.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 970,
+                "y": 549
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms4.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 912,
+                "y": 666
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms5.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 968,
+                "y": 588
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms6.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 951,
+                "y": 666
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms7.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 644,
+                "y": 626
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms8.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 683,
+                "y": 626
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArms9.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 726,
+                "y": 621
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArmsBg.png": {
+            "frame": {
+                "h": 53,
+                "idx": 0,
+                "w": 42,
+                "x": 980,
+                "y": 329
+            },
+            "sourceSize": {
+                "h": 53,
+                "w": 42
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessArmsBg2.png": {
+            "frame": {
+                "h": 77,
+                "idx": 0,
+                "w": 42,
+                "x": 980,
+                "y": 251
+            },
+            "sourceSize": {
+                "h": 77,
+                "w": 42
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessGrade1.png": {
+            "frame": {
+                "h": 12,
+                "idx": 0,
+                "w": 37,
+                "x": 434,
+                "y": 493
+            },
+            "sourceSize": {
+                "h": 12,
+                "w": 37
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessGrade2.png": {
+            "frame": {
+                "h": 12,
+                "idx": 0,
+                "w": 37,
+                "x": 154,
+                "y": 668
+            },
+            "sourceSize": {
+                "h": 12,
+                "w": 37
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessGrade3.png": {
+            "frame": {
+                "h": 12,
+                "idx": 0,
+                "w": 37,
+                "x": 501,
+                "y": 627
+            },
+            "sourceSize": {
+                "h": 12,
+                "w": 37
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessGrade4.png": {
+            "frame": {
+                "h": 12,
+                "idx": 0,
+                "w": 37,
+                "x": 434,
+                "y": 506
+            },
+            "sourceSize": {
+                "h": 12,
+                "w": 37
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessGrade5.png": {
+            "frame": {
+                "h": 12,
+                "idx": 0,
+                "w": 37,
+                "x": 192,
+                "y": 668
+            },
+            "sourceSize": {
+                "h": 12,
+                "w": 37
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIChessGradeBg.png": {
+            "frame": {
+                "h": 18,
+                "idx": 0,
+                "w": 126,
+                "x": 0,
+                "y": 686
+            },
+            "sourceSize": {
+                "h": 18,
+                "w": 126
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry1.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 154,
+                "y": 417
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry10.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 224,
+                "y": 417
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry101.png": {
+            "frame": {
+                "h": 133,
+                "idx": 0,
+                "w": 25,
+                "x": 954,
+                "y": 251
+            },
+            "sourceSize": {
+                "h": 133,
+                "w": 25
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry11.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 259,
+                "y": 390
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry12.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 294,
+                "y": 390
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry13.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 329,
+                "y": 390
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry14.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 364,
+                "y": 390
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry15.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 873,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry16.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 908,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry17.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 189,
+                "y": 417
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry18.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 943,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry19.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 978,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry2.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 399,
+                "y": 269
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry20.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 434,
+                "y": 242
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry21.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 469,
+                "y": 242
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry3.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 504,
+                "y": 242
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry4.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 539,
+                "y": 242
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry5.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 574,
+                "y": 242
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry6.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 609,
+                "y": 242
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry7.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 644,
+                "y": 242
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry8.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 679,
+                "y": 198
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry9.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 34,
+                "x": 714,
+                "y": 198
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 34
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_bianJin.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 953,
+                "y": 385
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_biao.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 953,
+                "y": 426
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_dong.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 953,
+                "y": 467
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_han.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 938,
+                "y": 508
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_huang.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 603,
+                "y": 593
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_jiangDongShiZu.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 644,
+                "y": 585
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_jin.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 685,
+                "y": 585
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_liuZhang.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 702,
+                "y": 490
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_maTeng.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 720,
+                "y": 539
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_man.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 743,
+                "y": 498
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_qun.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 679,
+                "y": 449
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_shen.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 726,
+                "y": 580
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_shu.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 761,
+                "y": 539
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_wei.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 767,
+                "y": 580
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_wu.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 802,
+                "y": 517
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_xiu.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 979,
+                "y": 508
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_ye.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 808,
+                "y": 558
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_yin.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 808,
+                "y": 599
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_yingChuan.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 849,
+                "y": 538
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_yong.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 849,
+                "y": 579
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountryBg_yuan.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 40,
+                "x": 890,
+                "y": 547
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 40
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_bianJing.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 498,
+                "y": 654
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_biao.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 669,
+                "y": 534
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_dong.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 871,
+                "y": 334
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_han.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 501,
+                "y": 576
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_huang.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 552,
+                "y": 593
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_jiangDongShiZu.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 549,
+                "y": 644
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_jin.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 800,
+                "y": 364
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_liuZhang.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 618,
+                "y": 534
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_maTeng.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 851,
+                "y": 385
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_man.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 800,
+                "y": 415
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_qun.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 851,
+                "y": 436
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_shen.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 749,
+                "y": 447
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_shu.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 800,
+                "y": 466
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_wei.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 851,
+                "y": 487
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_wu.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 902,
+                "y": 385
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_xiu.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 902,
+                "y": 436
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_ye.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 749,
+                "y": 396
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_yeXin.png": {
+            "frame": {
+                "h": 58,
+                "idx": 0,
+                "w": 52,
+                "x": 565,
+                "y": 534
+            },
+            "sourceSize": {
+                "h": 58,
+                "w": 52
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_yin.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 450,
+                "y": 603
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_yingChuan.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 447,
+                "y": 654
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_yong.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 396,
+                "y": 654
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUICountry_yuan.png": {
+            "frame": {
+                "h": 50,
+                "idx": 0,
+                "w": 50,
+                "x": 399,
+                "y": 603
+            },
+            "sourceSize": {
+                "h": 50,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIGeneralNameBg.png": {
+            "frame": {
+                "h": 197,
+                "idx": 0,
+                "w": 38,
+                "x": 749,
+                "y": 198
+            },
+            "sourceSize": {
+                "h": 197,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUILongCountry1.png": {
+            "frame": {
+                "h": 416,
+                "idx": 0,
+                "w": 50,
+                "x": 204,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 416,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUILongCountry2.png": {
+            "frame": {
+                "h": 416,
+                "idx": 0,
+                "w": 50,
+                "x": 153,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 416,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUILongCountry3.png": {
+            "frame": {
+                "h": 416,
+                "idx": 0,
+                "w": 50,
+                "x": 102,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 416,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUILongCountry4.png": {
+            "frame": {
+                "h": 416,
+                "idx": 0,
+                "w": 50,
+                "x": 51,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 416,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUILongCountry5.png": {
+            "frame": {
+                "h": 416,
+                "idx": 0,
+                "w": 50,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 416,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUISkinDynamicng.png": {
+            "frame": {
+                "h": 52,
+                "idx": 0,
+                "w": 26,
+                "x": 994,
+                "y": 383
+            },
+            "sourceSize": {
+                "h": 52,
+                "w": 26
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIStar_1.png": {
+            "frame": {
+                "h": 98,
+                "idx": 0,
+                "w": 110,
+                "x": 651,
+                "y": 99
+            },
+            "sourceSize": {
+                "h": 98,
+                "w": 110
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIStar_2.png": {
+            "frame": {
+                "h": 98,
+                "idx": 0,
+                "w": 110,
+                "x": 762,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 98,
+                "w": 110
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIStar_3.png": {
+            "frame": {
+                "h": 98,
+                "idx": 0,
+                "w": 110,
+                "x": 762,
+                "y": 99
+            },
+            "sourceSize": {
+                "h": 98,
+                "w": 110
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUIStar_4.png": {
+            "frame": {
+                "h": 98,
+                "idx": 0,
+                "w": 110,
+                "x": 651,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 98,
+                "w": 110
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_blood_bg.png": {
+            "frame": {
+                "h": 59,
+                "idx": 0,
+                "w": 35,
+                "x": 902,
+                "y": 487
+            },
+            "sourceSize": {
+                "h": 59,
+                "w": 35
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_border1.png": {
+            "frame": {
+                "h": 120,
+                "idx": 0,
+                "w": 120,
+                "x": 255,
+                "y": 269
+            },
+            "sourceSize": {
+                "h": 120,
+                "w": 120
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_border2.png": {
+            "frame": {
+                "h": 120,
+                "idx": 0,
+                "w": 120,
+                "x": 409,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 120,
+                "w": 120
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_border3.png": {
+            "frame": {
+                "h": 120,
+                "idx": 0,
+                "w": 120,
+                "x": 409,
+                "y": 121
+            },
+            "sourceSize": {
+                "h": 120,
+                "w": 120
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_border4.png": {
+            "frame": {
+                "h": 120,
+                "idx": 0,
+                "w": 120,
+                "x": 530,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 120,
+                "w": 120
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_border5.png": {
+            "frame": {
+                "h": 120,
+                "idx": 0,
+                "w": 120,
+                "x": 530,
+                "y": 121
+            },
+            "sourceSize": {
+                "h": 120,
+                "w": 120
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_chessArmsTipsBg.png": {
+            "frame": {
+                "h": 38,
+                "idx": 0,
+                "w": 38,
+                "x": 929,
+                "y": 588
+            },
+            "sourceSize": {
+                "h": 38,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_countryWar_empBlood.png": {
+            "frame": {
+                "h": 20,
+                "idx": 0,
+                "w": 20,
+                "x": 720,
+                "y": 449
+            },
+            "sourceSize": {
+                "h": 20,
+                "w": 20
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_countryWar_greenBlood.png": {
+            "frame": {
+                "h": 20,
+                "idx": 0,
+                "w": 20,
+                "x": 922,
+                "y": 334
+            },
+            "sourceSize": {
+                "h": 20,
+                "w": 20
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_countryWar_halfBlood.png": {
+            "frame": {
+                "h": 20,
+                "idx": 0,
+                "w": 20,
+                "x": 651,
+                "y": 198
+            },
+            "sourceSize": {
+                "h": 20,
+                "w": 20
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_countryWar_redBlood.png": {
+            "frame": {
+                "h": 20,
+                "idx": 0,
+                "w": 20,
+                "x": 409,
+                "y": 242
+            },
+            "sourceSize": {
+                "h": 20,
+                "w": 20
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_countryWar_yellowBlood.png": {
+            "frame": {
+                "h": 20,
+                "idx": 0,
+                "w": 20,
+                "x": 376,
+                "y": 269
+            },
+            "sourceSize": {
+                "h": 20,
+                "w": 20
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_empBlood.png": {
+            "frame": {
+                "h": 20,
+                "idx": 0,
+                "w": 18,
+                "x": 994,
+                "y": 436
+            },
+            "sourceSize": {
+                "h": 20,
+                "w": 18
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_grade2.png": {
+            "frame": {
+                "h": 268,
+                "idx": 0,
+                "w": 76,
+                "x": 332,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 268,
+                "w": 76
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_grade3.png": {
+            "frame": {
+                "h": 268,
+                "idx": 0,
+                "w": 76,
+                "x": 77,
+                "y": 417
+            },
+            "sourceSize": {
+                "h": 268,
+                "w": 76
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_grade4.png": {
+            "frame": {
+                "h": 268,
+                "idx": 0,
+                "w": 76,
+                "x": 255,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 268,
+                "w": 76
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_grade5.png": {
+            "frame": {
+                "h": 268,
+                "idx": 0,
+                "w": 76,
+                "x": 0,
+                "y": 417
+            },
+            "sourceSize": {
+                "h": 268,
+                "w": 76
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_greenBlood.png": {
+            "frame": {
+                "h": 20,
+                "idx": 0,
+                "w": 18,
+                "x": 482,
+                "y": 576
+            },
+            "sourceSize": {
+                "h": 20,
+                "w": 18
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_qun2.png": {
+            "frame": {
+                "h": 82,
+                "idx": 0,
+                "w": 82,
+                "x": 482,
+                "y": 493
+            },
+            "sourceSize": {
+                "h": 82,
+                "w": 82
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_redBlood.png": {
+            "frame": {
+                "h": 20,
+                "idx": 0,
+                "w": 18,
+                "x": 851,
+                "y": 364
+            },
+            "sourceSize": {
+                "h": 20,
+                "w": 18
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_shen2.png": {
+            "frame": {
+                "h": 82,
+                "idx": 0,
+                "w": 82,
+                "x": 399,
+                "y": 520
+            },
+            "sourceSize": {
+                "h": 82,
+                "w": 82
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_shu2.png": {
+            "frame": {
+                "h": 82,
+                "idx": 0,
+                "w": 82,
+                "x": 871,
+                "y": 251
+            },
+            "sourceSize": {
+                "h": 82,
+                "w": 82
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_wei2.png": {
+            "frame": {
+                "h": 82,
+                "idx": 0,
+                "w": 82,
+                "x": 788,
+                "y": 281
+            },
+            "sourceSize": {
+                "h": 82,
+                "w": 82
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_wu2.png": {
+            "frame": {
+                "h": 82,
+                "idx": 0,
+                "w": 82,
+                "x": 788,
+                "y": 198
+            },
+            "sourceSize": {
+                "h": 82,
+                "w": 82
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "generalBaseUI_yellowBlood.png": {
+            "frame": {
+                "h": 20,
+                "idx": 0,
+                "w": 18,
+                "x": 376,
+                "y": 290
+            },
+            "sourceSize": {
+                "h": 20,
+                "w": 18
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "generalYJCMBaseUI.png",
+        "prefix": "generalYJCMBaseUI/"
+    }
+}

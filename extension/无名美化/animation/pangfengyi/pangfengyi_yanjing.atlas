@@ -1,0 +1,307 @@
+
+pangfengyi_yanjing.png
+size: 1273,1273
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Glow_01
+  rotate: false
+  xy: 2, 804
+  size: 471, 467
+  orig: 512, 512
+  offset: 21, 22
+  index: -1
+fangpian
+  rotate: true
+  xy: 1122, 2
+  size: 29, 34
+  orig: 29, 34
+  offset: 0, 0
+  index: -1
+glow04
+  rotate: false
+  xy: 2, 350
+  size: 456, 452
+  orig: 512, 512
+  offset: 32, 40
+  index: -1
+glow05
+  rotate: false
+  xy: 475, 819
+  size: 456, 452
+  orig: 512, 512
+  offset: 32, 40
+  index: -1
+guangxian2
+  rotate: false
+  xy: 2, 184
+  size: 394, 164
+  orig: 394, 164
+  offset: 0, 0
+  index: -1
+guangxian3
+  rotate: true
+  xy: 933, 877
+  size: 394, 164
+  orig: 394, 164
+  offset: 0, 0
+  index: -1
+guangxian5
+  rotate: false
+  xy: 460, 546
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+guangxian6
+  rotate: false
+  xy: 718, 561
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+heitao
+  rotate: true
+  xy: 1094, 322
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+hong_di
+  rotate: false
+  xy: 2, 35
+  size: 224, 147
+  orig: 224, 147
+  offset: 0, 0
+  index: -1
+hong_di2
+  rotate: false
+  xy: 1096, 701
+  size: 153, 118
+  orig: 153, 118
+  offset: 0, 0
+  index: -1
+hong_di3
+  rotate: false
+  xy: 686, 202
+  size: 163, 116
+  orig: 163, 116
+  offset: 0, 0
+  index: -1
+hongtao
+  rotate: false
+  xy: 1158, 2
+  size: 30, 29
+  orig: 30, 29
+  offset: 0, 0
+  index: -1
+lan_di
+  rotate: true
+  xy: 1099, 1047
+  size: 224, 147
+  orig: 224, 147
+  offset: 0, 0
+  index: -1
+lan_di2
+  rotate: true
+  xy: 851, 180
+  size: 153, 118
+  orig: 153, 118
+  offset: 0, 0
+  index: -1
+lan_di3
+  rotate: false
+  xy: 850, 62
+  size: 163, 116
+  orig: 163, 116
+  offset: 0, 0
+  index: -1
+lan_di_00
+  rotate: true
+  xy: 1204, 35
+  size: 71, 33
+  orig: 224, 147
+  offset: 0, 9
+  index: -1
+lan_di_01
+  rotate: false
+  xy: 1122, 33
+  size: 80, 73
+  orig: 224, 147
+  offset: 0, 8
+  index: -1
+lan_di_02
+  rotate: false
+  xy: 971, 188
+  size: 91, 75
+  orig: 224, 147
+  offset: 0, 8
+  index: -1
+lan_di_03
+  rotate: false
+  xy: 979, 265
+  size: 113, 79
+  orig: 224, 147
+  offset: 0, 4
+  index: -1
+lan_di_04
+  rotate: false
+  xy: 454, 6
+  size: 119, 97
+  orig: 224, 147
+  offset: 0, 4
+  index: -1
+lan_di_05
+  rotate: false
+  xy: 1121, 276
+  size: 122, 102
+  orig: 224, 147
+  offset: 0, 4
+  index: -1
+lan_di_06
+  rotate: true
+  xy: 1015, 24
+  size: 162, 105
+  orig: 224, 147
+  offset: 0, 4
+  index: -1
+lan_di_07
+  rotate: true
+  xy: 1122, 108
+  size: 166, 112
+  orig: 224, 147
+  offset: 0, 4
+  index: -1
+lan_di_08
+  rotate: false
+  xy: 680, 86
+  size: 168, 114
+  orig: 224, 147
+  offset: 0, 4
+  index: -1
+lan_di_09
+  rotate: true
+  xy: 976, 700
+  size: 175, 118
+  orig: 224, 147
+  offset: 0, 4
+  index: -1
+lan_di_10
+  rotate: true
+  xy: 1121, 380
+  size: 181, 125
+  orig: 224, 147
+  offset: 0, 4
+  index: -1
+lan_di_11
+  rotate: false
+  xy: 976, 563
+  size: 200, 135
+  orig: 224, 147
+  offset: 0, 4
+  index: -1
+lan_di_12
+  rotate: true
+  xy: 979, 346
+  size: 215, 140
+  orig: 224, 147
+  offset: 0, 0
+  index: -1
+lan_di_13
+  rotate: false
+  xy: 460, 254
+  size: 224, 141
+  orig: 224, 147
+  offset: 0, 0
+  index: -1
+lan_di_14
+  rotate: true
+  xy: 686, 320
+  size: 224, 142
+  orig: 224, 147
+  offset: 0, 0
+  index: -1
+lan_di_15
+  rotate: false
+  xy: 228, 35
+  size: 224, 147
+  orig: 224, 147
+  offset: 0, 0
+  index: -1
+lan_di_16
+  rotate: true
+  xy: 1099, 821
+  size: 224, 147
+  orig: 224, 147
+  offset: 0, 0
+  index: -1
+lan_di_17
+  rotate: false
+  xy: 460, 397
+  size: 224, 147
+  orig: 224, 147
+  offset: 0, 0
+  index: -1
+lan_di_18
+  rotate: false
+  xy: 454, 105
+  size: 224, 147
+  orig: 224, 147
+  offset: 0, 0
+  index: -1
+lan_di_19
+  rotate: true
+  xy: 830, 335
+  size: 224, 147
+  orig: 224, 147
+  offset: 0, 0
+  index: -1
+lizi1
+  rotate: true
+  xy: 1248, 1245
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+lizi2
+  rotate: false
+  xy: 575, 23
+  size: 90, 80
+  orig: 90, 80
+  offset: 0, 0
+  index: -1
+meihua
+  rotate: false
+  xy: 933, 851
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+yanjing_hong
+  rotate: false
+  xy: 398, 294
+  size: 55, 54
+  orig: 55, 54
+  offset: 0, 0
+  index: -1
+yanjing_hong2
+  rotate: true
+  xy: 1178, 579
+  size: 120, 65
+  orig: 120, 65
+  offset: 0, 0
+  index: -1
+yanjing_lan
+  rotate: true
+  xy: 398, 237
+  size: 55, 54
+  orig: 55, 54
+  offset: 0, 0
+  index: -1
+yanjing_lan2
+  rotate: false
+  xy: 667, 19
+  size: 120, 65
+  orig: 120, 65
+  offset: 0, 0
+  index: -1

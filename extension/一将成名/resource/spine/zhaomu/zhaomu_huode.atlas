@@ -1,0 +1,20 @@
+
+zhaomu_huode.png
+size: 893,893
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zhaomu_jiesuan1
+  rotate: false
+  xy: 2, 780
+  size: 889, 111
+  orig: 889, 116
+  offset: 0, 5
+  index: -1
+zhaomu_jiesuan2
+  rotate: false
+  xy: 2, 724
+  size: 236, 54
+  orig: 236, 54
+  offset: 0, 0
+  index: -1

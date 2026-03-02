@@ -1,0 +1,422 @@
+.wmmh-dagongche {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.dagongche-dialog div,
+.dagongche-choose-dialog div {
+	position: static;
+	display: block;
+}
+.dagongche-back {
+	position: absolute;
+	width: 134px;
+	z-index: 15;
+	right: 0;
+	top: 0;
+}
+.dagongche-container {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+	z-index: 14;
+	background: rgba(0, 0, 0, 0.5);
+}
+.dagongche-dialog {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: "shousha";
+}
+.dagongche-left {
+	width: 750px;
+	height: 450px;
+	background-image: url("../image/dagongche/frame1.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	box-sizing: border-box;
+}
+.dagongche-right {
+	width: 170px;
+	height: 300px;
+	background-image: url("../image/dagongche/plan_frame.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	box-sizing: border-box;
+	padding: 0 15px;
+}
+.dagongche-right-title {
+	font-size: 24px;
+	height: 54px;
+	line-height: 54px;
+	text-align: center;
+}
+.dagongche-right .dagongche-right-item {
+	cursor: pointer;
+	padding: 15px 24px;
+	font-size: 16px;
+	text-align: center;
+	background-image: url("../image/dagongche/publicui_tab1_bg.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-top: 14px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.dagongche-right-planimg {
+	width: 20px;
+}
+.dagongche-right-plan-editor {
+	width: 20px;
+	height: 20px;
+}
+.dagongche-right-plan-editor img {
+	width: 100%;
+	height: 100%;
+}
+.dagongche-right .dagongche-right-item-active::before {
+	background-image: url("../image/dagongche/privilege_item_cur.png");
+	content: "";
+	display: inline-block !important;
+	position: absolute;
+	top: 9px;
+	left: 10px;
+	width: 25px;
+	height: 25px;
+	background-size: 100% 100%;
+}
+.dagongche-right .dagongche-right-item-active {
+	background-image: url("../image/dagongche/planBtn2.png");
+}
+.dagongche-dialog .wmdgc-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 0;
+}
+.dagongche-dialog .wmdgc-header img {
+	width: 150px;
+}
+.dagongche-dialog .wmdgc-body {
+	padding: 30px 50px;
+	box-sizing: border-box;
+}
+/* 部位 */
+.dagongche-dialog .wmdgc-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/* 部位类型容器 */
+.dagongche-dialog .wmdgc-title-left {
+	display: flex;
+	align-items: center;
+	padding-left: 15px;
+}
+/* 部位类型容器选择项 */
+.wmdgc-title-item {
+	padding: 6px 22px;
+	cursor: pointer;
+	color: #efede5;
+	font-size: 19px;
+	letter-spacing: 4.5px;
+	text-shadow: 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24, 0 0 2.5px #352d24,
+		0 0 2.5px #352d24;
+}
+/* 部位类型容器选择项选中 */
+.wmdgc-title-item-active {
+	filter: saturate(1.1);
+	background-image: url("../image/dagongche/btnBg.png");
+	background-size: contain;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+/* 部位换装按钮容器 */
+.dagongche-dialog .wmdgc-main {
+	display: flex;
+	background: rgba(0, 0, 0, 0.2);
+	height: 280px;
+	margin-top: -1px;
+	border-radius: 15px;
+}
+/* 部位换装按钮容器左侧   */
+.wmdgc-main-left {
+	height: 100%;
+	overflow-y: scroll;
+	box-sizing: border-box;
+	padding: 10px 30px;
+	width: 170px;
+	position: relative !important;
+}
+.wmdgc-line {
+	display: inline-block !important;
+	width: 4px;
+	height: 300px;
+}
+/* 部位换装按钮选择项 */
+.wmdgc-main-item {
+	padding: 9px 20px;
+	font-size: 17px;
+	background-image: url("../image/dagongche/dagongche_selPart_normal.png");
+	filter: saturate(1.4);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-size: 100% 100%;
+	margin-bottom: 15px;
+	cursor: pointer;
+	text-align: center;
+}
+/* 部位换装按钮选择项选中样式 */
+.wmdgc-main-item-active {
+	background-image: url("../image/dagongche/dagongche_selPart_selected.png");
+}
+/* 车 */
+.wmdgc-main-right {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+.dagongcheAnCon {
+	display: inline-block !important;
+	width: 100px;
+	height: 100px;
+}
+.dagongche-dialog span {
+	display: inline-block;
+}
+.dagongche-static {
+	position: static !important;
+	display: block !important;
+}
+.tdagongche-span {
+	color: #fff;
+	background-image: url("../image/dagongche/dagongche_btn_setting_bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 70px;
+	height: 28px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 15px;
+	align-items: center;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.tdagongche-title {
+	color: rgb(0 234 149);
+	line-height: 30px;
+	font-family: "shousha";
+}
+.setdagongche-icon {
+	width: 21px;
+	height: 21px;
+}
+.tdagongche-btn-group {
+	display: flex !important;
+}
+
+.wmdgc-title .wmdgc-title-right {
+	display: flex;
+}
+.wmdgc-title-right .wmdgc-title-right-item {
+	position: relative;
+	background-image: url("../image/dagongche/dagongche_combox.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-size: 100% 100%;
+	text-align: center;
+	margin-left: 15px;
+	width: 70px;
+	padding: 4px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	transform: translateY(-5px);
+	cursor: pointer;
+}
+.wmdgc-title-right-item .wmdgc-color-list {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 70px;
+	background-color: rgba(0, 0, 0, 0.3);
+	transform: translateY(32px);
+	max-height: 130px;
+	overflow: auto;
+}
+.wmdgc-color-list .wmdgc-color-item {
+	padding: 3px 0;
+	cursor: pointer;
+	font-size: 18px;
+}
+.wmdgc-dianshu,
+.wmdgc-color {
+	cursor: pointer;
+	font-size: 18px;
+}
+.wmdgc-color-item-active {
+	background-image: url("../image/dagongche/dagongche_combox_sel.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+}
+.wmdgc-color-item img {
+	width: 24px;
+}
+.wmdgc-title-right .wmdgc-color {
+	width: 24px;
+	transform: translateY(2px);
+}
+.wmdgc-color-arrow {
+	background-image: url("../image/dagongche/publicui_arrow_1.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 17px;
+	height: 17px;
+	transition: all 0.1s;
+}
+.wmdgc-color-arrow-active {
+	transform: rotate(180deg);
+}
+.wmdgc-zhanwei {
+	width: 15px;
+	height: 15px;
+}
+
+.dagongche-choose-dialog {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: "shousha";
+	background-image: url("../image/dagongche/dialog.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	max-width: 1400px;
+	/* min-width: 1100px; */
+	height: 400px;
+	box-sizing: border-box;
+	z-index: 5;
+}
+.dagongche-choose-dialog .dagongche-choose-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	padding-bottom: 6px;
+}
+.dagongche-choose-title-img {
+	width: 80px;
+}
+.dagongche-choose-title-arrowimg {
+	width: 25px;
+}
+.dagongche-choose-dialog .dagongche-choose-main {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.dagongche-choose-main > div {
+	/* flex: 1; */
+	width: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.dagongche-choose-main {
+	padding-bottom: 30px;
+}
+.dagongche-choose-left {
+	margin-right: 50px;
+}
+.dagongche-choose-right {
+	margin-left: 50px;
+}
+.dagongche-left-body,
+.dagongche-right-body {
+	width: 250px;
+	height: 225px;
+	background-image: url("../image/dagongche/dagongche_1291.png");
+	background-repeat: no-repeat;
+	background-size: 150%;
+	background-position-y: -109px;
+	background-position-x: -63px;
+	cursor: pointer;
+}
+.dagongche-right-body {
+	background-image: url("../image/dagongche/dagongche_1292.png");
+}
+
+.card[data-card-name="dagongche_attack"] > .image {
+	background-image: url("../image/dagongche/dagongche_attack.png") !important;
+}
+.card[data-card-name="dagongche_defend"] > .image {
+	background-image: url("../image/dagongche/dagongche_defense.png") !important;
+}
+.wmmh-dgc-dialog-bottom {
+	padding-top: 10px;
+	text-align: center;
+	color: #ffede2;
+}
+.dagongche-left-title {
+	font-size: 20px;
+	color: #ffede2;
+}
+.wmmh-dagongche-icon {
+	width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 91 !important;
+    bottom: 45px;
+    right: 0;
+    background-position: center center;
+    background-size: 140% 140%;
+}
+.wmmh-dagongche-icon-adaptor{
+	transform: translate(-100%,-100%);
+}
+.wmmh-dagongche-icon-attack {
+	background-image: url("../image/dagongche/cheIcon_1291.png");
+}
+.wmmh-dagongche-icon-defense {
+	background-image: url("../image/dagongche/cheIcon_1292.png");
+}
+.wmmh-dagongche-fanwei,
+.wmmh-dagongche-naijiu {
+	width: 22px;
+	font-size: 14px;
+	height: 18px;
+	line-height: 18px;
+	text-align: right;
+	position: absolute;
+	z-index: 91 !important;
+	/* position: relative !important; */
+	left: 50%;
+	transform: translateX(calc(-50% - 35px));
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: contain;
+}
+
+.wmmh-dagongche-naijiu {
+	background-image: url("../image/dagongche/pubchara_pic_naiju.png");
+	bottom: 20px;
+}
+.wmmh-dagongche-fanwei {
+	background-image: url("../image/dagongche/pubchara_pic_fanwei.png");
+	bottom: 40px;
+}

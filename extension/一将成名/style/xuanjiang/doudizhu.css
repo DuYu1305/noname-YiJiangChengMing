@@ -1,0 +1,884 @@
+#arena.decadeUI.choose-character > .dialog#xjk,
+#arena.decadeUI.choose-character.dui-mobile > .dialog#xjk {
+  width: 100% !important;
+  height: 100% !important;
+  left: 0px !important;
+  top: 0px !important;
+  display: block !important;
+  z-index: 6;
+  position: absolute;
+  text-align: center;
+  overflow: visible !important;
+  overflow-y: visible !important;
+  animation: fadenum 1s ease;
+}
+.xjbackground {
+  width: 100% !important;
+  height: 100% !important;
+  left: 0px !important;
+  top: 0px !important;
+  display: block !important;
+  z-index: 4;
+  position: absolute;
+}
+.topBar {
+  background-image: url("../../resource/image/xuanjiang/doudizhu/topBar.png") !important;
+  background-size: 100% 100%;
+  width: 30%;
+  height: 38px;
+  left: 35%;
+  top: -2%;
+  position: absolute;
+  color: #957e73;
+  font-size: 20px;
+  font-family: "yuanli";
+  line-height: 33px;
+  text-align: center;
+  font-weight: bold;
+}
+.doudizhubutton {
+  display: flex;
+  width: 50%;
+  height: 8%;
+  position: absolute;
+  bottom: 14%;
+  left: 26%;
+}
+
+/* 官方势力选择(vcard group_xxx)美化 */
+#arena.decadeUI > .dialog .buttons > .button.card[data-card-name^="group_"] {
+  width: 120px;
+  height: 160px;
+  border: none;
+  box-shadow: none !important;
+}
+
+#arena.decadeUI > .dialog .buttons > .button.card[data-card-name^="group_"] > .image {
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#arena.decadeUI > .dialog .buttons > .button.card[data-card-name^="group_"] > .name,
+#arena.decadeUI > .dialog .buttons > .button.card[data-card-name^="group_"] > .name2,
+#arena.decadeUI > .dialog .buttons > .button.card[data-card-name^="group_"] > .info,
+#arena.decadeUI > .dialog .buttons > .button.card[data-card-name^="group_"] > .range,
+#arena.decadeUI > .dialog .buttons > .button.card[data-card-name^="group_"] > .gaintag {
+  display: none !important;
+}
+
+#arena.decadeUI > .dialog .buttons > .button.card[data-card-name="group_wei"] > .image {
+  background-image: url("../../resource/image/xuanjiang/group/vcard_wei.png") !important;
+}
+
+#arena.decadeUI > .dialog .buttons > .button.card[data-card-name="group_shu"] > .image {
+  background-image: url("../../resource/image/xuanjiang/group/vcard_shu.png") !important;
+}
+
+#arena.decadeUI > .dialog .buttons > .button.card[data-card-name="group_wu"] > .image {
+  background-image: url("../../resource/image/xuanjiang/group/vcard_wu.png") !important;
+}
+
+#arena.decadeUI > .dialog .buttons > .button.card[data-card-name="group_qun"] > .image {
+  background-image: url("../../resource/image/xuanjiang/group/vcard_qun.png") !important;
+}
+
+#arena.decadeUI > .dialog .buttons > .button.card[data-card-name="group_jin"] > .image {
+  background-image: url("../../resource/image/xuanjiang/group/vcard_jin.png") !important;
+}
+
+#arena.decadeUI > .dialog .buttons > .button.card[data-card-name="group_shen"] > .image {
+  background-image: url("../../resource/image/xuanjiang/group/vcard_shen.png") !important;
+}
+.doudizhubutton div {
+  margin-right: 3%;
+}
+.buqiang {
+  background-image: url("../../resource/image/xuanjiang/doudizhu/不抢.png") !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 35px;
+  color: #d4a680;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: yuanli;
+}
+.yibei {
+  background-image: url("../../resource/image/xuanjiang/doudizhu/1倍.png") !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 35px;
+  color: #6a3906;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-family: yuanli;
+}
+.erbei {
+  background-image: url("../../resource/image/xuanjiang/doudizhu/1倍.png") !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 36px;
+  color: #6a3906;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-family: yuanli;
+}
+.sanbei {
+  background-image: url("../../resource/image/xuanjiang/doudizhu/3倍.png") !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 38px;
+  color: #6a3906;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-family: yuanli;
+  margin-top: -1px;
+}
+.xjkbg {
+  background-image: url("../../resource/image/xuanjiang/doudizhu/team_fightlord_select.png") !important;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 232px;
+
+  position: absolute;
+  left: 50%;
+  top: calc(50% - 50px);
+  transform: translate(-50%, -50%);
+}
+
+.dizhujineng {
+  width: 18%;
+  height: 25%;
+  color: #b8a697;
+  font-size: 14px;
+  font-family: yuanli;
+  position: absolute;
+  line-height: 16px;
+  right: 1%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  top: 0%;
+}
+.dizhujineng span {
+  text-align: left;
+}
+.myxj {
+  /* --w: 75%; */
+  gap: 30px;
+  width: 1000px;
+  height: 180px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  left: 50%;
+  top: calc(50% - 50px);
+  transform: translate(-50%, -50%);
+}
+.skillwindow {
+  background-image: url("../../resource/image/xuanjiang/doudizhu/landlord_general_selected_pannel.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 520px;
+  height: 270px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 6;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  animation: fadeIn 2s ease-in-out forwards;
+  opacity: 0;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.doushenfen {
+  width: 25px;
+  height: 31px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: calc(50% - 117px);
+  top: calc(50% - 65px);
+  transform: translate(-50%, -50%);
+  z-index: 6;
+  /* animation: fadeIn 2s ease-in-out forwards; */
+}
+.wjskillscroll {
+  width: 60%;
+  height: 80%;
+  position: absolute;
+  left: 180px;
+  top: 25px;
+  overflow: scroll;
+}
+.wjskill {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b8a697;
+  font-family: yuanli;
+  font-size: 16px;
+  flex-direction: column;
+}
+.wjskill span {
+  text-align: left;
+  margin-bottom: 10px;
+  line-height: 18px;
+}
+.wjskill > span > span {
+  line-height: 30px;
+}
+.jiaojiadiv {
+  width: 13.4%;
+  height: 4%;
+  position: absolute;
+  bottom: 26%;
+  left: 6.7%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.jiaojiadiv:not(:last-child) > .jiaojia {
+  background-image: url("../../resource/image/xuanjiang/doudizhu/fightlord_pre_seat_result_tip.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #a37e61;
+  font-size: 10px;
+  font-family: "yuanli";
+  width: 32px;
+  height: 100%;
+  margin-right: 5px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jiaojiashunxu {
+  width: 110px;
+  height: 70px;
+  position: absolute;
+  bottom: 15%;
+  left: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.jiaojiaseat {
+  background-image: url("../../resource/image/xuanjiang/doudizhu/fightlord_pre_seat_bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #d7aa83;
+  font-size: 12px;
+  font-family: "yuanli";
+  text-align: center;
+  width: 30px;
+  height: 70px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-writing-mode: vertical-lr;
+  /* filter: blur(0.3px); */
+  font-weight: bold;
+}
+.jiaojiaseat[data-select="true"]::before {
+  background-image: url("../../resource/image/xuanjiang/doudizhu/fightlord_pre_seat_select_bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 120%;
+  height: 112%;
+  content: "";
+}
+.mateseattip {
+  background-image: url("../../resource/image/xuanjiang/doudizhu/fightlord_pre_mate_seat_tip.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 90%;
+}
+.myseattip {
+  background-image: url("../../resource/image/xuanjiang/doudizhu/fightlord_pre_my_seat_tip.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 90%;
+}
+.dengjietext {
+  font-size: 0px;
+  color: #f0ead6;
+  filter: blur(0.3px);
+  font-family: yuanli;
+  position: absolute;
+  top: 76%;
+  left: 8%;
+  -webkit-writing-mode: vertical-lr;
+  text-wrap: nowrap;
+}
+.currentjiaofen {
+  background-image: url("../../resource/image/xuanjiang/doudizhu/team_fightlrd_call_scorebg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  color: #cfb7a7;
+  font-size: 16px;
+  font-family: "yuanli";
+  width: 280px;
+  height: 32px;
+  left: 50%;
+  top: calc(50% + 100px);
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vipdiv {
+  width: 18%;
+  height: 100%;
+  position: relative;
+}
+
+.vipxjk {
+  width: 74%;
+  height: 98%;
+  background-image: url("../../resource/image/xuanjiang/doudizhu/fightlord_pre_seatbg_title.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  top: 3%;
+  left: -1%;
+}
+.vipxjk::before {
+  content: "";
+  height: 100%;
+  /* background-image: url('../../resource/image/xuanjiang/2v2/huiyuankaiqi.png'); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block;
+}
+
+.viptip {
+  width: 100%;
+  height: 30%;
+  color: #9c867a;
+  font-family: yuanli;
+  font-size: 14px;
+  text-align: center;
+  line-height: 14px;
+  top: -56%;
+  position: relative;
+  font-weight: bold;
+}
+.wjdiv {
+  width: 130px;
+  height: 180px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 15px;
+}
+.wjdiv[data-show="true"] {
+  width: 130px;
+  height: 170px;
+  position: relative;
+  display: flex;
+  left: calc(50% - 170px);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: flex-start;
+}
+.wjbiankuang {
+  width: 17px;
+  height: 104%;
+  left: 0%;
+  top: 5px;
+  z-index: 1;
+}
+.wjtbg {
+  /*武将图片*/
+  top: -7px;
+  width: 86%;
+  height: 104.5%;
+  border-radius: 0px 6px 6px 0px;
+  left: 17px;
+  background-position-x: 50%;
+  background-size: cover;
+}
+.wjname {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-size: 16px;
+  text-align: center;
+  text-shadow: none;
+  left: -10%;
+  top: 25%;
+  font-family: "yuanli";
+  white-space: nowrap;
+  color: #f0ead6;
+  filter: blur(0.3px);
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+}
+.campName {
+    width: 150%;
+    height: 20%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    left: -40%;
+    top: -2%;
+    z-index: 1;
+}
+.doublecampNamesup {
+  width: 60%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  left: 1%;
+  top: -9%;
+  z-index: 1;
+}
+.doublecampNamesub {
+  width: 60%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  left: 28%;
+  top: -4%;
+  z-index: 1;
+}
+.xjxuanzhong {
+  background-image: url("../../resource/image/xuanjiang/2v2/xuandingkuang.png");
+  background-repeat: no-repeat;
+  width: 109%;
+  position: absolute;
+  height: 103%;
+  background-size: 100% 100%;
+  top: 0%;
+  left: -6%;
+  z-index: 1;
+}
+.wjdiv.xjselected::before {
+  content: "";
+  background-image: url("../../resource/image/xuanjiang/2v2/xuanding2.png");
+  background-repeat: no-repeat;
+  width: 65px;
+  position: relative;
+  height: 30px;
+  z-index: 1;
+  top: 60%;
+  left: 0%;
+  background-size: 100% 100%;
+  pointer-events: none;
+}
+
+.wjdiv.yixuan::before {
+  content: "";
+  background-image: url("../../resource/image/xuanjiang/2v2/yixuanding.png");
+  background-repeat: no-repeat;
+  width: 60%;
+  max-width: 80px;
+  position: relative;
+  height: 30%;
+  max-height: 35px;
+  z-index: 1;
+  top: 60%;
+  left: 0%;
+  background-size: 100% 100%;
+  pointer-events: none;
+}
+
+.vsseat {
+  width: 110px;
+  height: 110px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: -250px;
+  right: -132px;
+}
+
+.wjbk {
+    width: 120%;
+    height: 94%;
+    left: -20%;
+    /* top: 2%; */
+    border-radius: 6px 0 0 6px;
+}
+
+.wjbk[data-camp="wei"] {
+  background: linear-gradient(to top, rgb(35, 83, 123), rgb(15, 35, 68));
+}
+
+.wjbk[data-camp="shu"] {
+  background: linear-gradient(to top, rgb(153, 28, 34), rgb(57, 12, 17));
+}
+
+.wjbk[data-camp="wu"] {
+  background: linear-gradient(to top, rgb(29, 114, 29), rgb(34, 42, 27));
+}
+
+.wjbk[data-camp="qun"] {
+  background: linear-gradient(to top, rgb(154, 148, 122), rgb(74, 72, 57));
+}
+
+.wjbk[data-camp="shen"] {
+  background: linear-gradient(
+    to top,
+    rgb(97, 87, 15),
+    rgb(65, 50, 9),
+    rgb(67, 52, 9)
+  );
+}
+
+.wjbk[data-camp="jin"] {
+  background: linear-gradient(to top, rgb(112, 52, 126), rgb(52, 18, 55));
+}
+
+.wjbk[data-camp="ye"] {
+  background: linear-gradient(to top, rgb(112, 52, 126), rgb(52, 18, 55));
+}
+
+.wjbk[data-camp="key"] {
+  background: linear-gradient(
+    to top,
+    rgb(147, 132, 183),
+    rgb(130, 120, 160),
+    rgb(120, 115, 154)
+  );
+}
+
+.wjbk[data-camp="western"] {
+  background: linear-gradient(to top, rgb(93, 44, 105), rgb(54, 18, 58));
+}
+
+.wjbk[data-camp="daqin"] {
+  background: linear-gradient(to top, rgb(100, 100, 100), rgb(0, 0, 0));
+}
+
+.wjcampborder {
+  display: block;
+  left: -14px;
+  top: -14px;
+  width: 46px;
+  height: 0%;
+  position: absolute;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.xjhpk {
+  display: block;
+  right: -2%;
+  bottom: -3%;
+  width: 21%;
+  height: 38%;
+  background-image: url("../../resource/image/xuanjiang/2v2/border_hp.png");
+  pointer-events: none;
+  transition-property: transform, opacity, height;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: 1;
+}
+.xjhpk[hp-value="1"] {
+  height: 15%;
+}
+
+.xjhpk[hp-value="2"] {
+  height: 30%;
+}
+
+.xjhpk[hp-value="4"] {
+  height: 50%;
+}
+.xjhpk[hp-value="5"] {
+  height: 58%;
+}
+
+.xjhpk > .hp {
+  display: flex;
+  left: 32%;
+  width: 50%;
+  font-size: 13px;
+  flex-direction: column;
+  justify-content: flex-end;
+  top: 20%;
+  position: relative;
+  height: 68%;
+}
+.xjhpk > .hp > div:not(.shield) {
+  position: static;
+  margin-top: 0px;
+  width: 100%;
+  margin-left: 0px;
+  height: 100%;
+  /* line-height: 10px; */
+  border: none;
+  top: 10px;
+}
+
+.highhp {
+  background: url("../../resource/image/xuanjiang/2v2/xinround1.png");
+  box-shadow: none;
+  border: none;
+  background-size: contain;
+  transform: scale(1.4);
+  -webkit-filter: none;
+  border-radius: 0px;
+  line-height: 7px;
+  font-family: "yuanli";
+  width: 34%;
+  height: 16%;
+  position: relative;
+  top: 75%;
+  left: 9%;
+  background-repeat: no-repeat;
+}
+.highhp > span {
+  top: -27px;
+  position: relative;
+  left: 0px;
+  font-size: 11px;
+}
+.xjshilib {
+  font-size: 26px;
+  width: 144%;
+  height: 0%;
+  left: -23%;
+  top: -12%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  place-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: none 0s ease 0s;
+  z-index: 0;
+}
+.xjtip {
+  color: #d0a680;
+  font-size: 20px;
+  width: 100%;
+  height: 8%;
+  font-family: yuanli;
+  text-align: center;
+  line-height: 16px;
+  position: absolute;
+  bottom: 0%;
+  left: 2%;
+  filter: blur(0.2px);
+  z-index: 6;
+}
+.xjjindutiao {
+  width: 38.4%;
+  height: 24px;
+  display: block;
+  left: 32%;
+  position: absolute;
+  bottom: 0%;
+  z-index: 6;
+}
+
+.xjhuan {
+  background-image: url("../../resource/image/xuanjiang/2v2/huan.png");
+  background-size: contain;
+  width: 0px;
+  height: 50px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 80%;
+  top: -1%;
+  z-index: 10;
+}
+.xjhuan[nofree_huan="true"] {
+  background-image: url("../../resource/image/xuanjiang/2v2/huan.png");
+  background-size: contain;
+  width: 0px;
+  height: 36px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 84%;
+  top: -3%;
+}
+.tiyanka {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 32%;
+  height: 17%;
+  position: absolute;
+  top: 86%;
+  left: 14%;
+  pointer-events: none;
+}
+.tuijian {
+  background-image: url("../../resource/image/xuanjiang/doudizhu/recommand_tip.png");
+  background-size: contain;
+  width: 100px;
+  height: 0px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -14%;
+  left: 10%;
+}
+.xjhpk
+  > .hp:not(.text):not(.actcount):not(.treasure)[data-condition="high"]
+  > div:not(.lost):not(.shield) {
+  background: url("../../resource/image/xuanjiang/2v2/xinround1.png");
+
+  background-size: 100% 100%;
+}
+.xjhpk
+  > .hp:not(.text):not(.actcount):not(.treasure)[data-condition="mid"]
+  > div:not(.lost):not(.shield) {
+  background: url("../../resource/image/xuanjiang/2v2/xinround2.png");
+  box-shadow: none;
+  border: none;
+  background-size: 100% 100%;
+  transform: scale(1.4);
+  -webkit-filter: none;
+  border-radius: 0px;
+}
+.xjhpk
+  > .hp:not(.text):not(.actcount):not(.treasure)[data-condition="low"]
+  > div:not(.lost):not(.shield) {
+  background: url("../../resource/image/xuanjiang/2v2/xinround3.png");
+  box-shadow: none;
+  border: none;
+  background-size: 100% 100%;
+  transform: scale(1.4);
+  -webkit-filter: none;
+  border-radius: 0px;
+}
+.xjhpk > .hp:not(.text):not(.actcount):not(.treasure) > .lost {
+  background: url("../../resource/image/xuanjiang/2v2/xinround4.png");
+  box-shadow: none;
+  border: none;
+  background-size: 100% 100%;
+  transform: scale(1.4);
+  border-radius: 0px;
+}
+.xjhpk > .hp:not(.text):not(.actcount):not(.treasure) > .lost,
+.xjhpk
+  > .hp:not(.text):not(.actcount):not(.treasure)[data-condition="mid"]
+  > div:not(.lost),
+.xjhpk
+  > .hp:not(.text):not(.actcount):not(.treasure)[data-condition="high"]
+  > div:not(.lost),
+.xjhpk
+  > .hp:not(.text):not(.actcount):not(.treasure)[data-condition="low"]
+  > div:not(.lost) {
+  transform: none !important;
+}
+/* 可见手牌区域 */
+.chakanshoupai {
+  background-color: none;
+  background-repeat: no-repeat;
+  background-color: black; /* 棕色背景 */
+  opacity: 0.4;
+  width: 40px;
+  height: 90px;
+  left: -60px;
+  bottom: 00px;
+  /* padding: 17px 2px 2px 2px;*/
+  text-align: center;
+  color: #ffffcc;
+  text-shadow: -1.3px 0px 2.2px #000, 0px -1.3px 2.2px #000,
+    1.3px 0px 2.2px #000, 0px 1.3px 2.2px #000;
+  font-family: shousha;
+  font-size: 15px;
+  font-weight: 900;
+  z-index: 8 !important;
+}
+
+.dialogshoupai {
+  background-position: center;
+  background-image: url("../../resource/image/xuanjiang/button/dialog_bg.png");
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat;
+  white-space: normal;
+  width: 500px !important;
+  height: 223px !important;
+  box-shadow: none;
+  animation: fadenum 0.5s ease;
+  position: absolute;
+  z-index: 66;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  zoom: 0.92;
+}
+
+.dialogshoupai > .content-container {
+  position: absolute;
+  width: 445px;
+  height: 187px;
+  top: 18px;
+  left: 22px;
+}
+
+.dialogshoupai > .content-container > .caption {
+  color: #f1d977;
+  text-shadow: -1.3px 0px 2.2px #000, 0px -1.3px 2.2px #000,
+    1.3px 0px 2.2px #000, 0px 1.3px 2.2px #000;
+  text-align: center;
+  top: -9px;
+  left: 145px;
+  position: absolute;
+  font-family: yuanli;
+  letter-spacing: 2px;
+  font-size: 25px;
+}

@@ -1,0 +1,13 @@
+
+cheshen1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cheshen1
+  rotate: false
+  xy: 2, 2
+  size: 409, 195
+  orig: 409, 195
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,76 @@
+{
+    "frames": {
+        "nsLeisureChooseCuo.png": {
+            "frame": {
+                "h": 19,
+                "idx": 0,
+                "w": 19,
+                "x": 454,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 19,
+                "w": 19
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "nsLeisureChooseDui.png": {
+            "frame": {
+                "h": 18,
+                "idx": 0,
+                "w": 23,
+                "x": 430,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 18,
+                "w": 23
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "nsLeisureChooseItemMask.png": {
+            "frame": {
+                "h": 630,
+                "idx": 0,
+                "w": 304,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 630,
+                "w": 304
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "nsLeisureChooseLock.png": {
+            "frame": {
+                "h": 145,
+                "idx": 0,
+                "w": 124,
+                "x": 305,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 145,
+                "w": 124
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "nsLeisureChooseWin.png",
+        "prefix": "nsLeisureChooseWin/"
+    }
+}

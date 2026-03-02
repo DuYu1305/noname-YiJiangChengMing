@@ -1,0 +1,27 @@
+
+cheding3_3.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cheding3-1
+  rotate: true
+  xy: 2, 27
+  size: 195, 273
+  orig: 195, 273
+  offset: 0, 0
+  index: -1
+cheding3-6
+  rotate: false
+  xy: 277, 145
+  size: 41, 77
+  orig: 41, 77
+  offset: 0, 0
+  index: -1
+cheding3-7
+  rotate: true
+  xy: 2, 2
+  size: 23, 199
+  orig: 23, 199
+  offset: 0, 0
+  index: -1

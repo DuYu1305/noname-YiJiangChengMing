@@ -1,0 +1,20 @@
+
+chelun3.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chelun3-1
+  rotate: false
+  xy: 87, 3
+  size: 83, 73
+  orig: 83, 73
+  offset: 0, 0
+  index: -1
+chelun3-2
+  rotate: false
+  xy: 2, 2
+  size: 83, 74
+  orig: 83, 74
+  offset: 0, 0
+  index: -1

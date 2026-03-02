@@ -1,0 +1,222 @@
+
+SF_eff_lianzhan_m_lv6.png
+size: 1007,1007
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lz_lv4_7phone_00
+  rotate: false
+  xy: 178, 282
+  size: 173, 239
+  orig: 300, 300
+  offset: 71, 30
+  index: -1
+lz_lv4_7phone_01
+  rotate: false
+  xy: 178, 523
+  size: 173, 240
+  orig: 300, 300
+  offset: 71, 30
+  index: -1
+lz_lv4_7phone_02
+  rotate: false
+  xy: 2, 765
+  size: 174, 240
+  orig: 300, 300
+  offset: 71, 30
+  index: -1
+lz_lv4_7phone_03
+  rotate: false
+  xy: 2, 523
+  size: 174, 240
+  orig: 300, 300
+  offset: 71, 30
+  index: -1
+lz_lv4_7phone_04
+  rotate: false
+  xy: 178, 765
+  size: 174, 240
+  orig: 300, 300
+  offset: 71, 30
+  index: -1
+lz_lv4_7phone_05
+  rotate: true
+  xy: 724, 832
+  size: 173, 239
+  orig: 300, 300
+  offset: 72, 30
+  index: -1
+lz_lv4_7phone_06
+  rotate: false
+  xy: 354, 766
+  size: 174, 239
+  orig: 300, 300
+  offset: 71, 30
+  index: -1
+lz_lv4_7phone_07
+  rotate: false
+  xy: 2, 281
+  size: 174, 240
+  orig: 300, 300
+  offset: 71, 30
+  index: -1
+lz_lv4_7phone_08
+  rotate: false
+  xy: 2, 40
+  size: 174, 239
+  orig: 300, 300
+  offset: 71, 30
+  index: -1
+lz_lv4_7phone_09
+  rotate: false
+  xy: 178, 41
+  size: 173, 239
+  orig: 300, 300
+  offset: 71, 30
+  index: -1
+lz_lv6_phone_00
+  rotate: true
+  xy: 724, 639
+  size: 191, 221
+  orig: 300, 300
+  offset: 62, 23
+  index: -1
+lz_lv6_phone_01
+  rotate: false
+  xy: 353, 543
+  size: 191, 220
+  orig: 300, 300
+  offset: 62, 23
+  index: -1
+lz_lv6_phone_02
+  rotate: false
+  xy: 546, 354
+  size: 190, 220
+  orig: 300, 300
+  offset: 63, 23
+  index: -1
+lz_lv6_phone_03
+  rotate: false
+  xy: 546, 132
+  size: 190, 220
+  orig: 300, 300
+  offset: 63, 23
+  index: -1
+lz_lv6_phone_04
+  rotate: false
+  xy: 353, 321
+  size: 191, 220
+  orig: 300, 300
+  offset: 62, 23
+  index: -1
+lz_lv6_phone_05
+  rotate: false
+  xy: 353, 99
+  size: 191, 220
+  orig: 300, 300
+  offset: 62, 23
+  index: -1
+lz_lv6_phone_06
+  rotate: true
+  xy: 738, 2
+  size: 191, 219
+  orig: 300, 300
+  offset: 62, 23
+  index: -1
+lz_lv6_phone_07
+  rotate: false
+  xy: 738, 417
+  size: 191, 220
+  orig: 300, 300
+  offset: 62, 23
+  index: -1
+lz_lv6_phone_08
+  rotate: false
+  xy: 530, 784
+  size: 192, 221
+  orig: 300, 300
+  offset: 61, 23
+  index: -1
+lz_lv6_phone_09
+  rotate: false
+  xy: 738, 195
+  size: 191, 220
+  orig: 300, 300
+  offset: 62, 23
+  index: -1
+lz_lv7_lizi_04
+  rotate: true
+  xy: 546, 576
+  size: 206, 175
+  orig: 300, 300
+  offset: 40, 18
+  index: -1
+lz_lv7_lizi_09
+  rotate: false
+  xy: 546, 8
+  size: 188, 122
+  orig: 300, 300
+  offset: 44, 41
+  index: -1
+
+SF_eff_lianzhan_m_lv62.png
+size: 531,531
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lz_lv7_lizi_00
+  rotate: false
+  xy: 339, 193
+  size: 186, 149
+  orig: 300, 300
+  offset: 45, 21
+  index: -1
+lz_lv7_lizi_01
+  rotate: true
+  xy: 374, 344
+  size: 185, 155
+  orig: 300, 300
+  offset: 45, 26
+  index: -1
+lz_lv7_lizi_02
+  rotate: false
+  xy: 2, 9
+  size: 187, 156
+  orig: 300, 300
+  offset: 40, 25
+  index: -1
+lz_lv7_lizi_03
+  rotate: false
+  xy: 191, 17
+  size: 197, 154
+  orig: 300, 300
+  offset: 50, 35
+  index: -1
+lz_lv7_lizi_05
+  rotate: false
+  xy: 2, 350
+  size: 190, 179
+  orig: 300, 300
+  offset: 45, 24
+  index: -1
+lz_lv7_lizi_06
+  rotate: false
+  xy: 2, 167
+  size: 181, 181
+  orig: 300, 300
+  offset: 53, 32
+  index: -1
+lz_lv7_lizi_07
+  rotate: false
+  xy: 194, 355
+  size: 178, 174
+  orig: 300, 300
+  offset: 54, 42
+  index: -1
+lz_lv7_lizi_08
+  rotate: true
+  xy: 185, 173
+  size: 175, 152
+  orig: 300, 300
+  offset: 46, 29
+  index: -1

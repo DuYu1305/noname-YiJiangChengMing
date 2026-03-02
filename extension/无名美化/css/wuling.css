@@ -1,0 +1,22 @@
+.wuqinxi-name {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+.wuqinxi-common{
+  width: 180px;
+  height: 180px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-size:contain;
+}
+

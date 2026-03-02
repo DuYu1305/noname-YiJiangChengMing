@@ -1,0 +1,83 @@
+
+Ss_SMS_wujiang.png
+size: 1749,462
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BJ 2_00
+  rotate: false
+  xy: 2, 162
+  size: 244, 298
+  orig: 260, 300
+  offset: 10, 1
+  index: -1
+pai_00
+  rotate: true
+  xy: 248, 6
+  size: 226, 295
+  orig: 230, 300
+  offset: 2, 4
+  index: -1
+pai_01
+  rotate: true
+  xy: 1452, 233
+  size: 227, 295
+  orig: 230, 300
+  offset: 1, 4
+  index: -1
+pai_02
+  rotate: true
+  xy: 842, 5
+  size: 227, 293
+  orig: 230, 300
+  offset: 1, 5
+  index: -1
+pai_03
+  rotate: true
+  xy: 1137, 3
+  size: 229, 289
+  orig: 230, 300
+  offset: 0, 7
+  index: -1
+pai_04
+  rotate: true
+  xy: 1428, 2
+  size: 229, 289
+  orig: 230, 300
+  offset: 0, 7
+  index: -1
+pai_05
+  rotate: true
+  xy: 545, 5
+  size: 227, 295
+  orig: 230, 300
+  offset: 1, 4
+  index: -1
+pai_06
+  rotate: true
+  xy: 248, 234
+  size: 226, 300
+  orig: 230, 300
+  offset: 2, 0
+  index: -1
+pai_07
+  rotate: true
+  xy: 550, 234
+  size: 226, 300
+  orig: 230, 300
+  offset: 2, 0
+  index: -1
+pai_08
+  rotate: true
+  xy: 852, 234
+  size: 226, 298
+  orig: 230, 300
+  offset: 2, 2
+  index: -1
+pai_09
+  rotate: true
+  xy: 1152, 234
+  size: 226, 298
+  orig: 230, 300
+  offset: 2, 2
+  index: -1

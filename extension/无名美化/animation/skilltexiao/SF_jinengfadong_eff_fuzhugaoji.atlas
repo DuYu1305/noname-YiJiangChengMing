@@ -1,0 +1,146 @@
+
+SF_jinengfadong_eff_fuzhugaoji.png
+size: 616,616
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zengyi_gaoji0001
+  rotate: false
+  xy: 577, 580
+  size: 37, 34
+  orig: 222, 226
+  offset: 107, 47
+  index: -1
+zengyi_gaoji0002
+  rotate: false
+  xy: 132, 15
+  size: 58, 51
+  orig: 222, 226
+  offset: 105, 32
+  index: -1
+zengyi_gaoji0003
+  rotate: true
+  xy: 521, 172
+  size: 74, 79
+  orig: 222, 226
+  offset: 101, 35
+  index: -1
+zengyi_gaoji0004
+  rotate: false
+  xy: 521, 248
+  size: 92, 107
+  orig: 222, 226
+  offset: 83, 31
+  index: -1
+zengyi_gaoji0005
+  rotate: false
+  xy: 392, 69
+  size: 116, 138
+  orig: 222, 226
+  offset: 58, 31
+  index: -1
+zengyi_gaoji0006
+  rotate: true
+  xy: 133, 362
+  size: 122, 148
+  orig: 222, 226
+  offset: 52, 33
+  index: -1
+zengyi_gaoji0007
+  rotate: true
+  xy: 283, 362
+  size: 122, 148
+  orig: 222, 226
+  offset: 52, 33
+  index: -1
+zengyi_gaoji0008
+  rotate: true
+  xy: 430, 486
+  size: 128, 145
+  orig: 222, 226
+  offset: 45, 37
+  index: -1
+zengyi_gaoji0009
+  rotate: false
+  xy: 132, 215
+  size: 129, 145
+  orig: 222, 226
+  offset: 43, 38
+  index: -1
+zengyi_gaoji0010
+  rotate: false
+  xy: 132, 68
+  size: 129, 145
+  orig: 222, 226
+  offset: 43, 38
+  index: -1
+zengyi_gaoji0011
+  rotate: false
+  xy: 2, 468
+  size: 129, 146
+  orig: 222, 226
+  offset: 43, 37
+  index: -1
+zengyi_gaoji0012
+  rotate: false
+  xy: 263, 214
+  size: 127, 146
+  orig: 222, 226
+  offset: 44, 37
+  index: -1
+zengyi_gaoji0013
+  rotate: false
+  xy: 263, 66
+  size: 127, 146
+  orig: 222, 226
+  offset: 44, 37
+  index: -1
+zengyi_gaoji0014
+  rotate: false
+  xy: 392, 209
+  size: 127, 146
+  orig: 222, 226
+  offset: 44, 38
+  index: -1
+zengyi_gaoji0015
+  rotate: true
+  xy: 282, 486
+  size: 128, 146
+  orig: 222, 226
+  offset: 44, 38
+  index: -1
+zengyi_gaoji0016
+  rotate: false
+  xy: 2, 22
+  size: 128, 146
+  orig: 222, 226
+  offset: 44, 38
+  index: -1
+zengyi_gaoji0017
+  rotate: false
+  xy: 2, 319
+  size: 128, 147
+  orig: 222, 226
+  offset: 44, 38
+  index: -1
+zengyi_gaoji0018
+  rotate: true
+  xy: 133, 486
+  size: 128, 147
+  orig: 222, 226
+  offset: 44, 38
+  index: -1
+zengyi_gaoji0019
+  rotate: false
+  xy: 2, 170
+  size: 128, 147
+  orig: 222, 226
+  offset: 44, 38
+  index: -1
+zengyi_gaoji0020
+  rotate: true
+  xy: 433, 357
+  size: 127, 142
+  orig: 222, 226
+  offset: 45, 42
+  index: -1

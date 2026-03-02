@@ -1,0 +1,17 @@
+mvp_wujiang.png
+size:361,281
+filter:Linear,Linear
+glow01
+bounds:231,29,120,120
+offsets:4,4,128,128
+glow7
+bounds:2,53,227,226
+offsets:16,15,256,256
+lizi02
+bounds:53,2,49,49
+offsets:8,7,64,64
+lizi03
+bounds:2,2,49,49
+offsets:8,7,64,64
+white
+bounds:231,151,128,128

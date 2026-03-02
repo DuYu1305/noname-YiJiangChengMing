@@ -1,0 +1,62 @@
+
+tianshu_shu.png
+size: 1711,1711
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jianying
+  rotate: false
+  xy: 2, 327
+  size: 440, 435
+  orig: 1750, 750
+  offset: 390, 265
+  index: -1
+shu
+  rotate: false
+  xy: 444, 399
+  size: 244, 363
+  orig: 244, 363
+  offset: 0, 0
+  index: -1
+shu1
+  rotate: false
+  xy: 1018, 793
+  size: 448, 326
+  orig: 448, 326
+  offset: 0, 0
+  index: -1
+shu2
+  rotate: false
+  xy: 544, 799
+  size: 472, 320
+  orig: 472, 320
+  offset: 0, 0
+  index: -1
+shu3
+  rotate: true
+  xy: 2, 51
+  size: 274, 355
+  orig: 274, 355
+  offset: 0, 0
+  index: -1
+shu4
+  rotate: false
+  xy: 2, 764
+  size: 540, 355
+  orig: 540, 355
+  offset: 0, 0
+  index: -1
+shu_2
+  rotate: false
+  xy: 1468, 766
+  size: 241, 353
+  orig: 244, 363
+  offset: 0, 6
+  index: -1
+tianshu_di
+  rotate: false
+  xy: 2, 1121
+  size: 1696, 588
+  orig: 1750, 750
+  offset: 27, 80
+  index: -1

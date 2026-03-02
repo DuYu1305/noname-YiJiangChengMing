@@ -1,0 +1,62 @@
+
+huanfu.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dongtaipifuqiehuan_da_00000
+  rotate: false
+  xy: 2, 272
+  size: 268, 374
+  orig: 268, 374
+  offset: 0, 0
+  index: -1
+dongtaipifuqiehuan_da_00001
+  rotate: true
+  xy: 2, 2
+  size: 268, 374
+  orig: 268, 374
+  offset: 0, 0
+  index: -1
+dongtaipifuqiehuan_da_00002
+  rotate: false
+  xy: 272, 648
+  size: 268, 374
+  orig: 268, 374
+  offset: 0, 0
+  index: -1
+dongtaipifuqiehuan_da_00003
+  rotate: false
+  xy: 272, 272
+  size: 268, 374
+  orig: 268, 374
+  offset: 0, 0
+  index: -1
+dongtaipifuqiehuan_da_00004
+  rotate: true
+  xy: 378, 2
+  size: 268, 374
+  orig: 268, 374
+  offset: 0, 0
+  index: -1
+dongtaipifuqiehuan_da_00005
+  rotate: false
+  xy: 542, 648
+  size: 268, 374
+  orig: 268, 374
+  offset: 0, 0
+  index: -1
+dongtaipifuqiehuan_da_00006
+  rotate: false
+  xy: 542, 272
+  size: 268, 374
+  orig: 268, 374
+  offset: 0, 0
+  index: -1
+dongtaipifuqiehuan_da_00007
+  rotate: false
+  xy: 2, 648
+  size: 268, 374
+  orig: 268, 374
+  offset: 0, 0
+  index: -1

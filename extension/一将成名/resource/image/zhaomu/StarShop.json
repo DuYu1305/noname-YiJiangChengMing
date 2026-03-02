@@ -1,0 +1,127 @@
+{
+    "frames": {
+        "RecruitStarShopBuyBtn2Normal.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 180,
+                "x": 418,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 180
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "RecruitStarShopBuyBtn2Over.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 180,
+                "x": 599,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 180
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "RecruitStarShopBuyBtnNormal.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 180,
+                "x": 418,
+                "y": 41
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 180
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "RecruitStarShopBuyBtnOver.png": {
+            "frame": {
+                "h": 40,
+                "idx": 0,
+                "w": 180,
+                "x": 599,
+                "y": 41
+            },
+            "sourceSize": {
+                "h": 40,
+                "w": 180
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "RecruitStarShopHave.png": {
+            "frame": {
+                "h": 34,
+                "idx": 0,
+                "w": 120,
+                "x": 418,
+                "y": 82
+            },
+            "sourceSize": {
+                "h": 34,
+                "w": 120
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "RecruitStarShop_tab_bg.png": {
+            "frame": {
+                "h": 853,
+                "idx": 0,
+                "w": 195,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 853,
+                "w": 195
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "RecruitStarShop_tab_select.png": {
+            "frame": {
+                "h": 102,
+                "idx": 0,
+                "w": 221,
+                "x": 196,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 102,
+                "w": 221
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "StarShop.png",
+        "prefix": "StarShop/"
+    }
+}

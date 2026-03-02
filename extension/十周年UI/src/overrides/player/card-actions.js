@@ -1,0 +1,464 @@
+﻿/**
+ * @fileoverview Player card action overrides
+ * @module overrides/player/card-actions
+ */
+
+import { lib, game, ui, get, ai, _status } from "noname";
+import { getBasePlayerMethods, playShowCardAudio } from "./base.js";
+
+const SS_EQUIP_ON = {
+	爪黄飞电: "爪黄",
+	吴六剑: "吴六剑2",
+	机关弩: "机关弩1",
+	雌雄双股剑: "2雌雄剑",
+	方天画戟: "4方天戟",
+	贯石斧: "3贯石斧",
+	寒冰剑: "2寒冰剑",
+	麒麟弓: "5麒麟弓",
+	青釭剑: "2青钢剑",
+	青龙偃月刀: "3青龙刀",
+	丈八蛇矛: "3丈八矛",
+	古锭刀: "2古锭刀",
+	朱雀羽扇: "4朱雀扇",
+	七宝刀: "2七宝刀",
+	银月枪: "3银月枪",
+	衠钢槊: "3衠钢槊",
+	飞龙夺凤: "2飞龙刀",
+	三尖两刃刀: "3三尖刀",
+	诸葛连弩: "1诸葛弩",
+	倚天剑: "2倚天剑",
+	七星宝刀: "2七星刀",
+	折戟: "0折戟",
+	无锋剑: "1无锋剑",
+	涯角枪: "3涯角枪",
+	五行鹤翎扇: "4五行扇",
+	断剑: "0断剑",
+	霹雳车: "9霹雳车",
+	水波剑: "2水波剑",
+	红缎枪: "3红缎枪",
+	天雷刃: "4天雷刃",
+	混毒弯匕: "1混毒匕",
+	元戎精械弩: "3精械弩",
+	乌铁锁链: "3铁锁链",
+	太极拂尘: "5太极拂",
+	灵宝仙壶: "3灵宝壶",
+	冲应神符: "冲应符",
+	先天八卦阵: "先天八卦",
+	照月狮子盔: "狮子盔",
+	白银狮子: "白银狮",
+	仁王金刚盾: "金剛盾",
+	桐油百韧甲: "百韧甲",
+	定澜夜明珠: "夜明珠",
+	霹雳投石车:"霹雳车",
+};
+
+const SS_EQUIP_OFF = {
+	吴六剑: "吴六剑2",
+	机关弩: "机关弩1",
+	雌雄双股剑: "雌雄剑2",
+	方天画戟: "方天戟4",
+	贯石斧: "贯石斧3",
+	寒冰剑: "寒冰剑2",
+	麒麟弓: "麒麟弓5",
+	青釭剑: "青釭剑2",
+	青龙偃月刀: "青龙刀3",
+	丈八蛇矛: "丈八矛3",
+	古锭刀: "古锭刀2",
+	朱雀羽扇: "朱雀扇4",
+	七宝刀: "七宝刀2",
+	银月枪: "银月枪3",
+	衠钢槊: "衠钢槊3",
+	飞龙夺凤: "飞龙刀2",
+	三尖两刃刀: "三尖刀3",
+	诸葛连弩: "诸葛弩1",
+	倚天剑: "倚天剑2",
+	七星宝刀: "七星刀2",
+	折戟: "折戟0",
+	无锋剑: "无锋剑1",
+	涯角枪: "涯角枪3",
+	五行鹤翎扇: "五行扇4",
+	断剑: "断剑0",
+	霹雳车: "霹雳车9",
+	水波剑: "水波剑2",
+	红缎枪: "红缎枪3",
+	天雷刃: "天雷刃4",
+	混毒弯匕: "混毒匕1",
+	元戎精械弩: "精械弩3",
+	乌铁锁链: "铁锁链3",
+	太极拂尘: "太极拂5",
+	灵宝仙壶: "灵宝壶3",
+	冲应神符: "冲应符",
+	先天八卦阵: "先天八卦",
+	照月狮子盔: "狮子盔",
+	白银狮子: "白银狮",
+	仁王金刚盾: "金刚盾",
+	桐油百韧甲: "百韧甲",
+	定澜夜明珠: "夜明珠",
+	镔铁双戟: "镔铁戟3",
+	玲珑狮蛮带: "狮蛮带",
+	束发紫金冠: "束发金冠",
+	红棉百花袍: "百花袍",
+	虚妄之冕: "虚妄之冕",
+	无双方天戟: "无双戟4",
+	鬼龙斩月刀: "斩月刀3",
+	赤焰镇魂琴: "镇魂琴4",
+};
+
+function getEquipStyle() {
+	return window.decadeUI?.config?.newDecadeStyle ?? lib.config.extension_十周年UI_newDecadeStyle;
+}
+
+function getCardSubtype(card) {
+	return card.dataset.cardSubtype || card.getAttribute("data-card-subtype") || card.getAttribute("data-card-subype");
+}
+
+function getCardName(card) {
+	return card.dataset.cardName || card.getAttribute("data-card-name");
+}
+
+function ensureEquipNameChildren(name2Node) {
+	if (!name2Node) return [];
+	if (name2Node.children.length >= 2) return name2Node.children;
+
+	const existedImg = Array.from(name2Node.children).find(node => node.nodeName === "IMG");
+	const raw = (name2Node.textContent || "").trim();
+	const idx = raw.indexOf(" ");
+	const suitText = idx === -1 ? raw : raw.slice(0, idx);
+	const nameText = idx === -1 ? "" : raw.slice(idx);
+
+	name2Node.innerHTML = "";
+	if (existedImg) name2Node.appendChild(existedImg);
+
+	const suitSpan = document.createElement("span");
+	suitSpan.textContent = suitText;
+	const nameSpan = document.createElement("span");
+	nameSpan.textContent = nameText;
+	name2Node.appendChild(suitSpan);
+	name2Node.appendChild(nameSpan);
+
+	return name2Node.children;
+}
+
+function normalizeSubtypeForAss(subtype) {
+	if (subtype === "equip3_4") return "equip3";
+	return subtype || "equip1";
+}
+
+function setAssImage(img, subtype, fallbackSubtype = "equip1") {
+	const basePath = window.decadeUIPath || "";
+	const mainType = normalizeSubtypeForAss(subtype);
+	const backupType = normalizeSubtypeForAss(fallbackSubtype);
+	img.src = `${basePath}images/ass/${mainType}.png`;
+	img.onerror = function () {
+		this.onerror = null;
+		this.src = `${basePath}images/ass/${backupType}.png`;
+	};
+}
+
+function applySSEquipName(children, index, ssEquip) {
+	if (!ssEquip || !children[index]) return;
+	const text = children[index].textContent || "";
+	const key = text.substring(1, text.length);
+	if (ssEquip[key]) {
+		children[index].textContent = ssEquip[key];
+	}
+}
+
+function stripMountSuffix(node) {
+	if (!node) return;
+	node.textContent = (node.textContent || "").replace(/[+\-＋－]\s*$/, "");
+}
+
+function renderEquipName2(card, style) {
+	const name2Node = card.getElementsByClassName("name2")[0];
+	if (!name2Node) return;
+
+	const children = ensureEquipNameChildren(name2Node);
+	if (!children?.length) return;
+
+	// Reset disabled-slot inline styles when slot returns to normal rendering.
+	name2Node.style.removeProperty("background-image");
+	name2Node.style.removeProperty("background-repeat");
+	name2Node.style.removeProperty("background-position");
+	name2Node.style.removeProperty("background-size");
+	name2Node.style.removeProperty("column-gap");
+
+	const subtype = getCardSubtype(card);
+	const cardName = getCardName(card);
+	const ssEquip = style === "off" ? SS_EQUIP_OFF : SS_EQUIP_ON;
+	if (!subtype) return;
+	if (subtype === "equip3" || subtype === "equip4") {
+		stripMountSuffix(children[1]);
+		stripMountSuffix(children[2]);
+	}
+
+	if (children[0].nodeName !== "IMG") {
+		const colour = card.getAttribute("data-suit");
+
+		for (let i = 0; i < children.length; i++) {
+			card.style.top = "";
+			if (i === 0) {
+				if (colour === "heart" || colour === "diamond") children[i].style.color = "#ef1806";
+				else children[i].style.color = style === "off" ? "#8dbede" : "#181818";
+
+				if (style === "off") {
+					children[i].style.fontSize = "12.6px";
+					children[i].style.marginLeft = "16.5px";
+					children[i].style.position = "absolute";
+					children[i].style.marginTop = "2.2px";
+				} else {
+					children[i].style.fontSize = "14px";
+					children[i].style.fontFamily = "shousha";
+					children[i].style.position = "absolute";
+					children[i].style.marginLeft = "61px";
+					children[i].style.marginTop = "2px";
+				}
+			} else {
+				if (style === "off") {
+					children[i].style.color = "#e9e8e3";
+					children[i].style.position = "absolute";
+					children[i].style.marginLeft = "37.5px";
+					children[i].style.marginTop = "1.8px";
+					children[i].style.fontSize = "15.3px";
+					children[i].style.transform = "scale(0.9,1.1)";
+				} else {
+					children[i].style.color = "#392418";
+					children[i].style.marginLeft = "-6.5px";
+					children[i].style.fontSize = "13.5px";
+					children[i].style.position = "absolute";
+					children[i].style.marginTop = "1.5px";
+				}
+			}
+
+			if (style === "off") {
+				children[i].style.textShadow = "-1.3px 0px 2.2px #000, 0px -1.3px 2.2px #000, 1.3px 0px 2.2px #000 ,0px 1.3px 2.2px #000";
+			} else {
+				children[i].style.textShadow = "-1.3px 0px 2.2px #fff3d6, 0px -1.3px 2.2px #fff3d6, 1.3px 0px 2.2px #fff3d6 ,0px 1.3px 2.2px #fff3d6";
+			}
+		}
+
+		if (style === "off" && (subtype === "equip3" || subtype === "equip4")) {
+			const icon = document.createElement("img");
+			setAssImage(icon, subtype);
+			icon.style.marginLeft = "5.5px";
+			icon.style.height = "85%";
+			icon.style.transform = "scale(1,1.2)";
+			if (children[0]) {
+				children[0].style.left = "6%";
+				children[0].parentNode?.insertBefore(icon, children[0]);
+			}
+			const removeTarget = children[2];
+			if (removeTarget?.parentNode) removeTarget.parentNode.removeChild(removeTarget);
+			return;
+		}
+
+		const icon = document.createElement("img");
+		setAssImage(icon, subtype, cardName === "liulongcanjia" ? "equip3" : "equip1");
+		if (style === "off") {
+			icon.style.height = "85%";
+			icon.style.marginLeft = "4.5px";
+		} else {
+			icon.style.opacity = "1";
+			icon.style.height = "109%";
+			icon.style.marginLeft = "0px";
+		}
+		applySSEquipName(children, 1, ssEquip);
+		children[0]?.parentNode?.insertBefore(icon, children[0]);
+	} else {
+		applySSEquipName(children, 2, ssEquip);
+		setAssImage(children[0], subtype, cardName === "liulongcanjia" ? "equip3" : "equip1");
+	}
+}
+
+function renderDisabledEquip(card) {
+	const name2Node = card.getElementsByClassName("name2")[0];
+	if (!name2Node) return;
+
+	const children = ensureEquipNameChildren(name2Node);
+	if (!children?.length) return;
+
+	const parent = children[0].parentNode;
+	if (!parent) return;
+
+	while (parent.hasChildNodes()) {
+		parent.removeChild(parent.firstChild);
+	}
+
+	const subtype = getCardSubtype(card);
+	const normalizedSubtype = normalizeSubtypeForAss(subtype);
+	const basePath = window.decadeUIPath || "";
+	parent.style.backgroundImage = `url("${basePath}images/ass/${normalizedSubtype}.png")`;
+	parent.style.backgroundRepeat = "no-repeat";
+	parent.style.backgroundPosition = "center";
+	parent.style.backgroundSize = "100%";
+
+	const text = document.createElement("span");
+	text.textContent = "已废除";
+	text.style.color = "#000";
+	text.style.fontSize = "12px";
+	text.style.whiteSpace = "nowrap";
+	text.style.textShadow = "none";
+
+	parent.style.display = "flex";
+	parent.style.alignItems = "center";
+	parent.style.justifyContent = "center";
+	parent.style.columnGap = "0";
+	parent.style.overflow = "hidden";
+
+	parent.appendChild(text);
+
+	if (parent.parentNode?.style) {
+		parent.parentNode.style.left = "";
+	}
+}
+
+export function updateEquipName2Display(player) {
+	if (!player?.node?.equips) return;
+
+	const style = getEquipStyle();
+	const cards = Array.from(player.node.equips.childNodes);
+	cards.forEach(card => {
+		if (!card?.getElementsByClassName) return;
+
+		if (card.classList?.contains("feichu")) {
+			renderDisabledEquip(card);
+			return;
+		}
+
+		renderEquipName2(card, style);
+	});
+}
+
+/**
+ * Use card override
+ * @returns {Object}
+ * @this {Object}
+ */
+export function playerUseCard() {
+	const base = getBasePlayerMethods();
+	const event = base.useCard.apply(this, arguments);
+
+	playShowCardAudio();
+
+	event.pushHandler("decadeUI_TargetHighlight", (event, option) => {
+		if (option.state === "begin" && event.step === 1 && !event.hideTargets) {
+			event.targets?.forEach(target => target.classList.add("target"));
+		}
+	});
+
+	const originalFinish = event.finish;
+	event.finish = function () {
+		originalFinish?.apply(this, arguments);
+		this.targets?.forEach(target => target.classList.remove("target"));
+	};
+
+	return event;
+}
+
+/**
+ * Respond override
+ * @returns {*}
+ * @this {Object}
+ */
+export function playerRespond() {
+	playShowCardAudio();
+	const base = getBasePlayerMethods();
+	return base.respond.apply(this, arguments);
+}
+
+/**
+ * Lose card override
+ * @returns {Object}
+ * @this {Object}
+ */
+export function playerLose() {
+	const base = getBasePlayerMethods();
+	const next = base.lose.apply(this, arguments);
+
+	const event = _status.event?.name === "loseAsync" ? _status.event.getParent() : _status.event;
+
+	if (event?.name === "useCard" || event?.name === "respond") {
+		next.animate = true;
+		next.blameEvent = event;
+	}
+
+	return next;
+}
+
+/**
+ * Use card animation before override
+ * @param {Object} event
+ * @returns {void}
+ * @this {Object}
+ */
+export function playerUseCardAnimateBefore(event) {
+	const base = getBasePlayerMethods();
+	base.useCardAnimateBefore?.apply(this, arguments);
+
+	if (hasActualLostCards(event)) {
+		event.throw = false;
+	}
+}
+
+/**
+ * Respond animation before override
+ * @param {Object} event
+ * @returns {void}
+ * @this {Object}
+ */
+export function playerRespondAnimateBefore(event) {
+	const base = getBasePlayerMethods();
+	base.respondAnimateBefore?.apply(this, arguments);
+
+	if (hasActualLostCards(event)) {
+		event.throw = false;
+	}
+}
+
+/**
+ * Handle equip changes override
+ * @returns {void}
+ * @this {Object}
+ */
+export function playerHandleEquipChange() {
+	const base = getBasePlayerMethods();
+	base.$handleEquipChange.apply(this, arguments);
+
+	const player = this;
+	updateEquipName2Display(player);
+
+	if (player !== game.me || !ui.equipSolts) return;
+
+	const extraEquipCount = Array.from(player.node.equips.childNodes).filter(card => ![1, 2, 3, 4, 5].includes(get.equipNum(card))).length;
+
+	const currentExtraSlots = Array.from(ui.equipSolts.back.children).filter(el => el.dataset.type === "5").length;
+
+	let delta = extraEquipCount - currentExtraSlots;
+
+	if (delta > 0) {
+		while (delta > 0) {
+			delta--;
+			const ediv = window.decadeUI.element.create(null, ui.equipSolts.back);
+			ediv.dataset.type = 5;
+		}
+	} else if (delta < 0) {
+		for (let i = 0; i > extraEquipCount; i--) {
+			const element = Array.from(ui.equipSolts.back.children).find(el => el.dataset.type === "5");
+			if (element?.dataset.type === "5") {
+				element.remove();
+			}
+		}
+	}
+}
+
+/**
+ * @param {Object} event
+ * @returns {boolean}
+ */
+function hasActualLostCards(event) {
+	if (!event.lose_map) return false;
+
+	return Object.keys(event.lose_map).some(item => {
+		return item !== "noowner" && event.lose_map[item].length > 0;
+	});
+}

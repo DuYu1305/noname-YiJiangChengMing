@@ -1,0 +1,603 @@
+{
+    "frames": {
+        "GameGeneralTicketRecord_normal.png": {
+            "frame": {
+                "h": 53,
+                "idx": 0,
+                "w": 72,
+                "x": 884,
+                "y": 199
+            },
+            "sourceSize": {
+                "h": 53,
+                "w": 72
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameGeneralTicketRecord_over.png": {
+            "frame": {
+                "h": 53,
+                "idx": 0,
+                "w": 72,
+                "x": 649,
+                "y": 445
+            },
+            "sourceSize": {
+                "h": 53,
+                "w": 72
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameGeneralTicketTip.png": {
+            "frame": {
+                "h": 68,
+                "idx": 0,
+                "w": 692,
+                "x": 191,
+                "y": 212
+            },
+            "sourceSize": {
+                "h": 68,
+                "w": 692
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnAvatar_normal.png": {
+            "frame": {
+                "h": 81,
+                "idx": 0,
+                "w": 81,
+                "x": 526,
+                "y": 281
+            },
+            "sourceSize": {
+                "h": 81,
+                "w": 81
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnAvatar_over.png": {
+            "frame": {
+                "h": 81,
+                "idx": 0,
+                "w": 81,
+                "x": 608,
+                "y": 281
+            },
+            "sourceSize": {
+                "h": 81,
+                "w": 81
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnDark_normal.png": {
+            "frame": {
+                "h": 54,
+                "idx": 0,
+                "w": 220,
+                "x": 305,
+                "y": 336
+            },
+            "sourceSize": {
+                "h": 54,
+                "w": 220
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnDark_over.png": {
+            "frame": {
+                "h": 54,
+                "idx": 0,
+                "w": 220,
+                "x": 305,
+                "y": 281
+            },
+            "sourceSize": {
+                "h": 54,
+                "w": 220
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnGeneral_normal.png": {
+            "frame": {
+                "h": 81,
+                "idx": 0,
+                "w": 81,
+                "x": 567,
+                "y": 428
+            },
+            "sourceSize": {
+                "h": 81,
+                "w": 81
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnGeneral_over.png": {
+            "frame": {
+                "h": 81,
+                "idx": 0,
+                "w": 81,
+                "x": 854,
+                "y": 281
+            },
+            "sourceSize": {
+                "h": 81,
+                "w": 81
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnGiftTip.png": {
+            "frame": {
+                "h": 39,
+                "idx": 0,
+                "w": 118,
+                "x": 786,
+                "y": 159
+            },
+            "sourceSize": {
+                "h": 39,
+                "w": 118
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnGift_normal.png": {
+            "frame": {
+                "h": 120,
+                "idx": 0,
+                "w": 141,
+                "x": 644,
+                "y": 91
+            },
+            "sourceSize": {
+                "h": 120,
+                "w": 141
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnGift_over.png": {
+            "frame": {
+                "h": 120,
+                "idx": 0,
+                "w": 141,
+                "x": 502,
+                "y": 91
+            },
+            "sourceSize": {
+                "h": 120,
+                "w": 141
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnHide_normal.png": {
+            "frame": {
+                "h": 45,
+                "idx": 0,
+                "w": 32,
+                "x": 788,
+                "y": 445
+            },
+            "sourceSize": {
+                "h": 45,
+                "w": 32
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnHide_over.png": {
+            "frame": {
+                "h": 45,
+                "idx": 0,
+                "w": 32,
+                "x": 755,
+                "y": 445
+            },
+            "sourceSize": {
+                "h": 45,
+                "w": 32
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnLight_normal.png": {
+            "frame": {
+                "h": 54,
+                "idx": 0,
+                "w": 220,
+                "x": 191,
+                "y": 393
+            },
+            "sourceSize": {
+                "h": 54,
+                "w": 220
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnLight_over.png": {
+            "frame": {
+                "h": 54,
+                "idx": 0,
+                "w": 220,
+                "x": 346,
+                "y": 448
+            },
+            "sourceSize": {
+                "h": 54,
+                "w": 220
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnShop_normal.png": {
+            "frame": {
+                "h": 111,
+                "idx": 0,
+                "w": 113,
+                "x": 191,
+                "y": 281
+            },
+            "sourceSize": {
+                "h": 111,
+                "w": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnShop_over.png": {
+            "frame": {
+                "h": 111,
+                "idx": 0,
+                "w": 113,
+                "x": 786,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 111,
+                "w": 113
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnShow_normal.png": {
+            "frame": {
+                "h": 45,
+                "idx": 0,
+                "w": 32,
+                "x": 722,
+                "y": 445
+            },
+            "sourceSize": {
+                "h": 45,
+                "w": 32
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnShow_over.png": {
+            "frame": {
+                "h": 45,
+                "idx": 0,
+                "w": 32,
+                "x": 611,
+                "y": 363
+            },
+            "sourceSize": {
+                "h": 45,
+                "w": 32
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnSkin_normal.png": {
+            "frame": {
+                "h": 81,
+                "idx": 0,
+                "w": 81,
+                "x": 772,
+                "y": 281
+            },
+            "sourceSize": {
+                "h": 81,
+                "w": 81
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnSkin_over.png": {
+            "frame": {
+                "h": 81,
+                "idx": 0,
+                "w": 81,
+                "x": 731,
+                "y": 363
+            },
+            "sourceSize": {
+                "h": 81,
+                "w": 81
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnSprite_normal.png": {
+            "frame": {
+                "h": 81,
+                "idx": 0,
+                "w": 81,
+                "x": 690,
+                "y": 281
+            },
+            "sourceSize": {
+                "h": 81,
+                "w": 81
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitBtnSprite_over.png": {
+            "frame": {
+                "h": 81,
+                "idx": 0,
+                "w": 81,
+                "x": 649,
+                "y": 363
+            },
+            "sourceSize": {
+                "h": 81,
+                "w": 81
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitCostBg.png": {
+            "frame": {
+                "h": 34,
+                "idx": 0,
+                "w": 124,
+                "x": 813,
+                "y": 363
+            },
+            "sourceSize": {
+                "h": 34,
+                "w": 124
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitOther.png": {
+            "frame": {
+                "h": 92,
+                "idx": 0,
+                "w": 27,
+                "x": 928,
+                "y": 398
+            },
+            "sourceSize": {
+                "h": 92,
+                "w": 27
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitOtherBg.png": {
+            "frame": {
+                "h": 32,
+                "idx": 0,
+                "w": 114,
+                "x": 813,
+                "y": 398
+            },
+            "sourceSize": {
+                "h": 32,
+                "w": 114
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitResultRuneBg.png": {
+            "frame": {
+                "h": 250,
+                "idx": 0,
+                "w": 190,
+                "x": 0,
+                "y": 212
+            },
+            "sourceSize": {
+                "h": 250,
+                "w": 190
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitResultRuneNumBg.png": {
+            "frame": {
+                "h": 36,
+                "idx": 0,
+                "w": 198,
+                "x": 412,
+                "y": 391
+            },
+            "sourceSize": {
+                "h": 36,
+                "w": 198
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitResultRuneReplaceBg.png": {
+            "frame": {
+                "h": 46,
+                "idx": 0,
+                "w": 168,
+                "x": 786,
+                "y": 112
+            },
+            "sourceSize": {
+                "h": 46,
+                "w": 168
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitSelect.png": {
+            "frame": {
+                "h": 32,
+                "idx": 0,
+                "w": 35,
+                "x": 905,
+                "y": 159
+            },
+            "sourceSize": {
+                "h": 32,
+                "w": 35
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitSelectBg.png": {
+            "frame": {
+                "h": 31,
+                "idx": 0,
+                "w": 31,
+                "x": 900,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 31,
+                "w": 31
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitTipNormal.png": {
+            "frame": {
+                "h": 120,
+                "idx": 0,
+                "w": 501,
+                "x": 0,
+                "y": 91
+            },
+            "sourceSize": {
+                "h": 120,
+                "w": 501
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitTipNormalMaxBg.png": {
+            "frame": {
+                "h": 37,
+                "idx": 0,
+                "w": 345,
+                "x": 0,
+                "y": 463
+            },
+            "sourceSize": {
+                "h": 37,
+                "w": 345
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "GameRecruitTipStar.png": {
+            "frame": {
+                "h": 90,
+                "idx": 0,
+                "w": 714,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 90,
+                "w": 714
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "gameRecruit.png",
+        "prefix": "gameRecruit/"
+    }
+}

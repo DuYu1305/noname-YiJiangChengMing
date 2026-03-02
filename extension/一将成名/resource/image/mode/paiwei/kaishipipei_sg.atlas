@@ -1,0 +1,370 @@
+
+kaishipipei_sg.png
+size: 1145,1145
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+saoguang/kaishipipei2_00
+  rotate: true
+  xy: 900, 357
+  size: 44, 54
+  orig: 300, 200
+  offset: 49, 73
+  index: -1
+saoguang/kaishipipei2_01
+  rotate: true
+  xy: 224, 2
+  size: 63, 54
+  orig: 300, 200
+  offset: 40, 73
+  index: -1
+saoguang/kaishipipei2_02
+  rotate: true
+  xy: 1074, 449
+  size: 73, 54
+  orig: 300, 200
+  offset: 40, 73
+  index: -1
+saoguang/kaishipipei2_03
+  rotate: false
+  xy: 1006, 169
+  size: 84, 54
+  orig: 300, 200
+  offset: 40, 73
+  index: -1
+saoguang/kaishipipei2_04
+  rotate: false
+  xy: 1046, 817
+  size: 94, 54
+  orig: 300, 200
+  offset: 40, 73
+  index: -1
+saoguang/kaishipipei2_05
+  rotate: false
+  xy: 1027, 393
+  size: 104, 54
+  orig: 300, 200
+  offset: 40, 73
+  index: -1
+saoguang/kaishipipei2_06
+  rotate: true
+  xy: 1074, 524
+  size: 115, 54
+  orig: 300, 200
+  offset: 40, 73
+  index: -1
+saoguang/kaishipipei2_07
+  rotate: false
+  xy: 900, 403
+  size: 125, 54
+  orig: 300, 200
+  offset: 40, 73
+  index: -1
+saoguang/kaishipipei2_08
+  rotate: false
+  xy: 908, 787
+  size: 136, 54
+  orig: 300, 200
+  offset: 40, 73
+  index: -1
+saoguang/kaishipipei2_09
+  rotate: false
+  xy: 866, 17
+  size: 132, 54
+  orig: 300, 200
+  offset: 54, 73
+  index: -1
+saoguang/kaishipipei2_10
+  rotate: false
+  xy: 300, 33
+  size: 129, 54
+  orig: 300, 200
+  offset: 67, 73
+  index: -1
+saoguang/kaishipipei2_11
+  rotate: false
+  xy: 431, 33
+  size: 127, 54
+  orig: 300, 200
+  offset: 80, 73
+  index: -1
+saoguang/kaishipipei2_12
+  rotate: true
+  xy: 1018, 636
+  size: 123, 54
+  orig: 300, 200
+  offset: 94, 73
+  index: -1
+saoguang/kaishipipei2_13
+  rotate: true
+  xy: 1018, 513
+  size: 121, 54
+  orig: 300, 200
+  offset: 107, 73
+  index: -1
+saoguang/kaishipipei2_14
+  rotate: true
+  xy: 1074, 641
+  size: 118, 54
+  orig: 300, 200
+  offset: 120, 73
+  index: -1
+saoguang/kaishipipei2_15
+  rotate: false
+  xy: 1006, 337
+  size: 114, 54
+  orig: 300, 200
+  offset: 134, 73
+  index: -1
+saoguang/kaishipipei2_16
+  rotate: false
+  xy: 1006, 281
+  size: 112, 54
+  orig: 300, 200
+  offset: 147, 73
+  index: -1
+saoguang/kaishipipei2_17
+  rotate: false
+  xy: 1006, 225
+  size: 99, 54
+  orig: 300, 200
+  offset: 161, 73
+  index: -1
+saoguang/kaishipipei2_18
+  rotate: false
+  xy: 1046, 761
+  size: 86, 54
+  orig: 300, 200
+  offset: 174, 73
+  index: -1
+saoguang/kaishipipei2_19
+  rotate: false
+  xy: 1006, 113
+  size: 73, 54
+  orig: 300, 200
+  offset: 187, 73
+  index: -1
+saoguang/kaishipipei2_20
+  rotate: false
+  xy: 1006, 57
+  size: 60, 54
+  orig: 300, 200
+  offset: 200, 73
+  index: -1
+saoguang/kaishipipei2_21
+  rotate: true
+  xy: 1018, 465
+  size: 46, 54
+  orig: 300, 200
+  offset: 214, 73
+  index: -1
+saoguang/kaishipipei_00
+  rotate: false
+  xy: 2, 11
+  size: 220, 54
+  orig: 300, 200
+  offset: 40, 73
+  index: -1
+saoguang/kaishipipei_01
+  rotate: true
+  xy: 1042, 873
+  size: 270, 99
+  orig: 300, 200
+  offset: 15, 51
+  index: -1
+saoguang/kaishipipei_02
+  rotate: true
+  xy: 904, 459
+  size: 282, 112
+  orig: 300, 200
+  offset: 9, 44
+  index: -1
+saoguang/kaishipipei_03
+  rotate: false
+  xy: 602, 235
+  size: 288, 120
+  orig: 300, 200
+  offset: 6, 40
+  index: -1
+saoguang/kaishipipei_04
+  rotate: false
+  xy: 300, 89
+  size: 292, 124
+  orig: 300, 200
+  offset: 4, 38
+  index: -1
+saoguang/kaishipipei_05
+  rotate: false
+  xy: 606, 613
+  size: 296, 128
+  orig: 300, 200
+  offset: 2, 36
+  index: -1
+saoguang/kaishipipei_06
+  rotate: false
+  xy: 2, 197
+  size: 296, 128
+  orig: 300, 200
+  offset: 2, 36
+  index: -1
+saoguang/kaishipipei_07
+  rotate: false
+  xy: 304, 345
+  size: 296, 128
+  orig: 300, 200
+  offset: 2, 36
+  index: -1
+saoguang/kaishipipei_08
+  rotate: false
+  xy: 2, 863
+  size: 300, 132
+  orig: 300, 200
+  offset: 0, 34
+  index: -1
+saoguang/kaishipipei_09
+  rotate: false
+  xy: 304, 1011
+  size: 300, 132
+  orig: 300, 200
+  offset: 0, 34
+  index: -1
+saoguang/kaishipipei_10
+  rotate: false
+  xy: 2, 729
+  size: 300, 132
+  orig: 300, 200
+  offset: 0, 34
+  index: -1
+saoguang/kaishipipei_11
+  rotate: false
+  xy: 304, 877
+  size: 300, 132
+  orig: 300, 200
+  offset: 0, 34
+  index: -1
+saoguang/kaishipipei_12
+  rotate: false
+  xy: 606, 1011
+  size: 300, 132
+  orig: 300, 200
+  offset: 0, 34
+  index: -1
+saoguang/kaishipipei_13
+  rotate: false
+  xy: 2, 595
+  size: 300, 132
+  orig: 300, 200
+  offset: 0, 34
+  index: -1
+saoguang/kaishipipei_14
+  rotate: false
+  xy: 304, 743
+  size: 300, 132
+  orig: 300, 200
+  offset: 0, 34
+  index: -1
+saoguang/kaishipipei_15
+  rotate: false
+  xy: 2, 997
+  size: 300, 146
+  orig: 300, 200
+  offset: 0, 27
+  index: -1
+saoguang/kaishipipei_16
+  rotate: false
+  xy: 606, 877
+  size: 300, 132
+  orig: 300, 200
+  offset: 0, 34
+  index: -1
+saoguang/kaishipipei_17
+  rotate: false
+  xy: 2, 461
+  size: 300, 132
+  orig: 300, 200
+  offset: 0, 34
+  index: -1
+saoguang/kaishipipei_18
+  rotate: false
+  xy: 304, 609
+  size: 300, 132
+  orig: 300, 200
+  offset: 0, 34
+  index: -1
+saoguang/kaishipipei_19
+  rotate: false
+  xy: 606, 743
+  size: 300, 132
+  orig: 300, 200
+  offset: 0, 34
+  index: -1
+saoguang/kaishipipei_20
+  rotate: true
+  xy: 908, 843
+  size: 300, 132
+  orig: 300, 200
+  offset: 0, 34
+  index: -1
+saoguang/kaishipipei_21
+  rotate: false
+  xy: 2, 327
+  size: 300, 132
+  orig: 300, 200
+  offset: 0, 34
+  index: -1
+saoguang/kaishipipei_22
+  rotate: false
+  xy: 304, 475
+  size: 300, 132
+  orig: 300, 200
+  offset: 0, 34
+  index: -1
+saoguang/kaishipipei_23
+  rotate: false
+  xy: 606, 483
+  size: 296, 128
+  orig: 300, 200
+  offset: 2, 36
+  index: -1
+saoguang/kaishipipei_24
+  rotate: false
+  xy: 2, 67
+  size: 296, 128
+  orig: 300, 200
+  offset: 2, 36
+  index: -1
+saoguang/kaishipipei_25
+  rotate: false
+  xy: 304, 215
+  size: 296, 128
+  orig: 300, 200
+  offset: 2, 36
+  index: -1
+saoguang/kaishipipei_26
+  rotate: false
+  xy: 606, 357
+  size: 292, 124
+  orig: 300, 200
+  offset: 4, 38
+  index: -1
+saoguang/kaishipipei_27
+  rotate: false
+  xy: 602, 113
+  size: 288, 120
+  orig: 300, 200
+  offset: 6, 40
+  index: -1
+saoguang/kaishipipei_28
+  rotate: true
+  xy: 892, 73
+  size: 282, 112
+  orig: 300, 200
+  offset: 9, 44
+  index: -1
+saoguang/kaishipipei_29
+  rotate: false
+  xy: 594, 12
+  size: 270, 99
+  orig: 300, 200
+  offset: 15, 51
+  index: -1

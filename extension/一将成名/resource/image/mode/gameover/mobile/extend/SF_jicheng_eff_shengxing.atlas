@@ -1,0 +1,230 @@
+
+SF_jicheng_eff_shengxing.png
+size: 1992,1796
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TX/jicheng_tx1_00
+  rotate: true
+  xy: 527, 12
+  size: 535, 252
+  orig: 780, 400
+  offset: 127, 83
+  index: -1
+TX/jicheng_tx1_01
+  rotate: true
+  xy: 781, 0
+  size: 551, 254
+  orig: 780, 400
+  offset: 120, 82
+  index: -1
+TX/jicheng_tx1_02
+  rotate: false
+  xy: 1369, 1010
+  size: 566, 258
+  orig: 780, 400
+  offset: 113, 80
+  index: -1
+TX/jicheng_tx1_03
+  rotate: true
+  xy: 1099, 225
+  size: 579, 264
+  orig: 780, 400
+  offset: 108, 77
+  index: -1
+TX/jicheng_tx1_04
+  rotate: false
+  xy: 1393, 1531
+  size: 594, 265
+  orig: 780, 400
+  offset: 101, 76
+  index: -1
+TX/jicheng_tx1_05
+  rotate: false
+  xy: 781, 1529
+  size: 610, 267
+  orig: 780, 400
+  offset: 94, 75
+  index: -1
+TX/jicheng_tx1_06
+  rotate: true
+  xy: 271, 549
+  size: 620, 267
+  orig: 780, 400
+  offset: 90, 75
+  index: -1
+TX/jicheng_tx1_07
+  rotate: true
+  xy: 0, 530
+  size: 629, 269
+  orig: 780, 400
+  offset: 87, 74
+  index: -1
+TX/jicheng_tx1_08
+  rotate: true
+  xy: 0, 1161
+  size: 635, 269
+  orig: 780, 400
+  offset: 84, 74
+  index: -1
+TX/jicheng_tx1_09
+  rotate: true
+  xy: 271, 1171
+  size: 625, 267
+  orig: 780, 400
+  offset: 88, 75
+  index: -1
+TX/jicheng_tx1_10
+  rotate: false
+  xy: 781, 1006
+  size: 586, 263
+  orig: 780, 400
+  offset: 93, 77
+  index: -1
+TX/jicheng_tx1_11
+  rotate: false
+  xy: 1393, 1270
+  size: 592, 259
+  orig: 780, 400
+  offset: 89, 79
+  index: -1
+TX/jicheng_tx1_12
+  rotate: false
+  xy: 781, 1271
+  size: 592, 256
+  orig: 780, 400
+  offset: 88, 81
+  index: -1
+TX/jicheng_tx1_13
+  rotate: false
+  xy: 1402, 760
+  size: 583, 248
+  orig: 780, 400
+  offset: 92, 85
+  index: -1
+TX/jicheng_tx1_14
+  rotate: false
+  xy: 540, 553
+  size: 557, 240
+  orig: 780, 400
+  offset: 102, 85
+  index: -1
+TX/jicheng_tx1_15
+  rotate: true
+  xy: 0, 154
+  size: 374, 213
+  orig: 780, 400
+  offset: 200, 90
+  index: -1
+TX/jicheng_tx1_16
+  rotate: true
+  xy: 215, 167
+  size: 361, 209
+  orig: 780, 400
+  offset: 205, 95
+  index: -1
+TX/jicheng_tx1_17
+  rotate: true
+  xy: 540, 1448
+  size: 348, 206
+  orig: 780, 400
+  offset: 214, 99
+  index: -1
+TX/jicheng_tx1_18
+  rotate: true
+  xy: 540, 1107
+  size: 339, 206
+  orig: 780, 400
+  offset: 222, 100
+  index: -1
+TX/jicheng_tx1_19
+  rotate: false
+  xy: 1063, 806
+  size: 337, 198
+  orig: 780, 400
+  offset: 224, 108
+  index: -1
+TX/jicheng_tx1_20
+  rotate: true
+  xy: 1365, 259
+  size: 333, 194
+  orig: 780, 400
+  offset: 226, 114
+  index: -1
+TX/jicheng_tx1_21
+  rotate: true
+  xy: 1758, 261
+  size: 331, 194
+  orig: 780, 400
+  offset: 226, 114
+  index: -1
+TX/jicheng_tx1_22
+  rotate: true
+  xy: 1561, 261
+  size: 331, 195
+  orig: 780, 400
+  offset: 225, 114
+  index: -1
+TX/jicheng_tx1_23
+  rotate: false
+  xy: 1037, 26
+  size: 321, 197
+  orig: 780, 400
+  offset: 234, 114
+  index: -1
+TX/jicheng_tx1_24
+  rotate: false
+  xy: 1360, 27
+  size: 318, 196
+  orig: 780, 400
+  offset: 236, 113
+  index: -1
+TX/jicheng_tx1_25
+  rotate: false
+  xy: 746, 804
+  size: 315, 200
+  orig: 780, 400
+  offset: 238, 111
+  index: -1
+TX/jicheng_tx1_26
+  rotate: true
+  xy: 540, 795
+  size: 310, 204
+  orig: 780, 400
+  offset: 241, 110
+  index: -1
+TX/jicheng_tx1_27
+  rotate: false
+  xy: 1365, 596
+  size: 310, 162
+  orig: 780, 400
+  offset: 240, 109
+  index: -1
+TX/jicheng_tx1_28
+  rotate: false
+  xy: 1680, 594
+  size: 312, 164
+  orig: 780, 400
+  offset: 237, 108
+  index: -1
+TX/jicheng_tx1_29
+  rotate: false
+  xy: 215, 0
+  size: 310, 165
+  orig: 780, 400
+  offset: 237, 107
+  index: -1
+xing
+  rotate: true
+  xy: 0, 40
+  size: 44, 42
+  orig: 46, 43
+  offset: 1, 1
+  index: -1
+xing2
+  rotate: true
+  xy: 0, 86
+  size: 66, 63
+  orig: 66, 63
+  offset: 0, 0
+  index: -1

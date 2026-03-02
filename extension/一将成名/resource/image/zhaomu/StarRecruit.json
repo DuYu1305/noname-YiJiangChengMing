@@ -1,0 +1,93 @@
+{
+    "frames": {
+        "starrecruit_general.png": {
+            "frame": {
+                "h": 30,
+                "idx": 0,
+                "w": 22,
+                "x": 164,
+                "y": 46
+            },
+            "sourceSize": {
+                "h": 30,
+                "w": 22
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "starrecruit_item_bg.png": {
+            "frame": {
+                "h": 192,
+                "idx": 0,
+                "w": 163,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 192,
+                "w": 163
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "starrecruit_rate_normal.png": {
+            "frame": {
+                "h": 22,
+                "idx": 0,
+                "w": 79,
+                "x": 164,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 22,
+                "w": 79
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "starrecruit_rate_over.png": {
+            "frame": {
+                "h": 22,
+                "idx": 0,
+                "w": 79,
+                "x": 164,
+                "y": 23
+            },
+            "sourceSize": {
+                "h": 22,
+                "w": 79
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "starrecruit_skin.png": {
+            "frame": {
+                "h": 30,
+                "idx": 0,
+                "w": 22,
+                "x": 187,
+                "y": 46
+            },
+            "sourceSize": {
+                "h": 30,
+                "w": 22
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "StarRecruit.png",
+        "prefix": "StarRecruit/"
+    }
+}

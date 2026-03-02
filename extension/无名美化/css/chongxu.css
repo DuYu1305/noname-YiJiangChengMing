@@ -1,0 +1,341 @@
+.th-newcxbg {
+  left: calc(50% - 479px);
+  top: calc(50% - 253px);
+  position: absolute;
+  background-size: 100% 100%;
+  opacity: 0;
+  transform: scale(0);
+  width: 959px;
+  height: 506px;
+  background-image: url("../image/chongxu/chongxubg.png");
+  animation: th-cxbg 0.49s linear forwards;
+}
+
+.th-cxdaojishi {
+  width: 660px;
+  height: 60px;
+  background-size: 100% 100%;
+  position: absolute;
+  top: calc(50% - 90px);
+  left: calc(50% - 332px);
+  z-index: 16;
+  background-image: url("../image/chongxu/chongXu_count_down.png");
+  font-size: 18px;
+  line-height: 80px;
+  color: #b1d8df;
+  text-shadow: 1px 1px 0px #213f4a, -1px 1px 0px #213f4a, 1px -1px 0px #213f4a,
+    -1px -1px 0px #213f4a;
+  font-family: "shousha";
+  display: flex;
+  justify-content: center;
+}
+
+.th-hT1 {
+  pointer-events: none;
+  font-family: "shousha";
+  color: #b1d8df;
+  text-shadow: 1px 1px 1px #213f4a, -1px 1px 1px #213f4a, 1px -1px 1px #213f4a,
+    -1px -1px 1px #213f4a;
+  font-size: 18px;
+  top: calc(50% + 65px);
+  left: calc(50% + 92px);
+  position: absolute;
+  z-index: 16;
+}
+
+.th-hT2 {
+  pointer-events: none;
+  font-family: "shousha";
+  color: #b1d8df;
+  text-shadow: 1px 1px 1px #213f4a, -1px 1px 1px #213f4a, 1px -1px 1px #213f4a,
+    -1px -1px 1px #213f4a;
+  font-size: 18px;
+  top: calc(50% - 20px);
+  left: calc(50% - 138px);
+  position: absolute;
+  z-index: 16;
+}
+
+.th-cxlbtn {
+  height: 110px;
+  width: 110px;
+  position: absolute;
+  top: calc(50% + 80px);
+  left: calc(50% + 50px);
+  font-size: 0px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 16;
+  background-image: url("../image/chongxu/chongXu_btn_bg.png");
+  pointer-events: auto;
+}
+
+.th-cxrbtn {
+  height: 110px;
+  width: 110px;
+  position: absolute;
+  top: calc(50% + 80px);
+  left: calc(50% + 224px);
+  font-size: 0px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 16;
+  background-image: url("../image/chongxu/chongXu_btn_bg.png");
+  pointer-events: auto;
+}
+
+.th-cxlbtn.self {
+  background-image: url("../image/chongxu/chongXu_arrow_lnormal.png");
+  animation: th-cxlbtn 1s forwards;
+}
+
+.th-cxrbtn.self {
+  background-image: url("../image/chongxu/chongXu_arrow_rnormal.png");
+  animation: th-cxrbtn 1s forwards;
+}
+
+.th-cxlbtn.self:active {
+  background-image: url("../image/chongxu/chongXu_arrow_lpressed.png");
+}
+
+.th-cxrbtn.self:active {
+  background-image: url("../image/chongxu/chongXu_arrow_rpressed.png");
+}
+
+.th-cxmianban {
+  height: 100px;
+  width: 50px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  overflow: hidden;
+}
+
+.th-cxmianban.right {
+  left: 55px;
+}
+
+.th-cxcd {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-size: 100% 100%;
+  transform-origin: right;
+  background-image: url("../image/chongxu/chongxu_selectcd_left.png");
+}
+
+.th-cxcd.right {
+  transform-origin: left;
+  background-image: url("../image/chongxu/chongxu_selectcd_right.png");
+}
+
+.th-cxblock {
+  height: 112px;
+  width: 110px;
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  background-size: 100% 100%;
+  background-image: url("../image/chongxu/chongXu_select.png");
+}
+
+.th-harasslight {
+  height: 410px;
+  width: 60px;
+  top: calc(50% - 220px);
+  position: absolute;
+  background-image: url("../image/chongxu/chongXu_place_tip.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: th-harasslight 0.5s;
+  z-index: 17;
+  pointer-events: none;
+}
+
+.th-cxscbg {
+  height: 110px;
+  width: 175px;
+  position: absolute;
+  top: calc(50% - 217px);
+  left: calc(50% + 210px);
+  background-image: url("../image/chongxu/chongXu_score_bg.png");
+  background-size: 100% 100%;
+  z-index: 17;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #b1d8df;
+  transform: scale(1.15);
+  text-shadow: 1px 1px 0px #213f4a, -1px 1px 0px #213f4a, 1px -1px 0px #213f4a,
+    -1px -1px 0px #213f4a;
+  font-family: "shousha";
+}
+
+.th-cxtime {
+  --w: 500px;
+  width: var(--w);
+  height: 18px;
+  top: calc(50% + 210px);
+  left: calc(50% - var(--w) * 0.5 - 24px);
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #4b5151;
+  border-radius: 10px;
+  z-index: 17;
+  transition: none;
+}
+
+.th-cxtime2 {
+  --w: 500px;
+  width: var(--w);
+  height: 15px;
+  top: calc(50% + 210px);
+  left: calc(50% - var(--w) * 0.5 - 24px);
+  position: absolute;
+  background-image: url("../image/effect/jindutiao2.png");
+  background-size: 100% 100%;
+  z-index: 17;
+  transition: none;
+}
+
+.th-cxtimecover {
+  --w: 496px;
+  width: var(--w);
+  height: 14px;
+  top: 2px;
+  left: 2px;
+  margin: auto;
+  position: absolute;
+  background-image: linear-gradient(
+    0deg,
+    #971823,
+    #d75964 10%,
+    #e30f28 20%,
+    #bd4103 50%,
+    #dacfb1
+  );
+  border-radius: 8px;
+  transition: width 200ms;
+}
+
+.th-cxtimecover2 {
+  --w: 496px;
+  width: var(--w);
+  height: 9px;
+  top: 2px;
+  left: 2px;
+  margin: auto;
+  position: absolute;
+  background-color: #f4c336;
+  border-radius: 4px;
+  transition: width 200ms;
+}
+
+.th-cxresultload {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 13;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #b1d8df;
+  text-shadow: 1px 1px 0px #213f4a, -1px 1px 0px #213f4a, 1px -1px 0px #213f4a,
+    -1px -1px 0px #213f4a;
+  font-family: "shousha";
+}
+
+.th-cxcircle {
+  width: 330px;
+  height: 330px;
+  top: calc(50% - 170px);
+  left: calc(50% - 110px);
+  position: absolute;
+  background-image: url("../image/chongxu/chongXu_result_circle.png");
+  background-size: 100% 100%;
+}
+
+.th-cxscorebg {
+  width: 162px;
+  height: 35px;
+  top: calc(50% - 205px);
+  left: calc(50% + 206px);
+  position: absolute;
+  background-image: url("../image/chongxu/chongXu_get_score_bg.png");
+  background-size: 100% 100%;
+}
+
+.th-cxevaluate {
+  width: 100px;
+  height: 20px;
+  left: 116px;
+  top: 142px;
+}
+
+.th-cxbgdh {
+  width: 796px;
+  height: 180px;
+  top: calc(50% - 90px);
+  left: calc(50% - 398px);
+  position: absolute;
+  background-size: 100% 100%;
+  background-image: url("../image/chongxu/chongXu_get_score_bg.png");
+  color: #b1d8df;
+  text-shadow: 1.5px 1.5px 1px #213f4a, -1.5px 1.5px 1px #213f4a,
+    1.5px -1.5px 1px #213f4a, -1.5px -1.5px 1px #213f4a;
+  font-family: "shousha";
+  font-size: 16px;
+}
+
+.th-cxselect {
+  width: 23px;
+  height: 28.75px;
+  top: 135px;
+  background-size: 100% 100%;
+  position: absolute;
+  transition: all 0.3s;
+}
+
+.th-cxselect.style0 {
+  left: 90px;
+  background-image: url("../image/chongxu/chongXu_select1.png");
+}
+
+.th-cxselect.style0.select {
+  background-image: url("../image/chongxu/chongXu_select1s.png");
+}
+
+.th-cxselect.style1 {
+  left: 150px;
+  background-image: url("../image/chongxu/chongXu_select2.png");
+}
+
+.th-cxselect.style1.select {
+  background-image: url("../image/chongxu/chongXu_select2s.png");
+}
+
+.th-cxselect.style2 {
+  left: 210px;
+  background-image: url("../image/chongxu/chongXu_select3.png");
+}
+
+.th-cxselect.style2.select {
+  background-image: url("../image/chongxu/chongXu_select3s.png");
+}
+
+.th-cxbgdh > div.disable {
+  filter: grayscale(100%);
+}
+
+.th-cxresulttext {
+  width: 100%;
+  text-align: center;
+  line-height: 16px;
+  left: 0;
+  position: absolute;
+  bottom: 14px;
+}

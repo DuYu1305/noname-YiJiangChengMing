@@ -1,0 +1,76 @@
+
+aar_piliche_posui.png
+size: 665,665
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+piliche_00000
+  rotate: false
+  xy: 137, 22
+  size: 109, 147
+  orig: 230, 299
+  offset: 59, 76
+  index: -1
+piliche_00001
+  rotate: false
+  xy: 2, 3
+  size: 133, 166
+  orig: 230, 299
+  offset: 46, 66
+  index: -1
+piliche_00002
+  rotate: false
+  xy: 408, 35
+  size: 149, 182
+  orig: 230, 299
+  offset: 38, 57
+  index: -1
+piliche_00003
+  rotate: false
+  xy: 248, 2
+  size: 158, 195
+  orig: 230, 299
+  offset: 36, 48
+  index: -1
+piliche_00004
+  rotate: false
+  xy: 402, 219
+  size: 166, 206
+  orig: 230, 299
+  offset: 32, 39
+  index: -1
+piliche_00005
+  rotate: false
+  xy: 217, 199
+  size: 183, 216
+  orig: 230, 299
+  offset: 20, 29
+  index: -1
+piliche_00006
+  rotate: false
+  xy: 438, 437
+  size: 195, 226
+  orig: 230, 299
+  offset: 14, 20
+  index: -1
+piliche_00007
+  rotate: false
+  xy: 232, 427
+  size: 204, 236
+  orig: 230, 299
+  offset: 10, 10
+  index: -1
+piliche_00008
+  rotate: false
+  xy: 2, 171
+  size: 213, 244
+  orig: 230, 299
+  offset: 5, 0
+  index: -1
+piliche_00009
+  rotate: false
+  xy: 2, 417
+  size: 228, 246
+  orig: 230, 299
+  offset: 0, 1
+  index: -1

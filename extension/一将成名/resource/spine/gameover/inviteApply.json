@@ -1,0 +1,144 @@
+{
+    "frames": {
+        "inviteApplyAgreeBtn1.png": {
+            "frame": {
+                "h": 56,
+                "idx": 0,
+                "w": 56,
+                "x": 67,
+                "y": 379
+            },
+            "sourceSize": {
+                "h": 56,
+                "w": 56
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "inviteApplyAgreeBtn2.png": {
+            "frame": {
+                "h": 56,
+                "idx": 0,
+                "w": 56,
+                "x": 124,
+                "y": 379
+            },
+            "sourceSize": {
+                "h": 56,
+                "w": 56
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "inviteApplyBg1.png": {
+            "frame": {
+                "h": 180,
+                "idx": 0,
+                "w": 466,
+                "x": 0,
+                "y": 198
+            },
+            "sourceSize": {
+                "h": 180,
+                "w": 466
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "inviteApplyBg2.png": {
+            "frame": {
+                "h": 197,
+                "idx": 0,
+                "w": 466,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 197,
+                "w": 466
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "inviteApplyLine.png": {
+            "frame": {
+                "h": 1,
+                "idx": 0,
+                "w": 7,
+                "x": 467,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 1,
+                "w": 7
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "inviteApplyRejectBtn1.png": {
+            "frame": {
+                "h": 44,
+                "idx": 0,
+                "w": 44,
+                "x": 181,
+                "y": 379
+            },
+            "sourceSize": {
+                "h": 44,
+                "w": 44
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "inviteApplyRejectBtn2.png": {
+            "frame": {
+                "h": 44,
+                "idx": 0,
+                "w": 44,
+                "x": 226,
+                "y": 379
+            },
+            "sourceSize": {
+                "h": 44,
+                "w": 44
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "inviteApplyTime.png": {
+            "frame": {
+                "h": 66,
+                "idx": 0,
+                "w": 66,
+                "x": 0,
+                "y": 379
+            },
+            "sourceSize": {
+                "h": 66,
+                "w": 66
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "inviteApply.png",
+        "prefix": "inviteApply/"
+    }
+}

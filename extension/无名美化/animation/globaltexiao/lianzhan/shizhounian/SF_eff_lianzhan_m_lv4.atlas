@@ -1,0 +1,146 @@
+
+SF_eff_lianzhan_m_lv4.png
+size: 947,947
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lz_lv4_7phone_00
+  rotate: true
+  xy: 243, 772
+  size: 173, 239
+  orig: 300, 300
+  offset: 71, 30
+  index: -1
+lz_lv4_7phone_01
+  rotate: true
+  xy: 484, 772
+  size: 173, 240
+  orig: 300, 300
+  offset: 71, 30
+  index: -1
+lz_lv4_7phone_02
+  rotate: true
+  xy: 243, 596
+  size: 174, 240
+  orig: 300, 300
+  offset: 71, 30
+  index: -1
+lz_lv4_7phone_03
+  rotate: true
+  xy: 243, 420
+  size: 174, 240
+  orig: 300, 300
+  offset: 71, 30
+  index: -1
+lz_lv4_7phone_04
+  rotate: true
+  xy: 704, 387
+  size: 174, 240
+  orig: 300, 300
+  offset: 71, 30
+  index: -1
+lz_lv4_7phone_05
+  rotate: true
+  xy: 2, 597
+  size: 173, 239
+  orig: 300, 300
+  offset: 72, 30
+  index: -1
+lz_lv4_7phone_06
+  rotate: true
+  xy: 485, 596
+  size: 174, 239
+  orig: 300, 300
+  offset: 71, 30
+  index: -1
+lz_lv4_7phone_07
+  rotate: true
+  xy: 2, 244
+  size: 174, 240
+  orig: 300, 300
+  offset: 71, 30
+  index: -1
+lz_lv4_7phone_08
+  rotate: true
+  xy: 2, 421
+  size: 174, 239
+  orig: 300, 300
+  offset: 71, 30
+  index: -1
+lz_lv4_7phone_09
+  rotate: true
+  xy: 2, 772
+  size: 173, 239
+  orig: 300, 300
+  offset: 71, 30
+  index: -1
+lz_lv4_phone_00
+  rotate: true
+  xy: 2, 51
+  size: 191, 217
+  orig: 300, 300
+  offset: 62, 23
+  index: -1
+lz_lv4_phone_01
+  rotate: true
+  xy: 726, 755
+  size: 190, 218
+  orig: 300, 300
+  offset: 63, 23
+  index: -1
+lz_lv4_phone_02
+  rotate: true
+  xy: 726, 563
+  size: 190, 217
+  orig: 300, 300
+  offset: 63, 23
+  index: -1
+lz_lv4_phone_03
+  rotate: true
+  xy: 485, 404
+  size: 190, 217
+  orig: 300, 300
+  offset: 63, 23
+  index: -1
+lz_lv4_phone_04
+  rotate: true
+  xy: 244, 228
+  size: 190, 218
+  orig: 300, 300
+  offset: 63, 23
+  index: -1
+lz_lv4_phone_05
+  rotate: true
+  xy: 464, 212
+  size: 190, 217
+  orig: 300, 300
+  offset: 63, 23
+  index: -1
+lz_lv4_phone_06
+  rotate: true
+  xy: 683, 195
+  size: 190, 218
+  orig: 300, 300
+  offset: 63, 23
+  index: -1
+lz_lv4_phone_07
+  rotate: true
+  xy: 221, 35
+  size: 191, 218
+  orig: 300, 300
+  offset: 62, 23
+  index: -1
+lz_lv4_phone_08
+  rotate: true
+  xy: 441, 19
+  size: 191, 218
+  orig: 300, 300
+  offset: 62, 23
+  index: -1
+lz_lv4_phone_09
+  rotate: true
+  xy: 661, 2
+  size: 191, 218
+  orig: 300, 300
+  offset: 62, 23
+  index: -1

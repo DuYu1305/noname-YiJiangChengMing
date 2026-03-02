@@ -1,0 +1,34 @@
+
+SF_liezhuan_eff_bossjineng.png
+size: 752,752
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boss_tx2
+  rotate: false
+  xy: 2, 438
+  size: 511, 312
+  orig: 750, 750
+  offset: 108, 101
+  index: -1
+boss_tx4
+  rotate: false
+  xy: 2, 92
+  size: 341, 344
+  orig: 378, 359
+  offset: 15, 9
+  index: -1
+glow_01
+  rotate: false
+  xy: 345, 184
+  size: 250, 252
+  orig: 250, 252
+  offset: 0, 0
+  index: -1
+ydlong
+  rotate: true
+  xy: 515, 443
+  size: 307, 235
+  orig: 307, 235
+  offset: 0, 0
+  index: -1

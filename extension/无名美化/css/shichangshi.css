@@ -1,0 +1,11 @@
+.scswenzi{
+    position: absolute;
+    bottom:66px;
+    left:350px;
+    font-size:26px;
+    font-family:shousha;
+    color:#fff165;
+    text-shadow:0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03,0 0 3px #1a0c03;
+    filter:blur(0.5px) brightness(0.9);
+    letter-spacing:7px;
+}

@@ -1,0 +1,76 @@
+
+SF_eff_lianzhan_m_lv2.png
+size: 770,770
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lz_lv2_phone00
+  rotate: false
+  xy: 2, 123
+  size: 190, 213
+  orig: 300, 300
+  offset: 63, 19
+  index: -1
+lz_lv2_phone01
+  rotate: false
+  xy: 194, 339
+  size: 189, 213
+  orig: 300, 300
+  offset: 64, 19
+  index: -1
+lz_lv2_phone02
+  rotate: false
+  xy: 194, 124
+  size: 189, 213
+  orig: 300, 300
+  offset: 64, 19
+  index: -1
+lz_lv2_phone03
+  rotate: false
+  xy: 385, 340
+  size: 190, 213
+  orig: 300, 300
+  offset: 63, 19
+  index: -1
+lz_lv2_phone04
+  rotate: false
+  xy: 2, 554
+  size: 191, 214
+  orig: 300, 300
+  offset: 62, 19
+  index: -1
+lz_lv2_phone05
+  rotate: false
+  xy: 385, 126
+  size: 190, 212
+  orig: 300, 300
+  offset: 63, 20
+  index: -1
+lz_lv2_phone06
+  rotate: false
+  xy: 577, 342
+  size: 191, 211
+  orig: 300, 300
+  offset: 62, 20
+  index: -1
+lz_lv2_phone07
+  rotate: false
+  xy: 195, 555
+  size: 191, 213
+  orig: 300, 300
+  offset: 62, 20
+  index: -1
+lz_lv2_phone08
+  rotate: false
+  xy: 388, 555
+  size: 191, 213
+  orig: 300, 300
+  offset: 62, 20
+  index: -1
+lz_lv2_phone09
+  rotate: false
+  xy: 2, 338
+  size: 190, 214
+  orig: 300, 300
+  offset: 63, 19
+  index: -1

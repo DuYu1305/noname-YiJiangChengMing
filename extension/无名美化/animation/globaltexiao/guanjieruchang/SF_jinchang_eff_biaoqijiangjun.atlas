@@ -1,0 +1,244 @@
+
+SF_jinchang_eff_biaoqijiangjun.png
+size: 596,596
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+11
+  rotate: false
+  xy: 515, 110
+  size: 54, 52
+  orig: 54, 52
+  offset: 0, 0
+  index: -1
+3gaoji/11_1
+  rotate: false
+  xy: 2, 237
+  size: 169, 176
+  orig: 169, 176
+  offset: 0, 0
+  index: -1
+3gaoji/11_2
+  rotate: false
+  xy: 2, 415
+  size: 188, 179
+  orig: 210, 210
+  offset: 11, 10
+  index: -1
+3gaoji/sg11/11_1_00
+  rotate: false
+  xy: 2, 78
+  size: 157, 157
+  orig: 210, 210
+  offset: 26, 29
+  index: -1
+3gaoji/sg11/11_2_00
+  rotate: false
+  xy: 192, 432
+  size: 174, 162
+  orig: 210, 210
+  offset: 18, 26
+  index: -1
+3gaoji/sg11/sg11_1_04
+  rotate: true
+  xy: 161, 91
+  size: 144, 47
+  orig: 210, 210
+  offset: 33, 10
+  index: -1
+3gaoji/sg11/sg11_1_05
+  rotate: true
+  xy: 237, 266
+  size: 164, 60
+  orig: 210, 210
+  offset: 23, 17
+  index: -1
+3gaoji/sg11/sg11_1_06
+  rotate: false
+  xy: 2, 14
+  size: 176, 62
+  orig: 210, 210
+  offset: 17, 35
+  index: -1
+3gaoji/sg11/sg11_1_07
+  rotate: false
+  xy: 368, 532
+  size: 186, 62
+  orig: 210, 210
+  offset: 12, 55
+  index: -1
+3gaoji/sg11/sg11_1_08
+  rotate: false
+  xy: 368, 468
+  size: 186, 62
+  orig: 210, 210
+  offset: 12, 76
+  index: -1
+3gaoji/sg11/sg11_1_09
+  rotate: false
+  xy: 368, 404
+  size: 182, 62
+  orig: 210, 210
+  offset: 14, 96
+  index: -1
+3gaoji/sg11/sg11_1_10
+  rotate: true
+  xy: 173, 247
+  size: 166, 62
+  orig: 210, 210
+  offset: 22, 116
+  index: -1
+3gaoji/sg11/sg11_1_11
+  rotate: true
+  xy: 299, 276
+  size: 154, 52
+  orig: 210, 210
+  offset: 28, 136
+  index: -1
+3gaoji/sg11/sg11_1_12
+  rotate: true
+  xy: 556, 488
+  size: 106, 33
+  orig: 210, 210
+  offset: 52, 156
+  index: -1
+3gaoji/sg11/sg11_2_02
+  rotate: true
+  xy: 571, 135
+  size: 27, 23
+  orig: 210, 210
+  offset: 25, 29
+  index: -1
+3gaoji/sg11/sg11_2_03
+  rotate: false
+  xy: 489, 71
+  size: 35, 37
+  orig: 210, 210
+  offset: 25, 29
+  index: -1
+3gaoji/sg11/sg11_2_04
+  rotate: true
+  xy: 245, 5
+  size: 41, 47
+  orig: 210, 210
+  offset: 25, 29
+  index: -1
+3gaoji/sg11/sg11_2_05
+  rotate: false
+  xy: 463, 229
+  size: 100, 56
+  orig: 210, 210
+  offset: 33, 40
+  index: -1
+3gaoji/sg11/sg11_2_06
+  rotate: false
+  xy: 353, 243
+  size: 108, 59
+  orig: 210, 210
+  offset: 48, 59
+  index: -1
+3gaoji/sg11/sg11_2_07
+  rotate: false
+  xy: 210, 48
+  size: 98, 79
+  orig: 210, 210
+  offset: 73, 62
+  index: -1
+3gaoji/sg11/sg11_2_08
+  rotate: false
+  xy: 353, 304
+  size: 113, 98
+  orig: 210, 210
+  offset: 66, 65
+  index: -1
+3gaoji/sg11/sg11_2_09
+  rotate: true
+  xy: 468, 287
+  size: 115, 91
+  orig: 210, 210
+  offset: 66, 76
+  index: -1
+3gaoji/sg11/sg11_2_10
+  rotate: true
+  xy: 210, 129
+  size: 116, 91
+  orig: 210, 210
+  offset: 66, 91
+  index: -1
+3gaoji/sg11/sg11_2_11
+  rotate: false
+  xy: 303, 166
+  size: 84, 75
+  orig: 210, 210
+  offset: 98, 111
+  index: -1
+3gaoji/sg11/sg11_2_12
+  rotate: false
+  xy: 454, 110
+  size: 59, 52
+  orig: 210, 210
+  offset: 122, 134
+  index: -1
+3gaoji/tx11/tx11_01
+  rotate: true
+  xy: 180, 2
+  size: 44, 63
+  orig: 63, 63
+  offset: 9, 0
+  index: -1
+3gaoji/tx11/tx11_02
+  rotate: false
+  xy: 389, 178
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+3gaoji/tx11/tx11_03
+  rotate: false
+  xy: 454, 164
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+3gaoji/tx11/tx11_04
+  rotate: false
+  xy: 519, 164
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+3gaoji/tx11/tx11_05
+  rotate: false
+  xy: 310, 101
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+3gaoji/tx11/tx11_06
+  rotate: false
+  xy: 310, 36
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+3gaoji/tx11/tx11_07
+  rotate: false
+  xy: 389, 113
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+3gaoji/tx11/tx11_08
+  rotate: false
+  xy: 375, 48
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+3gaoji/tx11/yuan11_08
+  rotate: false
+  xy: 440, 61
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1

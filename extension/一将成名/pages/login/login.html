@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>无名杀</title>
+		<audio  src="../../resource/audio/effect/outbgm_2.mp3" autoplay loop></audio>
+		<audio id="ksgame" src="../../resource/audio/effect/Enter.mp3"></audio>
+
+		<!-- <script src="../../lib/pixi6.min.js"></script> -->
+		<link rel="stylesheet" href="./css/login.css" />
+	</head>
+	<body>
+		<div id="app">
+			<div v-if="!loading" class="login-box hidden" :class="[classList]">
+				<video class="login-video center" src="../../resource/video/loginVideo.mp4" autoplay loop></video>
+				<img class="loading-age2" src="../../resource/image/login/loadingAge.png" alt="" srcset="" />
+				<img class="shequ" src="../../resource/image/login/shequ.png" alt="" srcset="" />
+				<img class="shuaxin" src="../../resource/image/login/shuaxin.png" alt="" srcset="" />
+				<div class="login-main center">
+					<img class="title" src="../../resource/image/login/title.png" alt="" srcset="" />
+					<div class="error">{{ errorMsg }}</div>
+					<div class="username-box input-box flex">
+						<span class="username-img"></span>
+						<input type="text" id="username" v-model="username" />
+						<span> 注册账号 </span>
+					</div>
+					<div class="password-box input-box flex">
+						<span class="password-img"></span>
+						<input type="password" id="password" type="password" v-model="password" />
+						<span> 找回密码 </span>
+					</div>
+					<div class="auto-login flex" @click="autoLoginClick">
+						<span :class="[autoLogin?'active':'']"></span>
+						<span>自动登录</span>
+					</div>
+					<div class="login-btn">
+						<span @click="login" :class="[canLogin?'active-btn':'']"></span>
+					</div>
+					<div class="yinsi" @click="yinsiClick"><span :class="[yinsi?'active':'']"></span>已阅读并同意《用户协议》和 《隐私协议》和《儿童隐私协议》《第三方合作协议》</div>
+				</div>
+			</div>
+			<div :class="['loading','center',random()==1?'loading-bg4':'']" v-else>
+				<img class="loading-age" src="../../resource/image/login/loadingAge.png" alt="" srcset="" />
+				<img class="reload-game" src="../../resource/image/login/resLoadGame.png" alt="" srcset="" />
+				<img class="loading-gif" src="../../resource/image/login/loading.gif" alt="" srcset="" />
+			</div>
+		</div>
+		<script type="module" src="./js/login.js"></script>
+	</body>
+</html>

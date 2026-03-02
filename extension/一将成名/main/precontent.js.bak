@@ -1,0 +1,23 @@
+//1.函数执行时机为游戏数据加载之前，联机模式亦可加载
+import { EXTENSION_NAME, baseUrl, loadScript,cssPath } from "../utils/index.js";
+import { lib, game, ui, get, ai, _status } from "../../../noname.js";
+import { YJCM } from "./YJCM.js";
+export async function precontent() {
+	let userInfo = sessionStorage.getItem("userInfo");
+	if (!userInfo) {
+		let userInfo = sessionStorage.getItem("userInfo");
+if (!userInfo) {
+	sessionStorage.setItem(
+		"userInfo",
+		JSON.stringify({ username: "游客", password: "" })
+	);
+}
+	}
+
+	await loadScript(`${baseUrl}lib/pixi6.min.js`);
+	await loadScript(`${baseUrl}lib/gsap.min.js`);
+	lib.init.css(`${baseUrl}style`, "yjcm");
+	lib.onloadSplashes.push(new YJCM());
+	const yjStyle = lib.onloadSplashes.find(i => i.id === "style-yjcm").id;
+	game.saveConfig("splash_style", yjStyle);
+}

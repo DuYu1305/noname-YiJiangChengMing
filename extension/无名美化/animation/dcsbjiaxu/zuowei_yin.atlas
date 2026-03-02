@@ -1,0 +1,188 @@
+
+zuowei_yin.png
+size: 1664,1664
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx/yin_tx3_00
+  rotate: true
+  xy: 941, 1015
+  size: 321, 306
+  orig: 400, 500
+  offset: 74, 88
+  index: -1
+tx/yin_tx3_01
+  rotate: true
+  xy: 636, 1012
+  size: 324, 303
+  orig: 400, 500
+  offset: 74, 88
+  index: -1
+tx/yin_tx3_02
+  rotate: true
+  xy: 935, 1338
+  size: 324, 303
+  orig: 400, 500
+  offset: 74, 88
+  index: -1
+tx/yin_tx3_03
+  rotate: true
+  xy: 626, 1338
+  size: 324, 307
+  orig: 400, 500
+  offset: 74, 86
+  index: -1
+tx/yin_tx3_04
+  rotate: true
+  xy: 318, 267
+  size: 324, 306
+  orig: 400, 500
+  offset: 74, 86
+  index: -1
+tx/yin_tx3_05
+  rotate: true
+  xy: 626, 645
+  size: 324, 304
+  orig: 400, 500
+  offset: 74, 88
+  index: -1
+tx/yin_tx3_06
+  rotate: true
+  xy: 932, 687
+  size: 323, 303
+  orig: 400, 500
+  offset: 75, 89
+  index: -1
+tx/yin_tx3_07
+  rotate: true
+  xy: 626, 320
+  size: 323, 317
+  orig: 400, 500
+  offset: 75, 90
+  index: -1
+tx/yin_tx3_08
+  rotate: false
+  xy: 321, 971
+  size: 313, 334
+  orig: 400, 500
+  offset: 75, 91
+  index: -1
+tx/yin_tx3_09
+  rotate: false
+  xy: 313, 593
+  size: 311, 353
+  orig: 400, 500
+  offset: 76, 90
+  index: -1
+tx/yin_tx3_10
+  rotate: false
+  xy: 2, 237
+  size: 314, 353
+  orig: 400, 500
+  offset: 75, 90
+  index: -1
+tx/yin_tx3_11
+  rotate: false
+  xy: 2, 948
+  size: 317, 355
+  orig: 400, 500
+  offset: 76, 88
+  index: -1
+tx/yin_tx3_12
+  rotate: false
+  xy: 309, 1307
+  size: 315, 355
+  orig: 400, 500
+  offset: 76, 88
+  index: -1
+tx/yin_tx3_13
+  rotate: false
+  xy: 2, 1305
+  size: 305, 357
+  orig: 400, 500
+  offset: 77, 81
+  index: -1
+tx/yin_tx3_14
+  rotate: false
+  xy: 2, 592
+  size: 309, 354
+  orig: 400, 500
+  offset: 77, 81
+  index: -1
+tx/yin_tx3_15
+  rotate: false
+  xy: 1240, 1342
+  size: 254, 320
+  orig: 400, 500
+  offset: 77, 81
+  index: -1
+tx/yin_tx3_16
+  rotate: false
+  xy: 945, 370
+  size: 254, 315
+  orig: 400, 500
+  offset: 77, 86
+  index: -1
+tx/yin_tx3_17
+  rotate: false
+  xy: 1135, 53
+  size: 252, 315
+  orig: 400, 500
+  offset: 79, 86
+  index: -1
+tx/yin_tx3_18
+  rotate: false
+  xy: 1201, 370
+  size: 252, 315
+  orig: 400, 500
+  offset: 79, 86
+  index: -1
+tx/yin_tx3_19
+  rotate: false
+  xy: 628, 2
+  size: 252, 316
+  orig: 400, 500
+  offset: 79, 85
+  index: -1
+tx/yin_tx3_20
+  rotate: false
+  xy: 882, 2
+  size: 251, 316
+  orig: 400, 500
+  offset: 82, 85
+  index: -1
+tx/yin_tx3_21
+  rotate: false
+  xy: 1237, 698
+  size: 251, 315
+  orig: 400, 500
+  offset: 82, 86
+  index: -1
+tx/yin_tx3_22
+  rotate: false
+  xy: 1249, 1032
+  size: 257, 308
+  orig: 400, 500
+  offset: 78, 86
+  index: -1
+tx/yin_tx3_23
+  rotate: true
+  xy: 318, 5
+  size: 260, 308
+  orig: 400, 500
+  offset: 75, 86
+  index: -1
+tx/yin_tx3_24
+  rotate: false
+  xy: 1389, 61
+  size: 259, 307
+  orig: 400, 500
+  offset: 74, 87
+  index: -1
+zuowei
+  rotate: false
+  xy: 2, 6
+  size: 159, 229
+  orig: 180, 245
+  offset: 12, 0
+  index: -1

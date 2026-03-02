@@ -1,0 +1,654 @@
+{
+    "frames": {
+        "MatchLevelIconBg1.png": {
+            "frame": {
+                "h": 148,
+                "idx": 0,
+                "w": 119,
+                "x": 331,
+                "y": 846
+            },
+            "sourceSize": {
+                "h": 148,
+                "w": 119
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "MatchLevelIconBg2.png": {
+            "frame": {
+                "h": 148,
+                "idx": 0,
+                "w": 119,
+                "x": 931,
+                "y": 846
+            },
+            "sourceSize": {
+                "h": 148,
+                "w": 119
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "MatchLevelIconBg3.png": {
+            "frame": {
+                "h": 148,
+                "idx": 0,
+                "w": 119,
+                "x": 811,
+                "y": 846
+            },
+            "sourceSize": {
+                "h": 148,
+                "w": 119
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "MatchLevelIconBg4.png": {
+            "frame": {
+                "h": 148,
+                "idx": 0,
+                "w": 119,
+                "x": 691,
+                "y": 846
+            },
+            "sourceSize": {
+                "h": 148,
+                "w": 119
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "MatchLevelIconBg5.png": {
+            "frame": {
+                "h": 148,
+                "idx": 0,
+                "w": 119,
+                "x": 571,
+                "y": 846
+            },
+            "sourceSize": {
+                "h": 148,
+                "w": 119
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "MatchLevelIconBg6.png": {
+            "frame": {
+                "h": 148,
+                "idx": 0,
+                "w": 119,
+                "x": 451,
+                "y": 846
+            },
+            "sourceSize": {
+                "h": 148,
+                "w": 119
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "MatchLevelIconBig1.png": {
+            "frame": {
+                "h": 422,
+                "idx": 0,
+                "w": 390,
+                "x": 391,
+                "y": 423
+            },
+            "sourceSize": {
+                "h": 422,
+                "w": 390
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "MatchLevelIconBig2.png": {
+            "frame": {
+                "h": 422,
+                "idx": 0,
+                "w": 390,
+                "x": 782,
+                "y": 423
+            },
+            "sourceSize": {
+                "h": 422,
+                "w": 390
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "MatchLevelIconBig3.png": {
+            "frame": {
+                "h": 422,
+                "idx": 0,
+                "w": 390,
+                "x": 782,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 422,
+                "w": 390
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "MatchLevelIconBig4.png": {
+            "frame": {
+                "h": 422,
+                "idx": 0,
+                "w": 390,
+                "x": 391,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 422,
+                "w": 390
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "MatchLevelIconBig5.png": {
+            "frame": {
+                "h": 422,
+                "idx": 0,
+                "w": 390,
+                "x": 0,
+                "y": 423
+            },
+            "sourceSize": {
+                "h": 422,
+                "w": 390
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "MatchLevelIconBig6.png": {
+            "frame": {
+                "h": 422,
+                "idx": 0,
+                "w": 390,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 422,
+                "w": 390
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankHallIcon1.png": {
+            "frame": {
+                "h": 45,
+                "idx": 0,
+                "w": 83,
+                "x": 168,
+                "y": 948
+            },
+            "sourceSize": {
+                "h": 45,
+                "w": 83
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankHallIcon2.png": {
+            "frame": {
+                "h": 45,
+                "idx": 0,
+                "w": 83,
+                "x": 168,
+                "y": 902
+            },
+            "sourceSize": {
+                "h": 45,
+                "w": 83
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankHallIcon3.png": {
+            "frame": {
+                "h": 45,
+                "idx": 0,
+                "w": 83,
+                "x": 84,
+                "y": 948
+            },
+            "sourceSize": {
+                "h": 45,
+                "w": 83
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankHallIcon4.png": {
+            "frame": {
+                "h": 45,
+                "idx": 0,
+                "w": 83,
+                "x": 0,
+                "y": 902
+            },
+            "sourceSize": {
+                "h": 45,
+                "w": 83
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankHallIcon5.png": {
+            "frame": {
+                "h": 45,
+                "idx": 0,
+                "w": 83,
+                "x": 84,
+                "y": 902
+            },
+            "sourceSize": {
+                "h": 45,
+                "w": 83
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankHallIcon6.png": {
+            "frame": {
+                "h": 45,
+                "idx": 0,
+                "w": 83,
+                "x": 0,
+                "y": 948
+            },
+            "sourceSize": {
+                "h": 45,
+                "w": 83
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankHallStep1.png": {
+            "frame": {
+                "h": 45,
+                "idx": 0,
+                "w": 41,
+                "x": 1173,
+                "y": 331
+            },
+            "sourceSize": {
+                "h": 45,
+                "w": 41
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankHallStep2.png": {
+            "frame": {
+                "h": 45,
+                "idx": 0,
+                "w": 41,
+                "x": 1173,
+                "y": 147
+            },
+            "sourceSize": {
+                "h": 45,
+                "w": 41
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankHallStep3.png": {
+            "frame": {
+                "h": 45,
+                "idx": 0,
+                "w": 41,
+                "x": 1173,
+                "y": 285
+            },
+            "sourceSize": {
+                "h": 45,
+                "w": 41
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankHallStep4.png": {
+            "frame": {
+                "h": 45,
+                "idx": 0,
+                "w": 41,
+                "x": 1173,
+                "y": 239
+            },
+            "sourceSize": {
+                "h": 45,
+                "w": 41
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankHallStep5.png": {
+            "frame": {
+                "h": 45,
+                "idx": 0,
+                "w": 41,
+                "x": 1173,
+                "y": 193
+            },
+            "sourceSize": {
+                "h": 45,
+                "w": 41
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankIcon1.png": {
+            "frame": {
+                "h": 48,
+                "idx": 0,
+                "w": 87,
+                "x": 1139,
+                "y": 944
+            },
+            "sourceSize": {
+                "h": 48,
+                "w": 87
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankIcon2.png": {
+            "frame": {
+                "h": 48,
+                "idx": 0,
+                "w": 87,
+                "x": 1051,
+                "y": 944
+            },
+            "sourceSize": {
+                "h": 48,
+                "w": 87
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankIcon3.png": {
+            "frame": {
+                "h": 48,
+                "idx": 0,
+                "w": 87,
+                "x": 1139,
+                "y": 895
+            },
+            "sourceSize": {
+                "h": 48,
+                "w": 87
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankIcon4.png": {
+            "frame": {
+                "h": 48,
+                "idx": 0,
+                "w": 87,
+                "x": 1051,
+                "y": 895
+            },
+            "sourceSize": {
+                "h": 48,
+                "w": 87
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankIcon5.png": {
+            "frame": {
+                "h": 48,
+                "idx": 0,
+                "w": 87,
+                "x": 1139,
+                "y": 846
+            },
+            "sourceSize": {
+                "h": 48,
+                "w": 87
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankIcon6.png": {
+            "frame": {
+                "h": 48,
+                "idx": 0,
+                "w": 87,
+                "x": 1051,
+                "y": 846
+            },
+            "sourceSize": {
+                "h": 48,
+                "w": 87
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankStep1.png": {
+            "frame": {
+                "h": 48,
+                "idx": 0,
+                "w": 45,
+                "x": 1173,
+                "y": 49
+            },
+            "sourceSize": {
+                "h": 48,
+                "w": 45
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankStep2.png": {
+            "frame": {
+                "h": 48,
+                "idx": 0,
+                "w": 45,
+                "x": 1173,
+                "y": 98
+            },
+            "sourceSize": {
+                "h": 48,
+                "w": 45
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankStep3.png": {
+            "frame": {
+                "h": 48,
+                "idx": 0,
+                "w": 45,
+                "x": 1173,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 48,
+                "w": 45
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankStep4.png": {
+            "frame": {
+                "h": 48,
+                "idx": 0,
+                "w": 45,
+                "x": 252,
+                "y": 951
+            },
+            "sourceSize": {
+                "h": 48,
+                "w": 45
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankStep5.png": {
+            "frame": {
+                "h": 48,
+                "idx": 0,
+                "w": 45,
+                "x": 252,
+                "y": 902
+            },
+            "sourceSize": {
+                "h": 48,
+                "w": 45
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ModeRankWordBg.png": {
+            "frame": {
+                "h": 55,
+                "idx": 0,
+                "w": 330,
+                "x": 0,
+                "y": 846
+            },
+            "sourceSize": {
+                "h": 55,
+                "w": 330
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "PeakGameRankLevelProgress.png": {
+            "frame": {
+                "h": 37,
+                "idx": 0,
+                "w": 37,
+                "x": 1173,
+                "y": 377
+            },
+            "sourceSize": {
+                "h": 37,
+                "w": 37
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "RankLevelProgress.png": {
+            "frame": {
+                "h": 36,
+                "idx": 0,
+                "w": 38,
+                "x": 1173,
+                "y": 415
+            },
+            "sourceSize": {
+                "h": 36,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "RankLevelProgressBg.png": {
+            "frame": {
+                "h": 36,
+                "idx": 0,
+                "w": 38,
+                "x": 1173,
+                "y": 452
+            },
+            "sourceSize": {
+                "h": 36,
+                "w": 38
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "rank.png",
+        "prefix": "rank/"
+    }
+}

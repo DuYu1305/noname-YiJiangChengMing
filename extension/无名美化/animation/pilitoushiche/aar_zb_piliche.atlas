@@ -1,0 +1,34 @@
+
+aar_zb_piliche.png
+size: 432,432
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+piliche_ganzi_00000
+  rotate: false
+  xy: 2, 2
+  size: 159, 178
+  orig: 159, 178
+  offset: 0, 0
+  index: -1
+piliche_shang_00000
+  rotate: false
+  xy: 274, 263
+  size: 110, 167
+  orig: 110, 167
+  offset: 0, 0
+  index: -1
+piliche_xia_00000
+  rotate: false
+  xy: 2, 182
+  size: 270, 248
+  orig: 274, 250
+  offset: 4, 0
+  index: -1
+shitou_00001
+  rotate: false
+  xy: 163, 94
+  size: 93, 86
+  orig: 146, 189
+  offset: 25, 14
+  index: -1

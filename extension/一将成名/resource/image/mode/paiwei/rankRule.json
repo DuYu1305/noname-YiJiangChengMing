@@ -1,0 +1,348 @@
+{
+    "frames": {
+        "AthleticsRankRuleArrow_cur.png": {
+            "frame": {
+                "h": 70,
+                "idx": 0,
+                "w": 124,
+                "x": 593,
+                "y": 439
+            },
+            "sourceSize": {
+                "h": 70,
+                "w": 124
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "AthleticsRankRuleArrow_normal.png": {
+            "frame": {
+                "h": 70,
+                "idx": 0,
+                "w": 124,
+                "x": 819,
+                "y": 409
+            },
+            "sourceSize": {
+                "h": 70,
+                "w": 124
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "AthleticsRankRuleBg_cur.png": {
+            "frame": {
+                "h": 398,
+                "idx": 0,
+                "w": 398,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 398,
+                "w": 398
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "AthleticsRankRuleBg_normal.png": {
+            "frame": {
+                "h": 191,
+                "idx": 0,
+                "w": 193,
+                "x": 399,
+                "y": 269
+            },
+            "sourceSize": {
+                "h": 191,
+                "w": 193
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "AthleticsRankRule_nameBg.png": {
+            "frame": {
+                "h": 37,
+                "idx": 0,
+                "w": 200,
+                "x": 0,
+                "y": 437
+            },
+            "sourceSize": {
+                "h": 37,
+                "w": 200
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "AthleticsRankRule_numBg.png": {
+            "frame": {
+                "h": 30,
+                "idx": 0,
+                "w": 159,
+                "x": 819,
+                "y": 480
+            },
+            "sourceSize": {
+                "h": 30,
+                "w": 159
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "HappyAthleticsRankRuleCurIcon.png": {
+            "frame": {
+                "h": 42,
+                "idx": 0,
+                "w": 50,
+                "x": 508,
+                "y": 461
+            },
+            "sourceSize": {
+                "h": 42,
+                "w": 50
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "HappyAthleticsRankRuleIconBg.png": {
+            "frame": {
+                "h": 139,
+                "idx": 0,
+                "w": 134,
+                "x": 819,
+                "y": 269
+            },
+            "sourceSize": {
+                "h": 139,
+                "w": 134
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "HappyAthleticsRankRuleIconBg1.png": {
+            "frame": {
+                "h": 268,
+                "idx": 0,
+                "w": 268,
+                "x": 399,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 268,
+                "w": 268
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "HappyAthleticsRankRuleIconBg2.png": {
+            "frame": {
+                "h": 268,
+                "idx": 0,
+                "w": 268,
+                "x": 668,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 268,
+                "w": 268
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "HappyAthleticsRankRuleItemBgOver.png": {
+            "frame": {
+                "h": 169,
+                "idx": 0,
+                "w": 134,
+                "x": 593,
+                "y": 269
+            },
+            "sourceSize": {
+                "h": 169,
+                "w": 134
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "HappyAthleticsRankRuleItembg.png": {
+            "frame": {
+                "h": 235,
+                "idx": 0,
+                "w": 90,
+                "x": 728,
+                "y": 269
+            },
+            "sourceSize": {
+                "h": 235,
+                "w": 90
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "HappyAthleticsRankRuleRank1.png": {
+            "frame": {
+                "h": 33,
+                "idx": 0,
+                "w": 74,
+                "x": 229,
+                "y": 399
+            },
+            "sourceSize": {
+                "h": 33,
+                "w": 74
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "HappyAthleticsRankRuleRank2.png": {
+            "frame": {
+                "h": 33,
+                "idx": 0,
+                "w": 74,
+                "x": 304,
+                "y": 399
+            },
+            "sourceSize": {
+                "h": 33,
+                "w": 74
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "HappyAthleticsRankRuleRank3.png": {
+            "frame": {
+                "h": 33,
+                "idx": 0,
+                "w": 74,
+                "x": 358,
+                "y": 461
+            },
+            "sourceSize": {
+                "h": 33,
+                "w": 74
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "HappyAthleticsRankRuleRank4.png": {
+            "frame": {
+                "h": 33,
+                "idx": 0,
+                "w": 74,
+                "x": 201,
+                "y": 468
+            },
+            "sourceSize": {
+                "h": 33,
+                "w": 74
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "HappyAthleticsRankRuleRank5.png": {
+            "frame": {
+                "h": 33,
+                "idx": 0,
+                "w": 74,
+                "x": 276,
+                "y": 468
+            },
+            "sourceSize": {
+                "h": 33,
+                "w": 74
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "HappyAthleticsRankRuleRank6.png": {
+            "frame": {
+                "h": 33,
+                "idx": 0,
+                "w": 74,
+                "x": 433,
+                "y": 461
+            },
+            "sourceSize": {
+                "h": 33,
+                "w": 74
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "HappyAthleticsRankRuleRankBg.png": {
+            "frame": {
+                "h": 37,
+                "idx": 0,
+                "w": 228,
+                "x": 0,
+                "y": 399
+            },
+            "sourceSize": {
+                "h": 37,
+                "w": 228
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "HappyAthleticsRankRuleRankNameBg.png": {
+            "frame": {
+                "h": 30,
+                "idx": 0,
+                "w": 156,
+                "x": 201,
+                "y": 437
+            },
+            "sourceSize": {
+                "h": 30,
+                "w": 156
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "rankRule.png",
+        "prefix": "rankRule/"
+    }
+}

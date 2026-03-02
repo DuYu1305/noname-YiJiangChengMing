@@ -1,0 +1,161 @@
+{
+    "frames": {
+        "adventureWindowBSATOpen.png": {
+            "frame": {
+                "h": 33,
+                "idx": 0,
+                "w": 33,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 33,
+                "w": 33
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "adventureWindowLeftBtn_normal.png": {
+            "frame": {
+                "h": 27,
+                "idx": 0,
+                "w": 16,
+                "x": 0,
+                "y": 34
+            },
+            "sourceSize": {
+                "h": 27,
+                "w": 16
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "adventureWindowLeftBtn_over.png": {
+            "frame": {
+                "h": 27,
+                "idx": 0,
+                "w": 16,
+                "x": 17,
+                "y": 34
+            },
+            "sourceSize": {
+                "h": 27,
+                "w": 16
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "adventureWindowRightBtn_normal.png": {
+            "frame": {
+                "h": 27,
+                "idx": 0,
+                "w": 16,
+                "x": 34,
+                "y": 32
+            },
+            "sourceSize": {
+                "h": 27,
+                "w": 16
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "adventureWindowRightBtn_over.png": {
+            "frame": {
+                "h": 27,
+                "idx": 0,
+                "w": 16,
+                "x": 51,
+                "y": 32
+            },
+            "sourceSize": {
+                "h": 27,
+                "w": 16
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "unlockConditionsBg.png": {
+            "frame": {
+                "h": 17,
+                "idx": 0,
+                "w": 20,
+                "x": 68,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 17,
+                "w": 20
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "unlockConditionsLock.png": {
+            "frame": {
+                "h": 31,
+                "idx": 0,
+                "w": 31,
+                "x": 34,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 31,
+                "w": 31
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "unlockConditionsPoint1.png": {
+            "frame": {
+                "h": 9,
+                "idx": 0,
+                "w": 9,
+                "x": 66,
+                "y": 18
+            },
+            "sourceSize": {
+                "h": 9,
+                "w": 9
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "unlockConditionsPoint2.png": {
+            "frame": {
+                "h": 9,
+                "idx": 0,
+                "w": 9,
+                "x": 76,
+                "y": 18
+            },
+            "sourceSize": {
+                "h": 9,
+                "w": 9
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "adventureWindow.png",
+        "prefix": "adventureWindow/"
+    }
+}

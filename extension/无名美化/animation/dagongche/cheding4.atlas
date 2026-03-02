@@ -1,0 +1,20 @@
+
+cheding4.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cheding4-1
+  rotate: false
+  xy: 2, 2
+  size: 323, 246
+  orig: 323, 246
+  offset: 0, 0
+  index: -1
+cheding4-2
+  rotate: false
+  xy: 327, 2
+  size: 323, 246
+  orig: 323, 246
+  offset: 0, 0
+  index: -1

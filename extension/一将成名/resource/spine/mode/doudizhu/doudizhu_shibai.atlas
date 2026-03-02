@@ -1,0 +1,76 @@
+
+doudizhu_shibai.png
+size: 1594,1594
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pingju
+  rotate: false
+  xy: 1198, 358
+  size: 379, 242
+  orig: 1750, 750
+  offset: 674, 268
+  index: -1
+shibai1
+  rotate: false
+  xy: 2, 910
+  size: 682, 682
+  orig: 1750, 750
+  offset: 535, 43
+  index: -1
+shibai1_2
+  rotate: true
+  xy: 686, 242
+  size: 507, 510
+  orig: 507, 510
+  offset: 0, 0
+  index: -1
+shibai1_3
+  rotate: false
+  xy: 1198, 71
+  size: 285, 285
+  orig: 285, 285
+  offset: 0, 0
+  index: -1
+shibai1_4
+  rotate: false
+  xy: 2, 226
+  size: 682, 682
+  orig: 682, 682
+  offset: 0, 0
+  index: -1
+shibai1_5
+  rotate: true
+  xy: 1226, 1098
+  size: 494, 366
+  orig: 494, 366
+  offset: 0, 0
+  index: -1
+shibai1_6
+  rotate: true
+  xy: 1215, 602
+  size: 494, 366
+  orig: 494, 366
+  offset: 0, 0
+  index: -1
+shibai2
+  rotate: false
+  xy: 686, 7
+  size: 414, 233
+  orig: 429, 233
+  offset: 0, 0
+  index: -1
+shibai4
+  rotate: false
+  xy: 686, 1170
+  size: 538, 422
+  orig: 538, 422
+  offset: 0, 0
+  index: -1
+shibai4_2
+  rotate: false
+  xy: 686, 751
+  size: 527, 417
+  orig: 527, 417
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,123 @@
+.junbazhu {/*主公底框*/
+    top:52px;
+    left:110px;
+    width:290px;
+    height:380px;
+    background-image:url("../../resource/image/xuanjiang/choosechar/zhubg.png");
+    background-size:100% 100%;
+    z-index:7;
+}
+.junbazhu>.biankuangname {/*主公名称血量整体*/
+    background-size:100% 100%;
+    left:88px;
+    top:74px;
+    z-index:11;
+}
+.junbazhu>.biankuangname>.name {/*主公武将名*/
+    background-size:100% 100%;
+    font-family:shousha;
+    font-size:15px !important;
+    top:5px !important;
+    z-index:100;
+}
+.junbazhu>.biankuangname>.hp-wrap {/*主公血量*/
+    left:70px;
+    top:30px;
+    height:55px!important;
+    z-index:22;
+}
+.junbazhu>.biankuangname>.hp-wrap>.hp {/*Hp>5(数值)*/
+    display:flex;
+    left:0;
+    right:0;
+    width:12px;
+    bottom:0px;
+    font-family:'shousha';
+	font-weight:bolder;
+    font-size:16px;
+    line-height:10px;
+    flex-direction:column-reverse;
+}
+.junbazhu>.biankuangname>.hp-wrap>.hp.textstyle {/*Hp>5(数值)*/
+    left:5px;
+    flex-direction:column-reverse;
+}	  	
+.junbazhu>.biankuangname> .hp-wrap > .hp.textstyle>div{/*高体力勾玉分离*/
+	margin-bottom:3px;
+}
+.junbazhu>.biankuangname>.hp-wrap>.hp>div {/*Hp<=5(勾玉)*/
+    position:static;
+    margin-top:1px;
+    width:14px;
+    height:14px;
+    line-height:100%;
+    border:none;
+}
+.junbazhu>.left {/*主公图片整体*/ 
+    left:90px;
+    top:48px;
+    bottom:0;
+    border-radius:4px;
+    width:100px;
+    height:123px;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    z-index:3;
+}
+.junbazhu>.left>.zhuGroupcamp{/*主公势力边框*/
+    background-image:url('../../resource/image/xuanjiang/group/qun.png');
+    background-size:100% 100%;
+    top:-5px;
+    width:113px;
+    height:130px;
+    z-index:9;
+    left:-9%;
+}
+.junbazhu>.zhuSeat{/*主公座位号*/
+    background-image:url('../../resource/image/xuanjiang/choosechar/seat_zhu.png');
+    background-size:100% 100%;
+    z-index:20;
+    width:115px;
+    height:23px;
+    left:81px;
+    top:170px;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    text-align:center;
+}
+.junbazhu>.meSeat{/*玩家座位号*/
+    background-image:url('../../resource/image/xuanjiang/choosechar/seat_zhong.png');
+    background-size:100% 100%;
+    z-index:10;
+    width:115px;
+    height:23px;
+    left:81px;
+    top:351.5px;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    text-align:center;
+}
+.junbazhu>.identityCard{/*身份牌*/
+    background-image:url('../../resource/image/xuanjiang/choosechar/identity_zhu.png');
+    background-size:100% 100%;
+    z-index:10;
+    width:90px;
+    height:121px;
+    left:94px;
+    top:230px;
+}
+.junbazhu>.textBg{/*文字底牌*/
+    background-image:url('../../resource/image/xuanjiang/choosechar/choosenTop.png');
+    background-size:100% 100%;
+    z-index:11;
+    width:138px;
+    height:27px;
+    left:70px;
+    top:5px;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    text-align:center;
+}

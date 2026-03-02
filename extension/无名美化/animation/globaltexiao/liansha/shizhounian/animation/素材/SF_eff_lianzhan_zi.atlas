@@ -1,0 +1,55 @@
+
+SF_eff_lianzhan_zi.png
+size: 360,360
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lianzhan_2
+  rotate: false
+  xy: 133, 125
+  size: 115, 108
+  orig: 241, 242
+  offset: 67, 72
+  index: -1
+lianzhan_3
+  rotate: false
+  xy: 250, 121
+  size: 108, 117
+  orig: 241, 242
+  offset: 75, 69
+  index: -1
+lianzhan_4
+  rotate: true
+  xy: 115, 15
+  size: 108, 111
+  orig: 241, 242
+  offset: 75, 67
+  index: -1
+lianzhan_5
+  rotate: false
+  xy: 2, 74
+  size: 111, 123
+  orig: 241, 242
+  offset: 72, 66
+  index: -1
+lianzhan_6
+  rotate: false
+  xy: 133, 235
+  size: 107, 123
+  orig: 241, 242
+  offset: 76, 66
+  index: -1
+lianzhan_7
+  rotate: false
+  xy: 242, 240
+  size: 109, 118
+  orig: 241, 242
+  offset: 74, 69
+  index: -1
+modi
+  rotate: false
+  xy: 2, 199
+  size: 129, 159
+  orig: 241, 242
+  offset: 79, 29
+  index: -1

@@ -1,0 +1,146 @@
+
+chetou1.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chetou1-1
+  rotate: true
+  xy: 347, 103
+  size: 151, 194
+  orig: 151, 194
+  offset: 0, 0
+  index: -1
+chetou1-2
+  rotate: false
+  xy: 2, 73
+  size: 277, 97
+  orig: 277, 97
+  offset: 0, 0
+  index: -1
+chetou1-3
+  rotate: false
+  xy: 739, 123
+  size: 115, 131
+  orig: 115, 131
+  offset: 0, 0
+  index: -1
+chetou1-4
+  rotate: true
+  xy: 543, 114
+  size: 140, 194
+  orig: 140, 194
+  offset: 0, 0
+  index: -1
+texture/chetou1-2mohu_00000
+  rotate: false
+  xy: 2, 172
+  size: 343, 82
+  orig: 360, 140
+  offset: 16, 33
+  index: -1
+texture/chetou1-2sg/chetou1-2sg_00000
+  rotate: false
+  xy: 342, 15
+  size: 96, 86
+  orig: 360, 140
+  offset: 117, 42
+  index: -1
+texture/chetou1-2sg/chetou1-2sg_00001
+  rotate: true
+  xy: 543, 2
+  size: 110, 93
+  orig: 360, 140
+  offset: 119, 36
+  index: -1
+texture/chetou1-2sg/chetou1-2sg_00002
+  rotate: true
+  xy: 638, 7
+  size: 105, 96
+  orig: 360, 140
+  offset: 132, 33
+  index: -1
+texture/chetou1-2sg/chetou1-2sg_00003
+  rotate: false
+  xy: 1672, 157
+  size: 119, 97
+  orig: 360, 140
+  offset: 131, 30
+  index: -1
+texture/chetou1-2sg/chetou1-2sg_00004
+  rotate: false
+  xy: 1541, 153
+  size: 129, 101
+  orig: 360, 140
+  offset: 133, 27
+  index: -1
+texture/chetou1-2sg/chetou1-2sg_00005
+  rotate: false
+  xy: 856, 152
+  size: 132, 102
+  orig: 360, 140
+  offset: 141, 23
+  index: -1
+texture/chetou1-2sg/chetou1-2sg_00006
+  rotate: false
+  xy: 990, 155
+  size: 133, 99
+  orig: 360, 140
+  offset: 152, 26
+  index: -1
+texture/chetou1-2sg/chetou1-2sg_00007
+  rotate: false
+  xy: 1125, 160
+  size: 136, 94
+  orig: 360, 140
+  offset: 161, 30
+  index: -1
+texture/chetou1-2sg/chetou1-2sg_00008
+  rotate: false
+  xy: 1263, 159
+  size: 135, 95
+  orig: 360, 140
+  offset: 170, 28
+  index: -1
+texture/chetou1-2sg/chetou1-2sg_00009
+  rotate: false
+  xy: 1400, 166
+  size: 139, 88
+  orig: 360, 140
+  offset: 183, 33
+  index: -1
+texture/chetou1-2sg/chetou1-2sg_00010
+  rotate: false
+  xy: 1793, 169
+  size: 131, 85
+  orig: 360, 140
+  offset: 195, 36
+  index: -1
+texture/chetou1-2sg/chetou1-2sg_00011
+  rotate: false
+  xy: 856, 75
+  size: 125, 75
+  orig: 360, 140
+  offset: 209, 43
+  index: -1
+texture/chetou1-2sg/chetou1-2sg_00012
+  rotate: false
+  xy: 1926, 183
+  size: 114, 71
+  orig: 360, 140
+  offset: 222, 48
+  index: -1
+texture/chetou1-2sg/chetou1-2sg_00013
+  rotate: false
+  xy: 2, 4
+  size: 99, 67
+  orig: 360, 140
+  offset: 237, 52
+  index: -1
+texture/chetou1-2sg/chetou1-2sg_00014
+  rotate: true
+  xy: 281, 83
+  size: 87, 59
+  orig: 360, 140
+  offset: 247, 58
+  index: -1

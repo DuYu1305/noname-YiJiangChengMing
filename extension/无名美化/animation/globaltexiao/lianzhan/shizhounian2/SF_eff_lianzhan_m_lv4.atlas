@@ -1,0 +1,216 @@
+
+SF_eff_lianzhan_m_lv4.png
+size: 1255,1255
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lianpo_tx2_00
+  rotate: false
+  xy: 2, 755
+  size: 177, 248
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_01
+  rotate: false
+  xy: 181, 6
+  size: 177, 247
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_02
+  rotate: false
+  xy: 360, 256
+  size: 177, 247
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_03
+  rotate: false
+  xy: 539, 506
+  size: 177, 247
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_04
+  rotate: false
+  xy: 718, 756
+  size: 177, 247
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_05
+  rotate: false
+  xy: 897, 1006
+  size: 177, 247
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_06
+  rotate: false
+  xy: 1076, 760
+  size: 177, 245
+  orig: 300, 300
+  offset: 63, 19
+  index: -1
+lianpo_tx2_07
+  rotate: false
+  xy: 718, 12
+  size: 177, 245
+  orig: 300, 300
+  offset: 63, 19
+  index: -1
+lianpo_tx2_08
+  rotate: false
+  xy: 897, 758
+  size: 177, 246
+  orig: 300, 300
+  offset: 63, 19
+  index: -1
+lianpo_tx2_09
+  rotate: false
+  xy: 360, 7
+  size: 177, 247
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_10
+  rotate: false
+  xy: 181, 1005
+  size: 177, 248
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_11
+  rotate: false
+  xy: 2, 505
+  size: 177, 248
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_12
+  rotate: false
+  xy: 181, 755
+  size: 177, 248
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_13
+  rotate: false
+  xy: 360, 1005
+  size: 177, 248
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_14
+  rotate: false
+  xy: 539, 257
+  size: 177, 247
+  orig: 300, 300
+  offset: 63, 19
+  index: -1
+lianpo_tx2_15
+  rotate: false
+  xy: 1076, 1007
+  size: 177, 246
+  orig: 300, 300
+  offset: 63, 19
+  index: -1
+lianpo_tx2_16
+  rotate: false
+  xy: 539, 9
+  size: 177, 246
+  orig: 300, 300
+  offset: 63, 19
+  index: -1
+lianpo_tx2_17
+  rotate: false
+  xy: 718, 259
+  size: 177, 246
+  orig: 300, 300
+  offset: 63, 19
+  index: -1
+lianpo_tx2_18
+  rotate: false
+  xy: 897, 510
+  size: 177, 246
+  orig: 300, 300
+  offset: 63, 19
+  index: -1
+lianpo_tx2_19
+  rotate: false
+  xy: 718, 507
+  size: 177, 247
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_20
+  rotate: false
+  xy: 2, 255
+  size: 177, 248
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_21
+  rotate: false
+  xy: 181, 505
+  size: 177, 248
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_22
+  rotate: false
+  xy: 360, 755
+  size: 177, 248
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_23
+  rotate: false
+  xy: 539, 1005
+  size: 177, 248
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_24
+  rotate: false
+  xy: 2, 5
+  size: 177, 248
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_25
+  rotate: false
+  xy: 181, 255
+  size: 177, 248
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_26
+  rotate: false
+  xy: 360, 505
+  size: 177, 248
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_27
+  rotate: false
+  xy: 539, 755
+  size: 177, 248
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_28
+  rotate: false
+  xy: 718, 1005
+  size: 177, 248
+  orig: 300, 300
+  offset: 63, 18
+  index: -1
+lianpo_tx2_29
+  rotate: false
+  xy: 2, 1005
+  size: 177, 248
+  orig: 300, 300
+  offset: 63, 18
+  index: -1

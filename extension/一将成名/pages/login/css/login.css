@@ -1,0 +1,254 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+span {
+	display: inline-block;
+}
+img {
+	vertical-align: middle;
+}
+[v-cloak] {
+	display: none;
+}
+html,
+body,
+#app {
+	width: 100%;
+	height: 100%;
+}
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+body {
+	background-image: url(../../../resource/image/login/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.center {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.loading {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	background-image: url(../../../resource/image/login/loadingBg3.jpg);
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.loading-bg4 {
+	background-image: url(../../../resource/image/login/loadingBg4.jpg);
+}
+
+.loading-age {
+	width: 60px;
+	position: absolute;
+	top: 25px;
+	right: 25px;
+}
+.loading-age2 {
+	width: 60px;
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+}
+.reload-game {
+	width: 100px;
+	position: absolute;
+	bottom: 25px;
+	right: 25px;
+}
+.loading-gif {
+	width: 150px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 80px;
+}
+.login-box {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: rgb(192, 191, 191);
+}
+.login-box input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	background-color: #666;
+	border: 1px solid #eee;
+}
+
+.login-video {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	position: relative;
+}
+.shequ {
+	width: 240px;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+.shuaxin {
+	width: 60px;
+	position: absolute;
+	top: 25px;
+	right: 25px;
+}
+.login-main {
+	padding: 0 70px;
+	width: 520px;
+	min-height: 290px;
+	position: absolute;
+	background-image: url(../../../resource/image/login/login-box.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.error {
+	color: rgb(233, 4, 4);
+	height: 20px;
+	margin-top: 50px;
+	font-size: 14px;
+}
+.input-box span:first-of-type {
+	background-image: url(../../../resource/image/login/username.png);
+	background-size: 72px 55px;
+	background-repeat: no-repeat;
+	width: 70px;
+	height: 35px;
+	margin-right: 15px;
+}
+.input-box span:last-of-type {
+	margin-left: 15px;
+	font-size: 12px;
+}
+.input-box input {
+	height: 25px;
+}
+.username-img {
+	background-position: 0px 10px;
+}
+
+.password-img {
+	background-position: 0px -30px;
+}
+.title {
+	width: 20vw;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -66%);
+}
+.auto-login,
+.yinsi {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.auto-login span:first-of-type,
+.yinsi span:first-of-type {
+	background-image: url(../../../resource/image/login/checkbox.png);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	background-size: 16px;
+	margin-right: 5px;
+}
+.yinsi,
+.auto-login {
+	cursor: pointer;
+}
+.yinsi span {
+	transform: translateY(4px);
+}
+.login-main .active {
+	background-position: 0px -17px;
+}
+.login-btn span {
+	background-image: url(../../../resource/image/login/login-btn.png);
+	background-repeat: no-repeat;
+	width: 120px;
+	background-position: 0px -56px;
+	background-size: 120px 84px;
+	height: 28px;
+	display: inline-block;
+	cursor: pointer;
+}
+.login-btn .active-btn {
+	background-position: 0px -28px;
+}
+.hidden{
+	visibility: hidden;
+}
+.show {
+	visibility: visible !important;
+}
+/* 电脑端 */
+@media screen and (min-width: 900px) {
+	.loading-gif {
+		width: 180px;
+	}
+	.input-box span:last-of-type {
+		margin-left: 30px;
+		font-size: 14px;
+	}
+	.error {
+		height: 25px;
+		margin-top: 75px;
+	}
+	.loading,
+	.login-box {
+		max-width: 95vw;
+		max-height: 95vh;
+	}
+	.login-video {
+		max-width: 95vw;
+		max-height: 95vh;
+	}
+	.login-main {
+		width: 700px;
+		min-height: 400px;
+		padding: 0 106px;
+	}
+	.auto-login,
+	.yinsi {
+		font-size: 16px;
+	}
+	.login-btn span {
+		background-position: 0px -72px;
+		width: 140px;
+		background-size: 140px 110px;
+		height: 36px;
+	}
+	.login-btn .active-btn {
+		background-position: 0px -36px;
+	}
+	.auto-login span:first-of-type,
+	.yinsi span:first-of-type {
+		background-size: 20px;
+		width: 20px;
+		height: 20px;
+		margin-right: 5px;
+	}
+	.login-main .active {
+		background-position: 0px -22px;
+	}
+	.input-box span:first-of-type {
+		background-size: 85px 60px;
+		width: 85px;
+		height: 40px;
+		margin-right: 30px;
+	}
+}

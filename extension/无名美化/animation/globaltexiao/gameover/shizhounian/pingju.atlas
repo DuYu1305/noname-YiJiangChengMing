@@ -1,0 +1,62 @@
+
+pingju.png
+size: 939,939
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+04-quan_00
+  rotate: false
+  xy: 691, 688
+  size: 245, 249
+  orig: 260, 260
+  offset: 7, 4
+  index: -1
+FX_di_01
+  rotate: false
+  xy: 2, 256
+  size: 627, 345
+  orig: 629, 347
+  offset: 1, 1
+  index: -1
+FX_shibai
+  rotate: true
+  xy: 631, 204
+  size: 397, 306
+  orig: 399, 308
+  offset: 1, 1
+  index: -1
+guang2
+  rotate: false
+  xy: 2, 603
+  size: 687, 334
+  orig: 689, 336
+  offset: 1, 1
+  index: -1
+huoxing_00
+  rotate: true
+  xy: 58, 222
+  size: 32, 47
+  orig: 100, 100
+  offset: 33, 27
+  index: -1
+huoxing_01
+  rotate: false
+  xy: 2, 213
+  size: 54, 41
+  orig: 100, 100
+  offset: 28, 28
+  index: -1
+huoxing_02
+  rotate: false
+  xy: 2, 166
+  size: 36, 45
+  orig: 100, 100
+  offset: 35, 27
+  index: -1
+huoxing_03
+  rotate: false
+  xy: 691, 648
+  size: 46, 38
+  orig: 100, 100
+  offset: 43, 24
+  index: -1

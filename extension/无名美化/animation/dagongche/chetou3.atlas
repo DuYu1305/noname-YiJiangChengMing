@@ -1,0 +1,90 @@
+
+chetou3.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chetou3-1
+  rotate: false
+  xy: 154, 19
+  size: 149, 219
+  orig: 149, 219
+  offset: 0, 0
+  index: -1
+chetou3-2
+  rotate: true
+  xy: 884, 74
+  size: 164, 180
+  orig: 164, 180
+  offset: 0, 0
+  index: -1
+chetou3-3
+  rotate: false
+  xy: 2, 19
+  size: 150, 219
+  orig: 150, 219
+  offset: 0, 0
+  index: -1
+daoju-jian
+  rotate: false
+  xy: 2, 2
+  size: 168, 15
+  orig: 168, 15
+  offset: 0, 0
+  index: -1
+texture/bdlz/bdlz1_00000
+  rotate: false
+  xy: 1738, 140
+  size: 129, 98
+  orig: 300, 240
+  offset: 144, 69
+  index: -1
+texture/bdlz/bdlz1_00001
+  rotate: false
+  xy: 1590, 119
+  size: 146, 119
+  orig: 300, 240
+  offset: 110, 57
+  index: -1
+texture/bdlz/bdlz1_00002
+  rotate: false
+  xy: 1427, 103
+  size: 161, 135
+  orig: 300, 240
+  offset: 87, 49
+  index: -1
+texture/bdlz/bdlz1_00003
+  rotate: false
+  xy: 1251, 92
+  size: 174, 146
+  orig: 300, 240
+  offset: 69, 45
+  index: -1
+texture/bdlz/bdlz1_00004
+  rotate: false
+  xy: 1066, 85
+  size: 183, 153
+  orig: 300, 240
+  offset: 55, 43
+  index: -1
+texture/bdlz/bdlz1_00005
+  rotate: false
+  xy: 693, 79
+  size: 189, 159
+  orig: 300, 240
+  offset: 47, 40
+  index: -1
+texture/bdlz/bdlz1_00006
+  rotate: false
+  xy: 500, 75
+  size: 191, 163
+  orig: 300, 240
+  offset: 41, 37
+  index: -1
+texture/bdlz/bdlz1_00007
+  rotate: false
+  xy: 305, 73
+  size: 193, 165
+  orig: 300, 240
+  offset: 37, 35
+  index: -1

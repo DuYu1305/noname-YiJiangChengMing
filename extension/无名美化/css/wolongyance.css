@@ -1,0 +1,218 @@
+.yance-dialog {
+	position: absolute;
+	top: 0;
+	z-index: 8;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "shousha";
+}
+.yance-dialog__content {
+	position: static;
+	width: 100%;
+	/* height: 70%; */
+	background-image: url("../image/wolongyance/paiju_wlyc_bg_juanzhou.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.yance-dialog__content__title {
+	position: static;
+	height: 70px;
+	margin-top: 38px;
+}
+.yance-main {
+	position: static;
+}
+.yance-item-title {
+	position: static;
+	height: 20px;
+	color: #474545;
+	font-size: 20px;
+}
+.yance-dialog-main {
+	position: static;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 4px;
+	margin-top: -10px;
+}
+.yance-item {
+	margin:0 10px;
+	position: static;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.yance-dialog-footer {
+	position: static;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.yance-queding {
+	position: static;
+
+	cursor: pointer;
+	background-image: url("../image/wolongyance/paiju_wlyc_btn_queding.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 130px;
+	height: 50px;
+	color: #fff;
+	font-size: 24px;
+	filter: grayscale(1);
+}
+.yance-process {
+	position: static;
+	background-image: url("../image/wolongyance/paiju_wlyc_bar_01.png");
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 16px;
+}
+.yance-precess2 {
+	position: static;
+	background-image: url("../image/wolongyance/paiju_wlyc_bar_02.png");
+
+	width: 100%;
+	height: 100%;
+	transition: width 15s linear;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.yance-footer-tip {
+	position: static;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #474545;
+}
+.yance-item-button {
+	position: static;
+	margin-top: 5px;
+	cursor: pointer;
+	background-image: url("../image/wolongyance/paiju_wlyc_btn_xuanxiang_02.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 90px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+.yance-item-text {
+	position: static;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 20px;
+}
+.yance-item-button-checked {
+	position: static;
+
+	background-image: url("../image/wolongyance/paiju_wlyc_btn_xuanxiang_01.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.yance-item-text-checked {
+	position: static;
+
+	background-image: url("../image/wolongyance/paiju_wlyc_btn_xuanzhong.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.wlan-bg {
+	position: absolute;
+	top: 0;
+	left:0;
+	background-image: url("../image/wolongyance/paiju_wlyc_jiesuan_bg_di.png");
+	background-repeat: no-repeat;
+	z-index: 6;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    z-index: 6;
+    background-color: rgba(0, 0, 0, .3);
+    background-position: center;
+}
+.wlan-title {
+	position: absolute;
+	top: calc(50% - 180px);
+	left: 50%;
+	width: 252px;
+	height: 104px;
+	background-image: url("../image/wolongyance/paiju_wlyc_jiesuan_content_biaotidi.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: 16;
+	transform: translate(-50%,-50%);
+}
+/* .wolongContainer{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	left: 0;
+	top: 0;
+} */
+.wlan-shiti{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index:16;
+}
+.wlan-shiti-dui {
+	
+	background-image: url("../image/wolongyance/shixin1.png");
+	
+}
+.wlan-shiti-cuo {
+	background-image: url("../image/wolongyance/kongxin1.png");
+}
+
+.wlyc-icon-con {
+	position: absolute;
+	z-index: 999 !important;
+    display: flex ;
+    top: -32px;
+    left: -8px;
+    flex-wrap: nowrap;
+	justify-content: flex-start;
+}
+.wlyc-icon {
+    position: static;
+    height: 32px;
+    width: 32px;
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+	float: left;
+	margin: 0 -4px;
+}

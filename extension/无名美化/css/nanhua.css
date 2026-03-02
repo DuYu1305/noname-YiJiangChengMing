@@ -1,0 +1,25 @@
+.th-yufengbg {
+    left: 0;
+    --w: 500px;
+    width: 100%;
+    position: absolute;
+    transition: none;
+    --height: calc(var(--w) * 0.3617);
+    height: var(--height);
+    top: calc(50% - var(--height) * 0.5);
+    z-index: 11;
+    pointer-events: none;
+  }
+  
+  .th-yfresultbg {
+    left: 0;
+    --w: 500px;
+    width: 100%;
+    position: absolute;
+    transition: none;
+    --height: calc(var(--w) * 0.4);
+    height: var(--height);
+    top: calc(50% - var(--height) * 0.452);
+    z-index: 13;
+    pointer-events: none;
+  }

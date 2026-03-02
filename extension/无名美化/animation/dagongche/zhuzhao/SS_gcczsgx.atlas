@@ -1,0 +1,432 @@
+
+SS_gcczsgx.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gx/gx_00004
+  rotate: false
+  xy: 2, 1702
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00005
+  rotate: false
+  xy: 2, 1362
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00006
+  rotate: false
+  xy: 604, 1702
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00011
+  rotate: false
+  xy: 2, 1022
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00012
+  rotate: false
+  xy: 604, 1362
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00013
+  rotate: false
+  xy: 1206, 1702
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00014
+  rotate: false
+  xy: 2, 682
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00015
+  rotate: false
+  xy: 604, 1022
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00016
+  rotate: false
+  xy: 1206, 1362
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00017
+  rotate: false
+  xy: 2, 342
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00018
+  rotate: false
+  xy: 604, 682
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00019
+  rotate: false
+  xy: 1206, 1022
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00020
+  rotate: false
+  xy: 2, 2
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00021
+  rotate: false
+  xy: 604, 342
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00022
+  rotate: false
+  xy: 1206, 682
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00023
+  rotate: false
+  xy: 604, 2
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00024
+  rotate: false
+  xy: 1206, 342
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00025
+  rotate: false
+  xy: 1206, 2
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00030
+  rotate: true
+  xy: 1808, 992
+  size: 348, 180
+  orig: 600, 338
+  offset: 138, 54
+  index: -1
+gx/gx_00031
+  rotate: true
+  xy: 1808, 1692
+  size: 348, 182
+  orig: 600, 338
+  offset: 138, 53
+  index: -1
+gx/gx_00032
+  rotate: true
+  xy: 1808, 1342
+  size: 348, 182
+  orig: 600, 338
+  offset: 135, 53
+  index: -1
+gx/gx_00039
+  rotate: true
+  xy: 1942, 459
+  size: 203, 104
+  orig: 600, 338
+  offset: 220, 132
+  index: -1
+ksql/ksql_00001
+  rotate: false
+  xy: 1942, 259
+  size: 59, 67
+  orig: 600, 338
+  offset: 346, 115
+  index: -1
+ksql/ksql_00002
+  rotate: true
+  xy: 1942, 328
+  size: 129, 87
+  orig: 600, 338
+  offset: 277, 101
+  index: -1
+ksql/ksql_00018
+  rotate: true
+  xy: 1808, 15
+  size: 319, 132
+  orig: 600, 338
+  offset: 130, 61
+  index: -1
+ksql/ksql_00019
+  rotate: true
+  xy: 1808, 664
+  size: 326, 133
+  orig: 600, 338
+  offset: 127, 59
+  index: -1
+ksql/ksql_00020
+  rotate: true
+  xy: 1808, 336
+  size: 326, 132
+  orig: 600, 338
+  offset: 127, 64
+  index: -1
+
+SS_gcczsgx2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gx/gx_00000
+  rotate: false
+  xy: 1200, 938
+  size: 436, 338
+  orig: 600, 338
+  offset: 82, 0
+  index: -1
+gx/gx_00001
+  rotate: false
+  xy: 600, 598
+  size: 455, 338
+  orig: 600, 338
+  offset: 74, 0
+  index: -1
+gx/gx_00002
+  rotate: false
+  xy: 2, 258
+  size: 533, 338
+  orig: 600, 338
+  offset: 36, 0
+  index: -1
+gx/gx_00003
+  rotate: false
+  xy: 2, 598
+  size: 596, 338
+  orig: 600, 338
+  offset: 2, 0
+  index: -1
+gx/gx_00007
+  rotate: false
+  xy: 1205, 1278
+  size: 594, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00008
+  rotate: false
+  xy: 603, 938
+  size: 595, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00009
+  rotate: false
+  xy: 1206, 1618
+  size: 598, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00010
+  rotate: false
+  xy: 2, 938
+  size: 599, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00026
+  rotate: false
+  xy: 2, 1618
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00027
+  rotate: false
+  xy: 2, 1278
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00028
+  rotate: false
+  xy: 604, 1618
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+gx/gx_00029
+  rotate: false
+  xy: 604, 1278
+  size: 599, 338
+  orig: 600, 338
+  offset: 1, 0
+  index: -1
+gx/gx_00033
+  rotate: true
+  xy: 1764, 1041
+  size: 235, 109
+  orig: 600, 338
+  offset: 188, 125
+  index: -1
+gx/gx_00034
+  rotate: false
+  xy: 1350, 705
+  size: 204, 110
+  orig: 600, 338
+  offset: 219, 126
+  index: -1
+gx/gx_00035
+  rotate: true
+  xy: 1801, 1412
+  size: 204, 109
+  orig: 600, 338
+  offset: 219, 127
+  index: -1
+gx/gx_00036
+  rotate: false
+  xy: 1070, 453
+  size: 205, 109
+  orig: 600, 338
+  offset: 219, 129
+  index: -1
+gx/gx_00037
+  rotate: false
+  xy: 1801, 1303
+  size: 204, 107
+  orig: 600, 338
+  offset: 219, 130
+  index: -1
+gx/gx_00038
+  rotate: true
+  xy: 1875, 1097
+  size: 204, 107
+  orig: 600, 338
+  offset: 220, 131
+  index: -1
+ksql/ksql_00003
+  rotate: false
+  xy: 309, 20
+  size: 195, 107
+  orig: 600, 338
+  offset: 210, 88
+  index: -1
+ksql/ksql_00004
+  rotate: false
+  xy: 1070, 564
+  size: 230, 116
+  orig: 600, 338
+  offset: 176, 84
+  index: -1
+ksql/ksql_00005
+  rotate: false
+  xy: 837, 470
+  size: 231, 126
+  orig: 600, 338
+  offset: 174, 80
+  index: -1
+ksql/ksql_00006
+  rotate: false
+  xy: 556, 91
+  size: 237, 126
+  orig: 600, 338
+  offset: 171, 80
+  index: -1
+ksql/ksql_00007
+  rotate: false
+  xy: 309, 129
+  size: 245, 127
+  orig: 600, 338
+  offset: 167, 79
+  index: -1
+ksql/ksql_00008
+  rotate: false
+  xy: 556, 219
+  size: 251, 126
+  orig: 600, 338
+  offset: 164, 80
+  index: -1
+ksql/ksql_00009
+  rotate: false
+  xy: 1057, 682
+  size: 258, 127
+  orig: 600, 338
+  offset: 161, 79
+  index: -1
+ksql/ksql_00010
+  rotate: false
+  xy: 1350, 817
+  size: 265, 119
+  orig: 600, 338
+  offset: 157, 77
+  index: -1
+ksql/ksql_00011
+  rotate: false
+  xy: 537, 347
+  size: 271, 120
+  orig: 600, 338
+  offset: 154, 74
+  index: -1
+ksql/ksql_00012
+  rotate: false
+  xy: 2, 2
+  size: 278, 123
+  orig: 600, 338
+  offset: 151, 70
+  index: -1
+ksql/ksql_00013
+  rotate: true
+  xy: 1638, 992
+  size: 284, 124
+  orig: 600, 338
+  offset: 148, 69
+  index: -1
+ksql/ksql_00014
+  rotate: false
+  xy: 1057, 811
+  size: 291, 125
+  orig: 600, 338
+  offset: 144, 68
+  index: -1
+ksql/ksql_00015
+  rotate: false
+  xy: 537, 469
+  size: 298, 127
+  orig: 600, 338
+  offset: 141, 66
+  index: -1
+ksql/ksql_00016
+  rotate: false
+  xy: 2, 127
+  size: 305, 129
+  orig: 600, 338
+  offset: 137, 65
+  index: -1
+ksql/ksql_00017
+  rotate: true
+  xy: 1806, 1644
+  size: 312, 132
+  orig: 600, 338
+  offset: 134, 62
+  index: -1

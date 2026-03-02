@@ -1,0 +1,1315 @@
+
+SS_scs_bagua.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guihuo/images/guihuo/gh_000
+  rotate: false
+  xy: 429, 27
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_002
+  rotate: false
+  xy: 841, 2
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_004
+  rotate: false
+  xy: 1253, 2
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+images/bagua
+  rotate: true
+  xy: 2, 1005
+  size: 495, 494
+  orig: 495, 494
+  offset: 0, 0
+  index: -1
+images/bagua/bag_feichu_154
+  rotate: false
+  xy: 2, 1774
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_feichu_156
+  rotate: false
+  xy: 556, 1774
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_feichu_158
+  rotate: false
+  xy: 1110, 1774
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_feichu_160
+  rotate: false
+  xy: 2, 1502
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_feichu_162
+  rotate: false
+  xy: 556, 1502
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_feichu_164
+  rotate: false
+  xy: 1110, 1502
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_feichu_166
+  rotate: true
+  xy: 1664, 1119
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_feichu_168
+  rotate: true
+  xy: 2, 439
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_feichu_170
+  rotate: true
+  xy: 274, 439
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_feichu_172
+  rotate: true
+  xy: 546, 439
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_feichu_174
+  rotate: true
+  xy: 818, 439
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_mask_000
+  rotate: false
+  xy: 1090, 1230
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_mask_001
+  rotate: false
+  xy: 1090, 958
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_mask_002
+  rotate: true
+  xy: 1644, 565
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_mask_003
+  rotate: false
+  xy: 1090, 686
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_mask_004
+  rotate: false
+  xy: 1090, 414
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_mask_005
+  rotate: true
+  xy: 1665, 11
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_mask_006
+  rotate: false
+  xy: 498, 1230
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_zwglow_000
+  rotate: false
+  xy: 498, 1015
+  size: 213, 213
+  orig: 213, 213
+  offset: 0, 0
+  index: -1
+images/baguadi
+  rotate: false
+  xy: 1664, 1673
+  size: 371, 371
+  orig: 371, 371
+  offset: 0, 0
+  index: -1
+images/baguazuiwai
+  rotate: true
+  xy: 2, 11
+  size: 426, 425
+  orig: 426, 425
+  offset: 0, 0
+  index: -1
+images/curDead_1
+  rotate: false
+  xy: 1936, 1537
+  size: 69, 134
+  orig: 69, 134
+  offset: 0, 0
+  index: -1
+images/curDead_2
+  rotate: false
+  xy: 1936, 1401
+  size: 69, 134
+  orig: 69, 134
+  offset: 0, 0
+  index: -1
+images/curDead_3
+  rotate: false
+  xy: 1936, 1265
+  size: 69, 134
+  orig: 69, 134
+  offset: 0, 0
+  index: -1
+images/curDead_4
+  rotate: false
+  xy: 1936, 1129
+  size: 69, 134
+  orig: 69, 134
+  offset: 0, 0
+  index: -1
+images/curDead_5
+  rotate: false
+  xy: 1936, 993
+  size: 69, 134
+  orig: 69, 134
+  offset: 0, 0
+  index: -1
+images/curDead_6
+  rotate: false
+  xy: 1937, 857
+  size: 69, 134
+  orig: 69, 134
+  offset: 0, 0
+  index: -1
+images/curDead_7
+  rotate: false
+  xy: 1937, 721
+  size: 69, 134
+  orig: 69, 134
+  offset: 0, 0
+  index: -1
+images/curDead_8
+  rotate: false
+  xy: 1916, 585
+  size: 69, 134
+  orig: 69, 134
+  offset: 0, 0
+  index: -1
+images/image
+  rotate: false
+  xy: 2037, 2043
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+
+SS_scs_bagua2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guihuo/images/guihuo/gh_006
+  rotate: false
+  xy: 2, 837
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_008
+  rotate: false
+  xy: 1073, 1100
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_010
+  rotate: false
+  xy: 1088, 1632
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_012
+  rotate: false
+  xy: 414, 828
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_014
+  rotate: false
+  xy: 2, 425
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_016
+  rotate: false
+  xy: 1380, 688
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_018
+  rotate: false
+  xy: 1500, 1632
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_020
+  rotate: false
+  xy: 968, 416
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_022
+  rotate: false
+  xy: 2, 13
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_024
+  rotate: false
+  xy: 1380, 276
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_026
+  rotate: false
+  xy: 958, 4
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_000
+  rotate: false
+  xy: 1370, 4
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_002
+  rotate: false
+  xy: 1642, 4
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_mask_007
+  rotate: false
+  xy: 2, 1772
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_mask_008
+  rotate: false
+  xy: 519, 1240
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_mask_009
+  rotate: false
+  xy: 826, 828
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_mask_010
+  rotate: false
+  xy: 1485, 1360
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_mask_011
+  rotate: false
+  xy: 414, 556
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_mask_012
+  rotate: true
+  xy: 414, 2
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_zjglow_000
+  rotate: true
+  xy: 1485, 1100
+  size: 258, 261
+  orig: 258, 261
+  offset: 0, 0
+  index: -1
+images/bagua/baguaglow_070
+  rotate: true
+  xy: 686, 2
+  size: 552, 270
+  orig: 552, 270
+  offset: 0, 0
+  index: -1
+images/baguazhongjian
+  rotate: false
+  xy: 2, 1249
+  size: 515, 521
+  orig: 515, 521
+  offset: 0, 0
+  index: -1
+images/gangdi
+  rotate: false
+  xy: 556, 1512
+  size: 530, 530
+  orig: 530, 530
+  offset: 0, 0
+  index: -1
+
+SS_scs_bagua3.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guihuo/images/guihuo/gh_028
+  rotate: false
+  xy: 2, 1510
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_030
+  rotate: false
+  xy: 2, 1098
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_032
+  rotate: false
+  xy: 414, 1510
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_034
+  rotate: false
+  xy: 2, 686
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_036
+  rotate: false
+  xy: 414, 1098
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_038
+  rotate: false
+  xy: 826, 1510
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_040
+  rotate: false
+  xy: 2, 274
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_042
+  rotate: false
+  xy: 414, 686
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_044
+  rotate: false
+  xy: 826, 1098
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_046
+  rotate: false
+  xy: 1238, 1510
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_048
+  rotate: false
+  xy: 414, 274
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_050
+  rotate: false
+  xy: 826, 686
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_052
+  rotate: false
+  xy: 1238, 1098
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_054
+  rotate: false
+  xy: 826, 274
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_056
+  rotate: false
+  xy: 1238, 686
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_058
+  rotate: false
+  xy: 1238, 274
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_004
+  rotate: false
+  xy: 2, 2
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_006
+  rotate: false
+  xy: 1650, 1650
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_008
+  rotate: false
+  xy: 274, 2
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_010
+  rotate: false
+  xy: 1650, 1378
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_012
+  rotate: false
+  xy: 546, 2
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_014
+  rotate: false
+  xy: 1650, 1106
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_016
+  rotate: false
+  xy: 818, 2
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_018
+  rotate: false
+  xy: 1650, 834
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_020
+  rotate: false
+  xy: 1090, 2
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_022
+  rotate: false
+  xy: 1650, 562
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_024
+  rotate: false
+  xy: 1362, 2
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_026
+  rotate: false
+  xy: 1650, 290
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_028
+  rotate: false
+  xy: 1634, 2
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+
+SS_scs_bagua4.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guihuo/images/guihuo/gh_060
+  rotate: false
+  xy: 2, 1510
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_062
+  rotate: false
+  xy: 2, 1098
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_064
+  rotate: false
+  xy: 414, 1510
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_066
+  rotate: false
+  xy: 2, 686
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_068
+  rotate: false
+  xy: 414, 1098
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_070
+  rotate: false
+  xy: 826, 1510
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_072
+  rotate: false
+  xy: 2, 274
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_074
+  rotate: false
+  xy: 414, 686
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_076
+  rotate: false
+  xy: 826, 1098
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_078
+  rotate: false
+  xy: 1238, 1510
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_080
+  rotate: false
+  xy: 414, 274
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_082
+  rotate: false
+  xy: 826, 686
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_084
+  rotate: false
+  xy: 1238, 1098
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_086
+  rotate: false
+  xy: 826, 274
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_088
+  rotate: false
+  xy: 1238, 686
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_090
+  rotate: false
+  xy: 1238, 274
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_030
+  rotate: false
+  xy: 2, 2
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_032
+  rotate: false
+  xy: 1650, 1650
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_034
+  rotate: false
+  xy: 274, 2
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_036
+  rotate: false
+  xy: 1650, 1378
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_038
+  rotate: false
+  xy: 546, 2
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_040
+  rotate: false
+  xy: 1650, 1106
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_042
+  rotate: false
+  xy: 818, 2
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_044
+  rotate: false
+  xy: 1650, 834
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_046
+  rotate: false
+  xy: 1090, 2
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_048
+  rotate: false
+  xy: 1650, 562
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_050
+  rotate: false
+  xy: 1362, 2
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_052
+  rotate: false
+  xy: 1650, 290
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_054
+  rotate: false
+  xy: 1634, 2
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+
+SS_scs_bagua5.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guihuo/images/guihuo/gh_092
+  rotate: false
+  xy: 2, 1510
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_094
+  rotate: false
+  xy: 2, 1098
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_096
+  rotate: false
+  xy: 414, 1510
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_098
+  rotate: false
+  xy: 2, 686
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_100
+  rotate: false
+  xy: 414, 1098
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_102
+  rotate: false
+  xy: 826, 1510
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_104
+  rotate: false
+  xy: 2, 274
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_106
+  rotate: false
+  xy: 414, 686
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_108
+  rotate: false
+  xy: 826, 1098
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_110
+  rotate: false
+  xy: 1238, 1510
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_112
+  rotate: false
+  xy: 414, 274
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_114
+  rotate: false
+  xy: 826, 686
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_116
+  rotate: false
+  xy: 1238, 1098
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_118
+  rotate: false
+  xy: 826, 274
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_glow_000
+  rotate: false
+  xy: 1238, 686
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_hj_000
+  rotate: false
+  xy: 1238, 274
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_056
+  rotate: false
+  xy: 2, 2
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+images/bagua/bag_fire_058
+  rotate: false
+  xy: 1650, 1650
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+
+SS_scs_bagua6.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guihuo/images/guihuo/gh_hj_001
+  rotate: false
+  xy: 2, 1238
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_hj_002
+  rotate: false
+  xy: 2, 826
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_hj_003
+  rotate: false
+  xy: 414, 1238
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_hj_004
+  rotate: false
+  xy: 2, 414
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_hj_005
+  rotate: false
+  xy: 414, 826
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_hj_006
+  rotate: false
+  xy: 826, 1238
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_hj_007
+  rotate: false
+  xy: 2, 2
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_hj_008
+  rotate: false
+  xy: 414, 414
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_hj_009
+  rotate: false
+  xy: 826, 826
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_hj_010
+  rotate: false
+  xy: 1238, 1238
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_hj_011
+  rotate: false
+  xy: 414, 2
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_hj_012
+  rotate: false
+  xy: 826, 414
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_hj_013
+  rotate: false
+  xy: 1238, 826
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_hj_014
+  rotate: false
+  xy: 826, 2
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_hj_015
+  rotate: false
+  xy: 1238, 414
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_hj_016
+  rotate: false
+  xy: 1238, 2
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+
+SS_scs_bagua7.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guihuo/images/guihuo/gh_hj_017
+  rotate: false
+  xy: 2, 1238
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_hj_018
+  rotate: false
+  xy: 2, 826
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_000
+  rotate: false
+  xy: 414, 1238
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_002
+  rotate: false
+  xy: 2, 414
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_004
+  rotate: false
+  xy: 414, 826
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_006
+  rotate: false
+  xy: 826, 1238
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_008
+  rotate: false
+  xy: 2, 2
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_010
+  rotate: false
+  xy: 414, 414
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_012
+  rotate: false
+  xy: 826, 826
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_014
+  rotate: false
+  xy: 1238, 1238
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_016
+  rotate: false
+  xy: 414, 2
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_018
+  rotate: false
+  xy: 826, 414
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_020
+  rotate: false
+  xy: 1238, 826
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_022
+  rotate: false
+  xy: 826, 2
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_024
+  rotate: false
+  xy: 1238, 414
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_026
+  rotate: false
+  xy: 1238, 2
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+
+SS_scs_bagua8.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guihuo/images/guihuo/gh_quan_028
+  rotate: false
+  xy: 2, 1238
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_030
+  rotate: false
+  xy: 2, 826
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_032
+  rotate: false
+  xy: 414, 1238
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_034
+  rotate: false
+  xy: 2, 414
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_036
+  rotate: false
+  xy: 414, 826
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_038
+  rotate: false
+  xy: 826, 1238
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_040
+  rotate: false
+  xy: 2, 2
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_042
+  rotate: false
+  xy: 414, 414
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_044
+  rotate: false
+  xy: 826, 826
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_046
+  rotate: false
+  xy: 1238, 1238
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_048
+  rotate: false
+  xy: 414, 2
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_050
+  rotate: false
+  xy: 826, 414
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_052
+  rotate: false
+  xy: 1238, 826
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_054
+  rotate: false
+  xy: 826, 2
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_056
+  rotate: false
+  xy: 1238, 414
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1
+guihuo/images/guihuo/gh_quan_058
+  rotate: false
+  xy: 1238, 2
+  size: 410, 410
+  orig: 410, 410
+  offset: 0, 0
+  index: -1

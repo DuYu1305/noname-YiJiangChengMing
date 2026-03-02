@@ -1,0 +1,56 @@
+#decadeUI-canvas4 {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 15;
+	pointer-events: none;
+	background-color: transparent;
+}
+/* #layaContainer{
+	position: static !important;
+	pointer-events: none;
+}
+#layaCanvas{
+	position: fixed !important;
+	z-index: 15;
+	pointer-events: none;
+} */
+/* .dynamic-wrap2{
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	pointer-events: none;
+	z-index: 88;
+} */
+.wmmh-process {
+	position: static;
+	background-image: url("../image/common/process1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 440px;
+	height: 16px;
+}
+.wmmh-precess2 {
+	position: static;
+	background-image: url("../image/common/process2.png");
+	width: 100%;
+	height: 100%;
+	transition: width 15s linear;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.wmmh-process-container {
+	display: flex !important;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}

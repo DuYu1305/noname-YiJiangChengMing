@@ -1,0 +1,90 @@
+
+aar_piliche_fadong.png
+size: 697,697
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+keng_00000
+  rotate: false
+  xy: 373, 6
+  size: 153, 154
+  orig: 205, 205
+  offset: 29, 22
+  index: -1
+keng_00001
+  rotate: false
+  xy: 377, 328
+  size: 173, 174
+  orig: 205, 205
+  offset: 20, 11
+  index: -1
+keng_00002
+  rotate: false
+  xy: 189, 114
+  size: 182, 187
+  orig: 205, 205
+  offset: 14, 5
+  index: -1
+keng_00003
+  rotate: false
+  xy: 377, 504
+  size: 184, 191
+  orig: 205, 205
+  offset: 13, 4
+  index: -1
+keng_00004
+  rotate: false
+  xy: 189, 303
+  size: 184, 193
+  orig: 205, 205
+  offset: 13, 4
+  index: -1
+keng_00005
+  rotate: false
+  xy: 2, 100
+  size: 185, 196
+  orig: 205, 205
+  offset: 12, 4
+  index: -1
+keng_00006
+  rotate: false
+  xy: 190, 498
+  size: 185, 197
+  orig: 205, 205
+  offset: 10, 4
+  index: -1
+keng_00007
+  rotate: false
+  xy: 2, 498
+  size: 186, 197
+  orig: 205, 205
+  offset: 10, 4
+  index: -1
+keng_00008
+  rotate: false
+  xy: 2, 298
+  size: 185, 198
+  orig: 205, 205
+  offset: 10, 4
+  index: -1
+keng_00009
+  rotate: false
+  xy: 375, 162
+  size: 165, 164
+  orig: 205, 205
+  offset: 20, 20
+  index: -1
+shitou_00000
+  rotate: false
+  xy: 552, 329
+  size: 143, 173
+  orig: 146, 189
+  offset: 1, 3
+  index: -1
+shitou_00001
+  rotate: false
+  xy: 2, 12
+  size: 93, 86
+  orig: 146, 189
+  offset: 25, 14
+  index: -1
